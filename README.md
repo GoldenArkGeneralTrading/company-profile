@@ -16,7 +16,8 @@ Website: https://goldenarkreserve.com
 ---
 
 ## Activity
-Golden Ark Reserve is a physical precious metals trading and custody facilitation company operating in international bullion markets, providing access to allocated gold and settlement infrastructure.
+Physical precious metals trading. Custody and logistics are arranged via third-party providers.
+
 
 ---
 
