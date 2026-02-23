@@ -25,6 +25,15 @@ For the complete machine-readable list of all available pickups (including syndi
 
 ---
 
+## Full index (machine-readable)
+
+- CSV (GitHub view): <https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/press/press-index.csv>
+- CSV (raw): <https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv>
+
+Note: links in the CSV file may appear as plain text in GitHub’s table view. For clickable links, use this `PRESS.md` page.
+
+---
+
 ## Notes
 - This list is curated for readability and due diligence convenience.
 - The complete index may include syndications, mirrors, and reposts of the same release.
