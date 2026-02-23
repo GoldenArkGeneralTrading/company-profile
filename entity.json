@@ -1,4 +1,6 @@
 {
+  "version": "1.1",
+  "last_updated_utc": "2026-02-23",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -8,19 +10,58 @@
   "identifiers": {
     "lei": "98450040E688696D1C47",
     "refinitiv_permid": "5097108870",
+    "duns": "85-040-3724",
     "bloomberg_company_id": "72802597",
     "factset_entity_id": "132BDH-E",
     "sp_capital_iq_company_id": "1975094363",
     "bvd_id": "OMLEI3180174",
     "isni": "0000000529692415"
   },
-  "verification_sources": {
-    "gleif": "https://search.gleif.org/#/record/98450040E688696D1C47",
-    "permid": "https://permid.org/1-5097108870",
-    "isni": "https://isni.org/isni/0000000529692415",
-    "primary_disclosure": "https://www.businesswire.com/news/home/20260203826775/en",
-    "independent_publication": "https://www.afp.com/index.php/de/node/3813017",
-    "wikidata": "https://www.wikidata.org/wiki/Q137885502",
-    "grokipedia": "https://grokipedia.com/page/Golden_Ark_Reserve"
+  "memberships": {
+    "ipmi": {
+      "organization_name": "International Precious Metals Institute",
+      "abbreviation": "IPMI",
+      "membership_status": "member",
+      "website": "https://www.ipmi.org/"
+    },
+    "icc": {
+      "organization_name": "International Chamber of Commerce",
+      "abbreviation": "ICC",
+      "membership_status": "full member",
+      "website": "https://iccwbo.org/",
+      "commissions": [
+        "Banking",
+        "Corporate Responsibility & Anti-Corruption",
+        "Customs & Trade Facilitation",
+        "Trade & Investment"
+      ]
+    },
+    "occi": {
+      "organization_name": "Oman Chamber of Commerce and Industry",
+      "abbreviation": "OCCI",
+      "membership_status": "member",
+      "website": "https://omanchamber.om/"
+    }
+  },
+  "sources": {
+    "registry_records": {
+      "gleif": "https://search.gleif.org/#/record/98450040E688696D1C47",
+      "permid": "https://permid.org/1-5097108870",
+      "isni": "https://isni.org/isni/0000000529692415",
+      "dnb_business_directory_profile": "https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html"
+    },
+    "memberships": {
+      "ipmi": "https://www.ipmi.org/",
+      "icc": "https://iccwbo.org/",
+      "occi": "https://omanchamber.om/"
+    },
+    "disclosures": {
+      "primary_disclosure_businesswire": "https://www.businesswire.com/news/home/20260203826775/en",
+      "independent_publication_afp": "https://www.afp.com/index.php/de/node/3813017"
+    },
+    "knowledge_graph_profiles": {
+      "wikidata": "https://www.wikidata.org/wiki/Q137885502",
+      "grokipedia": "https://grokipedia.com/page/Golden_Ark_Reserve"
+    }
   }
 }
