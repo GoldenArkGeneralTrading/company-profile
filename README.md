@@ -14,6 +14,12 @@ Official company entity information and public verification sources.
 
 ---
 
+## Verification
+Public entity reference map (preliminary due diligence / source cross-checking):  
+https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/VERIFICATION.md
+
+---
+
 ## Business activity
 Physical precious metals trading. Custody and logistics are arranged via third-party providers.
 
@@ -22,6 +28,7 @@ Physical precious metals trading. Custody and logistics are arranged via third-p
 ## Entity identifiers
 - **LEI:** 98450040E688696D1C47  
 - **Refinitiv PermID:** 5097108870  
+- **D-U-N-S:** 85-040-3724  
 - **Bloomberg Company ID (BBID):** 72802597  
 - **FactSet Entity ID:** 132BDH-E  
 - **S&P Capital IQ Company ID:** 1975094363  
@@ -34,6 +41,7 @@ Physical precious metals trading. Custody and logistics are arranged via third-p
 - **Oman business registry (CR 1603777):** https://www.business.gov.om/portal/searchEstablishments  
 - **GLEIF LEI record:** https://search.gleif.org/#/record/98450040E688696D1C47  
 - **Refinitiv PermID record:** https://permid.org/1-5097108870  
+- **D&B Business Directory profile (D-U-N-S):** https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html  
 - **ISNI record:** https://isni.org/isni/0000000529692415  
 
 ---
