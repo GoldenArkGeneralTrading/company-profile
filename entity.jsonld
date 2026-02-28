@@ -1,6 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/#organization",
   "name": "Golden Ark General Trading (FZC) LLC",
   "legalName": "Golden Ark General Trading (FZC) LLC",
   "alternateName": [
@@ -8,53 +9,22 @@
     "القوس الذهبي للتجارة العامة (شركة منطقة حرة)"
   ],
   "url": "https://goldenarkreserve.com",
-  "description": "Physical precious metals trading; custody arranged via third-party providers.",
+  "description": "Physical precious metals trading; custody and logistics are arranged via third-party providers.",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Sultanate of Oman"
+  },
   "identifier": [
-    {
-      "@type": "PropertyValue",
-      "propertyID": "Commercial Registration Number (Oman)",
-      "value": "1603777"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "LEI",
-      "value": "98450040E688696D1C47"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "Refinitiv PermID",
-      "value": "5097108870"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "D-U-N-S",
-      "value": "85-040-3724"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "Bloomberg Company ID",
-      "value": "72802597"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "FactSet Entity ID",
-      "value": "132BDH-E"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "S&P Capital IQ Company ID",
-      "value": "1975094363"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "BvD ID",
-      "value": "OMLEI3180174"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "ISNI",
-      "value": "0000000529692415"
-    }
+    { "@type": "PropertyValue", "propertyID": "Commercial Registration (CR, Oman)", "value": "1603777" },
+    { "@type": "PropertyValue", "propertyID": "LEI", "value": "98450040E688696D1C47" },
+    { "@type": "PropertyValue", "propertyID": "Refinitiv PermID", "value": "5097108870" },
+    { "@type": "PropertyValue", "propertyID": "D-U-N-S", "value": "85-040-3724" },
+    { "@type": "PropertyValue", "propertyID": "Bloomberg Company ID (BBID)", "value": "72802597" },
+    { "@type": "PropertyValue", "propertyID": "FIGI", "value": "BBG01Z7MFQM7" },
+    { "@type": "PropertyValue", "propertyID": "FactSet Entity ID", "value": "132BDH-E" },
+    { "@type": "PropertyValue", "propertyID": "S&P Capital IQ Company ID", "value": "1975094363" },
+    { "@type": "PropertyValue", "propertyID": "Bureau van Dijk (BvD ID)", "value": "OMLEI3180174" },
+    { "@type": "PropertyValue", "propertyID": "ISNI", "value": "0000000529692415" }
   ],
   "memberOf": [
     {
@@ -77,13 +47,29 @@
     }
   ],
   "sameAs": [
+    "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
+    "https://goldenarkreserve.com",
+
+    "https://www.wikidata.org/wiki/Q137885502",
+    "https://grokipedia.com/page/Golden_Ark_Reserve",
+
+    "https://gitlab.com/goldenarkreserve-group",
+    "https://gitlab.com/goldenarkreserve-group/gitlab-profile",
+    "https://goldenarkreserve-group.gitlab.io/company-profile/",
+
+    "https://github.com/GoldenArkGeneralTrading/",
+    "https://github.com/GoldenArkGeneralTrading/company-profile",
+
+    "https://codeberg.org/goldenarkreserve",
+    "https://codeberg.org/goldenarkreserve/entity-verification",
+
     "https://search.gleif.org/#/record/98450040E688696D1C47",
+    "https://lei.bloomberg.com/leis/view/98450040E688696D1C47",
     "https://permid.org/1-5097108870",
     "https://isni.org/isni/0000000529692415",
     "https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html",
+
     "https://www.businesswire.com/news/home/20260203826775/en",
-    "https://www.afp.com/index.php/de/node/3813017",
-    "https://www.wikidata.org/wiki/Q137885502",
-    "https://grokipedia.com/page/Golden_Ark_Reserve"
+    "https://www.afp.com/index.php/de/node/3813017"
   ]
 }
