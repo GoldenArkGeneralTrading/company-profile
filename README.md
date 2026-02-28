@@ -18,6 +18,9 @@ https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 ---
 
 ## Public Pages
+**GitHub Pages (Entity & Verification):**  
+https://goldenarkgeneraltrading.github.io/company-profile/
+
 **GitLab Pages (Entity & Verification):**  
 https://goldenarkreserve-group.gitlab.io/company-profile/
 
