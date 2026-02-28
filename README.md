@@ -10,7 +10,16 @@ Official company entity information and public verification sources.
 **Jurisdiction:** Sultanate of Oman  
 **Commercial Registration Number (CR):** 1603777  
 **Trade name:** Golden Ark Reserve  
-**Website:** https://goldenarkreserve.com
+**Website:** https://goldenarkreserve.com  
+
+**Canonical company profile (main website):**  
+https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
+
+---
+
+## Public Pages
+**GitLab Pages (Entity & Verification):**  
+https://goldenarkreserve-group.gitlab.io/company-profile/
 
 ---
 
@@ -40,6 +49,7 @@ Physical precious metals trading. Custody and logistics are arranged via third-p
 ## Primary verification sources (official / registry)
 - **Oman business registry (CR 1603777):** https://www.business.gov.om/portal/searchEstablishments  
 - **GLEIF LEI record:** https://search.gleif.org/#/record/98450040E688696D1C47  
+- **Bloomberg LEI view:** https://lei.bloomberg.com/leis/view/98450040E688696D1C47  
 - **Refinitiv PermID record:** https://permid.org/1-5097108870  
 - **D&B Business Directory profile (D-U-N-S):** https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html  
 - **ISNI record:** https://isni.org/isni/0000000529692415  
@@ -63,6 +73,14 @@ Physical precious metals trading. Custody and logistics are arranged via third-p
 ## Knowledge graph / structured profiles
 - **Wikidata:** https://www.wikidata.org/wiki/Q137885502  
 - **Groki:** https://grokipedia.com/page/Golden_Ark_Reserve  
+
+---
+
+## Mirrors / additional profiles
+- **GitLab group:** https://gitlab.com/goldenarkreserve-group  
+- **GitLab Pages (Entity & Verification):** https://goldenarkreserve-group.gitlab.io/company-profile/  
+- **Codeberg profile:** https://codeberg.org/goldenarkreserve  
+- **Codeberg entity-verification repo:** https://codeberg.org/goldenarkreserve/entity-verification  
 
 ---
 
