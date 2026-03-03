@@ -1,6 +1,6 @@
 # Verification / Public Entity Reference Map
 
-This document provides a structured public reference map for Golden Ark General Trading (FZC) LLC (trade name: Golden Ark Reserve) for preliminary due diligence, entity verification, and source cross-checking.
+This document provides a structured public reference map for **Golden Ark General Trading (FZC) LLC** (trade name / brand: **Golden Ark Reserve**) for preliminary due diligence, entity verification, and source cross-checking.
 
 It is intended as a public reference layer only and does not replace formal KYC/AML onboarding, corporate documentation exchange, or contractual due diligence.
 
@@ -8,31 +8,43 @@ It is intended as a public reference layer only and does not replace formal KYC/
 
 ## Legal entity
 
-**Legal name:** Golden Ark General Trading (FZC) LLC  
 **Arabic legal name:** القوس الذهبي للتجارة العامة (شركة منطقة حرة)  
-**Trade name:** Golden Ark Reserve  
-**Jurisdiction:** Sultanate of Oman  
-**Commercial Registration Number:** 1603777  
-**Website:** <https://goldenarkreserve.com>
+**English legal name:** Golden Ark General Trading (FZC) LLC  
+**Trade name / brand:** Golden Ark Reserve  
+**Jurisdiction:** Sultanate of Oman (Sohar Free Zone)  
+**Commercial Registration Number (CR):** 1603777  
+**Website:** https://goldenarkreserve.com  
+
+**Canonical company profile (main website):**  
+https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
+
+**Canonical press / disclosures (main website):**  
+https://goldenarkreserve.com/press/
 
 ---
 
 ## Core entity identifiers
 
+### Commercial Registration (CR) — Oman
+**CR:** 1603777  
+**Oman business registry (search portal):** https://www.business.gov.om/portal/searchEstablishments
+
 ### Legal Entity Identifier (LEI)
 **LEI:** 98450040E688696D1C47  
-**GLEIF record:** <https://search.gleif.org/#/record/98450040E688696D1C47>
+**GLEIF record:** https://search.gleif.org/#/record/98450040E688696D1C47  
+**Bloomberg LEI view:** https://lei.bloomberg.com/leis/view/98450040E688696D1C47
 
 ### Refinitiv PermID
 **PermID:** 5097108870  
-**PermID record:** <https://permid.org/1-5097108870>
+**PermID record:** https://permid.org/1-5097108870
 
 ### D-U-N-S
 **D-U-N-S:** 85-040-3724  
-**D&B Business Directory profile:** <https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html>
+**D&B Business Directory profile:** https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html
 
 ### Bloomberg
-**Bloomberg Company ID (BBID):** 72802597
+**Bloomberg Company ID (BBID):** 72802597  
+**FIGI:** BBG01Z7MFQM7
 
 ### FactSet
 **FactSet Entity ID:** 132BDH-E
@@ -45,7 +57,7 @@ It is intended as a public reference layer only and does not replace formal KYC/
 
 ### ISNI
 **ISNI:** 0000000529692415  
-**ISNI record:** <https://isni.org/isni/0000000529692415>
+**ISNI record:** https://isni.org/isni/0000000529692415
 
 ---
 
@@ -53,11 +65,11 @@ It is intended as a public reference layer only and does not replace formal KYC/
 
 ### International Precious Metals Institute (IPMI)
 **Status:** Member  
-**Website:** <https://www.ipmi.org/>
+**Website:** https://www.ipmi.org/
 
 ### International Chamber of Commerce (ICC)
 **Status:** Full member  
-**Website:** <https://iccwbo.org/>  
+**Website:** https://iccwbo.org/  
 **ICC Commissions (active participation):**
 - Banking
 - Corporate Responsibility & Anti-Corruption
@@ -66,35 +78,65 @@ It is intended as a public reference layer only and does not replace formal KYC/
 
 ### Oman Chamber of Commerce and Industry (OCCI)
 **Status:** Member  
-**Website:** <https://omanchamber.om/>
+**Website:** https://omanchamber.om/
 
 ---
 
 ## Public company profile records (machine-readable / knowledge graph support)
 
-### GitHub organization profile
-<https://github.com/GoldenArkGeneralTrading>
+### Public mirror pages (Entity & Verification)
+
+- GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/
+- GitLab Pages: https://company-profile-43c34c.gitlab.io/
+- Codeberg Pages: https://goldenarkreserve.codeberg.page/company-profile/
+- Bitbucket Pages: https://goldenarkreserve.bitbucket.io/
 
 ### Canonical entity files (public)
-- `entity.json`: <https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.json>
-- `entity.jsonld`: <https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.jsonld>
 
-### Wikidata
-<https://www.wikidata.org/wiki/Q137885502>
+GitHub (raw):
+- entity.json: https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.json
+- entity.jsonld: https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.jsonld
 
-### Grokipedia
-<https://grokipedia.com/page/Golden_Ark_Reserve>
+GitLab Pages:
+- entity.json: https://company-profile-43c34c.gitlab.io/entity.json
+- entity.jsonld: https://company-profile-43c34c.gitlab.io/entity.jsonld
+
+Bitbucket Pages:
+- entity.json: https://goldenarkreserve.bitbucket.io/entity.json
+- entity.jsonld: https://goldenarkreserve.bitbucket.io/entity.jsonld
+
+Codeberg (raw):
+- entity.json: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
+- entity.jsonld: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
+
+### Repositories (source mirrors)
+
+- GitHub organization: https://github.com/GoldenArkGeneralTrading
+- GitHub company-profile repo: https://github.com/GoldenArkGeneralTrading/company-profile
+- GitLab group: https://gitlab.com/goldenarkreserve-group
+- GitLab company-profile repo: https://gitlab.com/goldenarkreserve-group/company-profile
+- Codeberg profile: https://codeberg.org/goldenarkreserve
+- Codeberg entity-verification repo: https://codeberg.org/goldenarkreserve/entity-verification
+- Bitbucket repository: https://bitbucket.org/goldenarkreserve/company-profile
+
+### Knowledge graph profiles
+
+- Wikidata: https://www.wikidata.org/wiki/Q137885502
+- Grokipedia: https://grokipedia.com/page/Golden_Ark_Reserve
 
 ---
 
 ## Public disclosures / media references (selected)
 
-### Primary issuer disclosure
-- Business Wire (issuer release): <https://www.businesswire.com/news/home/20260203826775/en>
+### Canonical press / disclosures (main website)
+- https://goldenarkreserve.com/press/
 
-### Curated media index
-- PRESS / Media Coverage Index: <https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/PRESS.md>
-- Full machine-readable media index (CSV): <https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv>
+### Primary issuer disclosure
+- Business Wire (issuer release): https://www.businesswire.com/news/home/20260203826775/en
+
+### Curated media index (mirrors)
+- PRESS / Media Coverage Index: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/PRESS.md
+- Full machine-readable media index (CSV): https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv
 
 ---
 
