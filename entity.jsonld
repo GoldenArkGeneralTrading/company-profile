@@ -47,21 +47,28 @@
     }
   ],
   "sameAs": [
-    "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
     "https://goldenarkreserve.com",
+    "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
+    "https://goldenarkreserve.com/press/",
 
     "https://www.wikidata.org/wiki/Q137885502",
     "https://grokipedia.com/page/Golden_Ark_Reserve",
 
-    "https://gitlab.com/goldenarkreserve-group",
-    "https://gitlab.com/goldenarkreserve-group/gitlab-profile",
-    "https://goldenarkreserve-group.gitlab.io/company-profile/",
-
+    "https://goldenarkgeneraltrading.github.io/company-profile/",
     "https://github.com/GoldenArkGeneralTrading/",
     "https://github.com/GoldenArkGeneralTrading/company-profile",
 
+    "https://company-profile-43c34c.gitlab.io/",
+    "https://gitlab.com/goldenarkreserve-group",
+    "https://gitlab.com/goldenarkreserve-group/gitlab-profile",
+    "https://gitlab.com/goldenarkreserve-group/company-profile",
+
+    "https://goldenarkreserve.codeberg.page/company-profile/",
     "https://codeberg.org/goldenarkreserve",
     "https://codeberg.org/goldenarkreserve/entity-verification",
+
+    "https://goldenarkreserve.bitbucket.io/",
+    "https://bitbucket.org/goldenarkreserve/company-profile",
 
     "https://search.gleif.org/#/record/98450040E688696D1C47",
     "https://lei.bloomberg.com/leis/view/98450040E688696D1C47",
