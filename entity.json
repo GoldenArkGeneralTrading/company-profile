@@ -1,17 +1,22 @@
 {
-  "version": "1.1",
-  "last_updated_utc": "2026-02-23",
+  "version": "1.3",
+  "last_updated_utc": "2026-03-03",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
-  "jurisdiction": "Sultanate of Oman",
+  "jurisdiction": "Sultanate of Oman (Sohar Free Zone)",
   "commercial_registration_number": "1603777",
   "website": "https://goldenarkreserve.com",
+  "canonical": {
+    "company_profile": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
+    "press": "https://goldenarkreserve.com/press/"
+  },
   "identifiers": {
     "lei": "98450040E688696D1C47",
     "refinitiv_permid": "5097108870",
     "duns": "85-040-3724",
     "bloomberg_company_id": "72802597",
+    "figi": "BBG01Z7MFQM7",
     "factset_entity_id": "132BDH-E",
     "sp_capital_iq_company_id": "1975094363",
     "bvd_id": "OMLEI3180174",
@@ -43,9 +48,43 @@
       "website": "https://omanchamber.om/"
     }
   },
+  "public_pages": {
+    "github_pages": "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
+    "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
+    "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/"
+  },
+  "machine_readable_files": {
+    "github_repo": {
+      "entity_json": "https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.json",
+      "entity_jsonld": "https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.jsonld"
+    },
+    "gitlab_pages": {
+      "entity_json": "https://company-profile-43c34c.gitlab.io/entity.json",
+      "entity_jsonld": "https://company-profile-43c34c.gitlab.io/entity.jsonld"
+    },
+    "codeberg_repo": {
+      "entity_json_web": "https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.json",
+      "entity_json_raw": "https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json",
+      "entity_jsonld_web": "https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.jsonld",
+      "entity_jsonld_raw": "https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld"
+    },
+    "bitbucket_pages": {
+      "entity_json": "https://goldenarkreserve.bitbucket.io/entity.json",
+      "entity_jsonld": "https://goldenarkreserve.bitbucket.io/entity.jsonld",
+      "press_html": "https://goldenarkreserve.bitbucket.io/press.html",
+      "press_md": "https://goldenarkreserve.bitbucket.io/press.md"
+    },
+    "bitbucket_repo": {
+      "entity_json": "https://bitbucket.org/goldenarkreserve/company-profile/src/main/entity.json",
+      "entity_jsonld": "https://bitbucket.org/goldenarkreserve/company-profile/src/main/entity.jsonld"
+    }
+  },
   "sources": {
     "registry_records": {
+      "oman_business_registry_search": "https://www.business.gov.om/portal/searchEstablishments",
       "gleif": "https://search.gleif.org/#/record/98450040E688696D1C47",
+      "bloomberg_lei_view": "https://lei.bloomberg.com/leis/view/98450040E688696D1C47",
       "permid": "https://permid.org/1-5097108870",
       "isni": "https://isni.org/isni/0000000529692415",
       "dnb_business_directory_profile": "https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html"
@@ -56,12 +95,23 @@
       "occi": "https://omanchamber.om/"
     },
     "disclosures": {
+      "canonical_press": "https://goldenarkreserve.com/press/",
       "primary_disclosure_businesswire": "https://www.businesswire.com/news/home/20260203826775/en",
       "independent_publication_afp": "https://www.afp.com/index.php/de/node/3813017"
     },
     "knowledge_graph_profiles": {
       "wikidata": "https://www.wikidata.org/wiki/Q137885502",
       "grokipedia": "https://grokipedia.com/page/Golden_Ark_Reserve"
+    },
+    "public_profiles_and_repos": {
+      "github_org": "https://github.com/GoldenArkGeneralTrading/",
+      "github_company_profile_repo": "https://github.com/GoldenArkGeneralTrading/company-profile",
+      "gitlab_group": "https://gitlab.com/goldenarkreserve-group",
+      "gitlab_company_profile_repo": "https://gitlab.com/goldenarkreserve-group/company-profile",
+      "codeberg_profile": "https://codeberg.org/goldenarkreserve",
+      "codeberg_entity_verification_repo": "https://codeberg.org/goldenarkreserve/entity-verification",
+      "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile"
     }
-  }
+  },
+  "notes": "Mirror dataset for public verification. Keep identifiers and canonical URLs consistent across all mirrors."
 }
