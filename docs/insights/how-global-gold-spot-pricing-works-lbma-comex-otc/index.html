@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -208,32 +95,29 @@
 
       <h2>Overview</h2>
       <p>
-        The article defines global gold spot pricing as a three-market architecture. LBMA provides the
-        benchmark-setting layer and the center of physical-market reference. COMEX concentrates leveraged
-        futures activity and often transmits macroeconomic information into price expectations first. OTC
-        markets reflect large negotiated institutional trades, balance-sheet constraints, premiums, and
-        physical delivery conditions. :contentReference[oaicite:1]{index=1}
+        Global gold spot pricing is a three-market architecture. LBMA provides the benchmark-setting layer
+        and the center of physical-market reference. COMEX concentrates leveraged futures activity and often
+        transmits macroeconomic information into price expectations first. OTC markets reflect large negotiated
+        institutional trades, balance-sheet constraints, premiums, and physical delivery conditions.
       </p>
 
       <p>
-        The page is clear that none of these venues determines spot pricing alone. The executable global
-        level emerges through continuous interaction, information flow, and arbitrage alignment between
-        benchmark auctions, futures trading, and institutional OTC execution. :contentReference[oaicite:2]{index=2}
+        None of these venues determines spot pricing alone. The executable global level emerges through continuous
+        interaction, information flow, and arbitrage alignment between benchmark auctions, futures trading, and
+        institutional OTC execution.
       </p>
 
       <h2>Spot, quotes, and benchmarks are not the same</h2>
       <p>
-        One of the first distinctions in the article is that spot, quotes, and benchmarks perform
-        different functions. Spot is the execution layer — the level at which large participants can
-        transact at a specific moment. Quotes are informational references that mirror market direction
-        but do not guarantee execution. Benchmarks, such as LBMA Gold Price AM and PM, serve as formal
-        contractual anchors for settlement, reporting, and valuation. :contentReference[oaicite:3]{index=3}
+        Spot, quotes, and benchmarks perform different functions. Spot is the execution layer — the level at which
+        large participants can transact at a specific moment. Quotes are informational references that mirror market
+        direction but do not guarantee execution. Benchmarks, such as LBMA Gold Price AM and PM, serve as formal
+        contractual anchors for settlement, reporting, and valuation.
       </p>
 
       <p>
-        This distinction matters because institutions need to know whether they are looking at an executable
-        price, an indicative feed, or an official benchmark reference. Treating these as interchangeable
-        leads to pricing errors and settlement misunderstandings. :contentReference[oaicite:4]{index=4}
+        Institutions need to know whether they are looking at an executable price, an indicative feed, or an official
+        benchmark reference. Treating these as interchangeable leads to pricing errors and settlement misunderstandings.
       </p>
 
       <div class="note">
@@ -245,82 +129,71 @@
 
       <h2>LBMA: the benchmark and physical reference layer</h2>
       <p>
-        The article presents LBMA as the core of wholesale physical-market reference. It highlights the
-        LBMA Gold Price AM and PM auctions as structured clearing processes where institutional order flow
-        is matched to produce an official benchmark used in contracts, fund valuation, accounting, and
-        physical settlement. It also notes that the auctions are administered by ICE Benchmark Administration. :contentReference[oaicite:5]{index=5}
+        LBMA is the core of wholesale physical-market reference. The LBMA Gold Price AM and PM auctions function as
+        structured clearing processes where institutional order flow is matched to produce an official benchmark used
+        in contracts, fund valuation, accounting, and physical settlement.
       </p>
 
       <p>
-        In this framework, LBMA is not simply a news headline reference. It is the formal benchmark layer
-        that turns institutional buy and sell interest into a recognized settlement anchor for the global
-        bullion market. :contentReference[oaicite:6]{index=6}
+        In this framework, LBMA is not simply a headline reference. It is the formal benchmark layer that turns
+        institutional buy and sell interest into a recognized settlement anchor for the global bullion market.
       </p>
 
       <h2>COMEX: the futures-driven liquidity and momentum layer</h2>
       <p>
-        The article describes COMEX as the futures market that concentrates speculative and hedging activity
-        and often transmits macroeconomic information faster than physical markets. It explicitly states that
-        spot desks cannot ignore COMEX because pricing engines, hedging behavior, and market-maker quoting
-        models are structurally tied to futures dynamics. :contentReference[oaicite:7]{index=7}
+        COMEX is the futures market that concentrates speculative and hedging activity and often transmits macroeconomic
+        information faster than physical markets. Spot desks cannot ignore COMEX because pricing engines, hedging behavior,
+        and market-maker quoting models are structurally tied to futures dynamics.
       </p>
 
       <p>
-        COMEX therefore contributes the first directional impulse in many conditions. The article frames the
-        relationship succinctly: LBMA acts as the benchmark anchor, COMEX acts as the momentum engine, and OTC
-        reflects the physical adjustment layer. :contentReference[oaicite:8]{index=8}
+        COMEX therefore contributes the first directional impulse in many conditions. LBMA acts as the benchmark anchor,
+        COMEX acts as the momentum engine, and OTC reflects the physical adjustment layer.
       </p>
 
       <h2>OTC: the institutional execution layer</h2>
       <p>
-        The OTC gold market is described as the deepest and most complex layer of institutional execution.
-        It is where benchmark prices, futures expectations, balance-sheet constraints, physical supply chains,
-        and negotiated delivery terms converge into executable prices. The article distinguishes indicative
-        liquidity from firm liquidity and treats OTC as the place where real-world execution conditions are
-        localized and priced. :contentReference[oaicite:9]{index=9}
+        The OTC gold market is the deepest and most complex layer of institutional execution. It is where benchmark prices,
+        futures expectations, balance-sheet constraints, physical supply chains, and negotiated delivery terms converge
+        into executable prices.
       </p>
 
       <p>
         In this sense, OTC markets are where physical demand patterns, settlement conditions, regional premiums,
-        and counterparty-specific constraints become visible in the executable price rather than in an abstract benchmark. :contentReference[oaicite:10]{index=10}
+        and counterparty-specific constraints become visible in the executable price rather than in an abstract benchmark.
       </p>
 
       <h2>How price discovery works across all three venues</h2>
       <p>
-        The article identifies four linked mechanisms of price discovery: benchmark auctions at LBMA, continuous
-        futures trading on COMEX, OTC institutional flows, and arbitrage alignment between venues. These mechanisms
-        operate simultaneously rather than sequentially. Benchmark auctions create official reference levels, futures
-        incorporate macro and hedging information rapidly, OTC flows anchor price to physical execution reality, and
-        arbitrage prevents durable dislocation between venues. :contentReference[oaicite:11]{index=11}
+        Price discovery links four mechanisms: benchmark auctions at LBMA, continuous futures trading on COMEX,
+        OTC institutional flows, and arbitrage alignment between venues. These mechanisms operate simultaneously
+        rather than sequentially.
       </p>
 
       <ul>
         <li>LBMA auctions generate official benchmark levels for settlement and reporting.</li>
         <li>COMEX futures absorb directional information and hedging pressure in real time.</li>
         <li>OTC flows reflect executable physical demand, premiums, and balance-sheet conditions.</li>
-        <li>Arbitrage mechanisms keep the three venues aligned when pricing gaps appear. :contentReference[oaicite:12]{index=12}</li>
+        <li>Arbitrage mechanisms keep the three venues aligned when pricing gaps appear.</li>
       </ul>
 
       <h2>Why institutions need all three layers</h2>
       <p>
-        The article explains that institutions rely on all three because each serves a distinct function.
-        LBMA underpins settlement references, custody reporting, and audit processes. COMEX informs hedging,
-        exposure management, and forward planning. OTC prices show the actual execution environment, including
-        delivery terms, negotiated premiums, and localized liquidity. :contentReference[oaicite:13]{index=13}
+        Each layer serves a distinct function. LBMA underpins settlement references, custody reporting, and audit
+        processes. COMEX informs hedging, exposure management, and forward planning. OTC prices show the actual
+        execution environment, including delivery terms, negotiated premiums, and localized liquidity.
       </p>
 
       <p>
-        Together, these layers allow institutions to validate pricing integrity, compare execution quality,
-        structure purchase agreements, and manage risk using a coherent cross-market framework rather than a
-        single headline price. :contentReference[oaicite:14]{index=14}
+        Together, these layers allow institutions to validate pricing integrity, compare execution quality, structure
+        purchase agreements, and manage risk using a coherent cross-market framework rather than a single headline price.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        Global gold spot pricing is an integrated system, not a standalone number. Understanding how LBMA,
-        COMEX, and OTC interact is essential for interpreting spreads, volatility, benchmark references,
-        and the difference between executable price and informational quote. Serious gold pricing analysis
-        begins by locating which market layer is speaking — and for what purpose. :contentReference[oaicite:15]{index=15}
+        Global gold spot pricing is an integrated system, not a standalone number. Understanding how LBMA, COMEX,
+        and OTC interact is essential for interpreting spreads, volatility, benchmark references, and the difference
+        between executable price and informational quote.
       </p>
 
       <section class="source-box">
@@ -331,13 +204,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -358,11 +227,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
