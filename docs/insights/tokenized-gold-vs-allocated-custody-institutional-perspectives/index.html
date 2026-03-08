@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -207,31 +94,28 @@
 
       <h2>Overview</h2>
       <p>
-        The article compares tokenized gold and allocated custody from the viewpoint of institutions,
-        family offices, and ultra-high-net-worth investors. It frames the decision not as a question
-        of convenience, but as a question of whether gold will be recognized as a defensible balance-sheet
-        asset, a credible hedge, or merely a speculative instrument. :contentReference[oaicite:1]{index=1}
+        The comparison between tokenized gold and allocated custody is not a question of convenience alone.
+        It is a question of whether gold will be recognized as a defensible balance-sheet asset, a credible hedge,
+        or merely a speculative instrument.
       </p>
 
       <p>
-        The central analytical criteria are liquidity, enforceable ownership, auditability, settlement,
-        and long-term compatibility with institutional mandates. On those dimensions, the article argues
-        that tokenized gold may offer tactical flexibility, while allocated custody remains the benchmark
-        for legally recognized reserves. :contentReference[oaicite:2]{index=2}
+        The central analytical criteria are liquidity, enforceable ownership, auditability, settlement, and
+        long-term compatibility with institutional mandates. Tokenized gold may offer tactical flexibility,
+        while allocated custody remains the benchmark for legally recognized reserves.
       </p>
 
       <h2>Immediate institutional priorities: liquidity, ownership, and auditability</h2>
       <p>
-        The article starts by identifying three core needs for institutions and UHNWI: reserves must
-        hold value, remain accessible, and remain recognizable under regulatory and audit scrutiny.
-        These needs shape how gold can function inside mandates, reporting frameworks, and long-term
-        wealth strategies. :contentReference[oaicite:3]{index=3}
+        Institutions and UHNWI require reserves that hold value, remain accessible, and remain recognizable
+        under regulatory and audit scrutiny. Those requirements shape how gold can function inside mandates,
+        reporting frameworks, and long-term wealth strategies.
       </p>
 
       <p>
-        Tokenized gold markets market themselves on speed, 24/7 access, and fractional trading. Allocated
-        custody offers a different proposition: slower but deeper liquidity through recognized bullion
-        counterparties, combined with direct ownership structure and stronger legal clarity. :contentReference[oaicite:4]{index=4}
+        Tokenized gold markets emphasize speed, 24/7 access, and fractional trading. Allocated custody offers
+        a different proposition: slower but deeper liquidity through recognized bullion counterparties, combined
+        with direct ownership structure and stronger legal clarity.
       </p>
 
       <div class="note">
@@ -242,87 +126,76 @@
 
       <h2>Tokenized gold: speed and fractionalization, but weaker legal certainty</h2>
       <p>
-        The article defines tokenized gold as a structure in which digital tokens correspond to a stated
-        quantity of gold held in custody. The attraction is clear: fractional access, near-instant transfer,
-        and integration with digital venues. For some users, that makes tokenized gold attractive as a
-        tactical allocation tool. :contentReference[oaicite:5]{index=5}
+        Tokenized gold is a structure in which digital tokens correspond to a stated quantity of gold held in custody.
+        The attraction is clear: fractional access, near-instant transfer, and integration with digital venues.
       </p>
 
       <p>
-        But the article stresses that tokens depend entirely on the off-chain custody model behind them.
-        The blockchain record may show token supply and ownership transfers, yet the actual bullion remains
-        off-chain, inside vaults controlled by issuers and custodians. That means token holders often own a
-        contractual claim rather than direct legal title to specific bars. :contentReference[oaicite:6]{index=6}
+        But tokens depend entirely on the off-chain custody model behind them. The blockchain record may show token
+        supply and ownership transfers, yet the actual bullion remains off-chain inside vaults controlled by issuers
+        and custodians. Token holders therefore often own a contractual claim rather than direct legal title to specific bars.
       </p>
 
       <ul>
         <li><strong>Technology layer:</strong> token issuance, smart contracts, fractionalization, and digital transfer.</li>
         <li><strong>Custody layer:</strong> vaulting, reserve backing model, redemption rules, insurance, and audit quality.</li>
-        <li><strong>Main constraint:</strong> legal enforceability depends on issuer structure and off-chain documentation. :contentReference[oaicite:7]{index=7}</li>
+        <li><strong>Main constraint:</strong> legal enforceability depends on issuer structure and off-chain documentation.</li>
       </ul>
 
       <h2>On-chain visibility does not eliminate off-chain dependency</h2>
       <p>
-        A core section of the article explains that tokenized gold can never escape its dependence on
-        off-chain reserves. Even the strongest tokenized models still rely on physical vaults, auditors,
-        insurance arrangements, and reserve-management procedures. On-chain transparency may improve supply
-        visibility, but it does not replace barlists, custody contracts, or independent verification. :contentReference[oaicite:8]{index=8}
+        Tokenized gold can never escape its dependence on off-chain reserves. Even the strongest tokenized models
+        still rely on physical vaults, auditors, insurance arrangements, and reserve-management procedures.
       </p>
 
       <p>
-        The article also distinguishes allocated versus pooled backing models. Where reserves are pooled,
-        holders face additional counterparty and rehypothecation risk. Where reserves are more specifically
-        allocated, the structure improves — but in many cases still does not provide the same direct title
-        recognition as a conventional allocated custody contract. :contentReference[oaicite:9]{index=9}
+        On-chain transparency may improve supply visibility, but it does not replace barlists, custody contracts,
+        or independent verification. Where reserves are pooled, holders face additional counterparty and rehypothecation risk.
       </p>
 
       <h2>Allocated custody: the institutional standard</h2>
       <p>
-        The article contrasts tokenization with allocated custody, where specific serialized bars are held
-        under direct contracts for the investor. In this structure, each bar is identified, insured, audited,
-        and legally assigned to the owner, while the custodian acts as safekeeper rather than beneficial owner. :contentReference[oaicite:10]{index=10}
+        Allocated custody means specific serialized bars are held under direct contracts for the investor. In this
+        structure, each bar is identified, insured, audited, and legally assigned to the owner, while the custodian
+        acts as safekeeper rather than beneficial owner.
       </p>
 
       <p>
         This gives allocated custody a decisive advantage in institutional settings. Legal title is clearer,
         auditability is stronger, and the resulting gold position is easier to defend in regulatory reporting,
-        fiduciary oversight, estate planning, and formal balance-sheet recognition. :contentReference[oaicite:11]{index=11}
+        fiduciary oversight, estate planning, and formal balance-sheet recognition.
       </p>
 
       <h2>Auditability and risk visibility are materially different</h2>
       <p>
-        The article places special emphasis on auditability. Tokenized structures often provide token supply
-        data and periodic attestations, but the quality of those attestations varies widely. By contrast,
-        allocated custody relies on direct audits, serial-numbered barlists, insurance certificates, and
-        physically reconcilable reporting accepted by auditors and committees. :contentReference[oaicite:12]{index=12}
+        Tokenized structures often provide token supply data and periodic attestations, but the quality of those
+        attestations varies widely. By contrast, allocated custody relies on direct audits, serial-numbered barlists,
+        insurance certificates, and physically reconcilable reporting accepted by auditors and committees.
       </p>
 
       <p>
-        This difference matters because institutions do not only need risk visibility — they need risk
-        visibility that is independently verifiable. In that respect, the article argues that allocated custody
-        remains materially ahead of tokenized gold at institutional scale. :contentReference[oaicite:13]{index=13}
+        Institutions do not only need risk visibility; they need risk visibility that is independently verifiable.
+        In that respect, allocated custody remains materially ahead of tokenized gold at institutional scale.
       </p>
 
       <h2>Which structure fits which objective</h2>
       <p>
-        The article does not dismiss tokenized gold entirely. Instead, it places it in a more limited role:
-        useful for tactical access, liquidity sleeves, fractional experimentation, or digital-asset integration.
-        Allocated custody is presented as the structure appropriate for long-term reserves, estate planning,
-        audit-grade holdings, and fiduciary capital preservation. :contentReference[oaicite:14]{index=14}
+        Tokenized gold has a more limited role: useful for tactical access, liquidity sleeves, fractional experimentation,
+        or digital-asset integration. Allocated custody is the structure appropriate for long-term reserves, estate planning,
+        audit-grade holdings, and fiduciary capital preservation.
       </p>
 
       <ul>
         <li><strong>Tokenized gold:</strong> tactical flexibility, speed, fractionalization, digital integration.</li>
         <li><strong>Allocated custody:</strong> direct title, audited bars, stronger recognition, reserve durability.</li>
-        <li><strong>Institutional conclusion:</strong> tokenized models may complement, but do not replace, allocated reserves. :contentReference[oaicite:15]{index=15}</li>
+        <li><strong>Institutional conclusion:</strong> tokenized models may complement, but do not replace, allocated reserves.</li>
       </ul>
 
       <h2>Why this matters</h2>
       <p>
-        The article’s main conclusion is that institutions should not confuse transfer speed with ownership
-        quality. Tokenized gold may improve accessibility and mobility, but allocated custody remains the more
-        defensible structure when the goals are recognized ownership, independent auditability, and long-term
-        reserve security. That difference is structural, not cosmetic. :contentReference[oaicite:16]{index=16}
+        Institutions should not confuse transfer speed with ownership quality. Tokenized gold may improve accessibility
+        and mobility, but allocated custody remains the more defensible structure when the goals are recognized ownership,
+        independent auditability, and long-term reserve security.
       </p>
 
       <section class="source-box">
@@ -333,13 +206,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -360,11 +229,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
