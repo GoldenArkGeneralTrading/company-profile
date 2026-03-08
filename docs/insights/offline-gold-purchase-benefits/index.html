@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -207,30 +94,30 @@
 
       <h2>Overview</h2>
       <p>
-        The article defines offline gold purchase as a process executed at a dealer office, refinery outlet,
+        Offline gold purchase is a defined in-person process executed at a dealer office, refinery outlet,
         or vault-side location where buyer and seller complete verification, settlement, and handover without
         relying on a remote-only workflow. The buyer inspects the bullion, confirms transaction terms, and
-        receives both the metal and the supporting documentation needed to establish ownership. :contentReference[oaicite:1]{index=1}
+        receives both the metal and the supporting documentation needed to establish ownership.
       </p>
 
       <p>
         This framework is intended for physical bullion transactions where transaction safety, counterparty
         identification, privacy-focused data handling, and document integrity are operational priorities. It
-        explicitly excludes derivatives, book-entry gold, and remote-only execution paths. :contentReference[oaicite:2]{index=2}
+        excludes derivatives, book-entry gold, and remote-only execution paths.
       </p>
 
       <h2>Definition and transaction scope</h2>
       <p>
-        The article states that offline gold purchase requires in-person execution with a legally identifiable
-        seller at a defined physical location. The process includes physical inspection before payment execution,
-        payment before or concurrent with ownership transfer, and explicit documentary confirmation identifying
-        the buyer, the seller, the asset, and the transaction timestamp. :contentReference[oaicite:3]{index=3}
+        Offline gold purchase requires in-person execution with a legally identifiable seller at a defined
+        physical location. The process includes physical inspection before payment execution, payment before
+        or concurrent with ownership transfer, and explicit documentary confirmation identifying the buyer,
+        the seller, the asset, and the transaction timestamp.
       </p>
 
       <p>
         Scope is limited to tangible bullion such as gold bars or gold coins where the buyer needs direct control
         over verification artifacts, settlement sequencing, and ownership evidence. The value of the workflow lies
-        in making those controls visible and immediate at the moment of execution. :contentReference[oaicite:4]{index=4}
+        in making those controls visible and immediate at the moment of execution.
       </p>
 
       <div class="note">
@@ -241,53 +128,46 @@
 
       <h2>Why in-person execution creates security advantages</h2>
       <p>
-        The advantages described in the article arise from direct asset visibility and immediate control over the
-        transaction sequence. Buyer presence enables on-site inspection and acceptance. Seller presence enables
-        verification of legal identity, operating authority, and document execution by identifiable signatories. :contentReference[oaicite:5]{index=5}
+        The advantages arise from direct asset visibility and immediate control over the transaction sequence.
+        Buyer presence enables on-site inspection and acceptance. Seller presence enables verification of legal
+        identity, operating authority, and document execution by identifiable signatories.
       </p>
 
       <p>
         This reduces reliance on assumptions about the asset, the seller, and the timing of handover. Instead of
         waiting for later reconciliation, the buyer can verify core transaction facts before finalizing settlement.
-        That improves both execution confidence and downstream ownership traceability.
       </p>
 
       <h2>On-site verification is central, not optional</h2>
       <p>
-        The article treats physical inspection as a dependency in the process rather than as a courtesy step.
-        Inspection occurs before payment and determines whether the transaction proceeds to acceptance or ends
-        without title transfer. Typical inspection components include visible markings, refiner mark, purity stamp,
-        weight verification, and packaging condition. :contentReference[oaicite:6]{index=6}
-      </p>
-
-      <p>
-        This matters because a physical gold transaction becomes materially safer when the delivered asset is checked
-        against the agreed specification before the monetary leg is finalized.
+        Physical inspection is part of the process rather than a courtesy step. Inspection occurs before payment
+        and determines whether the transaction proceeds to acceptance or ends without title transfer. Typical
+        inspection components include visible markings, refiner mark, purity stamp, weight verification,
+        and packaging condition.
       </p>
 
       <ul>
         <li>verify bar or coin type against agreed transaction specification,</li>
         <li>check visible hallmarks, refiner mark, and purity indication,</li>
         <li>confirm weight and packaging integrity where applicable,</li>
-        <li>treat inspection outcome as a formal acceptance-or-rejection point. :contentReference[oaicite:7]{index=7}</li>
+        <li>treat inspection outcome as a formal acceptance-or-rejection point.</li>
       </ul>
 
       <h2>Outputs of a complete offline gold transaction</h2>
       <p>
-        The article identifies a fixed output set required for downstream use: accepted physical bullion,
-        transaction documents identifying the parties and the asset, and proof of title transfer suitable
-        for custody onboarding, insured transport, and later resale. It also states that these outputs are
-        interdependent and that the process is only complete when all are present and consistent. :contentReference[oaicite:8]{index=8}
+        A complete transaction produces a fixed output set required for downstream use: accepted physical
+        bullion, transaction documents identifying the parties and the asset, and proof of title transfer
+        suitable for custody onboarding, insured transport, and later resale.
       </p>
 
       <p>
-        This is one of the main strengths of offline execution. The buyer leaves not only with the metal, but
-        with the documentary structure needed to support future control, reporting, transfer, or liquidation.
+        This is one of the main strengths of offline execution. The buyer leaves not only with the metal,
+        but with the documentary structure needed to support future control, reporting, transfer, or liquidation.
       </p>
 
       <h2>Step-by-step execution logic</h2>
       <p>
-        The article’s process logic can be summarized as a fixed operational chain:
+        The process can be summarized as a fixed operational chain:
       </p>
 
       <ul>
@@ -300,7 +180,8 @@
 
       <p>
         The value of the workflow is that each stage depends on the integrity of the prior one. Inspection supports
-        payment authorization. Payment supports title transfer. Title transfer supports later custody, transport, and resale. :contentReference[oaicite:9]{index=9}
+        payment authorization. Payment supports title transfer. Title transfer supports later custody, transport,
+        and resale.
       </p>
 
       <h2>Why this matters</h2>
@@ -308,7 +189,6 @@
         Offline gold purchase is useful where the buyer wants direct control over verification, settlement sequencing,
         and ownership evidence at the time of acquisition. The process is slower and more operationally deliberate than
         abstract screen-based exposure, but it produces a stronger immediate link between asset, documentation, and title.
-        For serious physical buyers, that link is often the main point.
       </p>
 
       <section class="source-box">
@@ -319,13 +199,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -346,11 +222,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
