@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -207,33 +94,28 @@
 
       <h2>Overview</h2>
       <p>
-        The article explains that the Sales and Purchase Agreement, or SPA, is the legal backbone of an
-        institutional gold transaction. It is the document that transforms an offer into an enforceable and
-        auditable acquisition path, linking price, payment, delivery, title, and compliance into one coherent
-        structure. Without it, large-scale gold deals cannot satisfy the expectations of auditors, regulators,
-        fiduciary committees, or banking counterparties. :contentReference[oaicite:1]{index=1}
+        The Sales and Purchase Agreement, or SPA, is the legal backbone of an institutional gold transaction.
+        It transforms an offer into an enforceable and auditable acquisition path, linking price, payment,
+        delivery, title, and compliance into one coherent structure.
       </p>
 
       <p>
-        This matters especially for funds, family offices, and ultra-high-net-worth investors because the
-        contract is where enforceability, AML/KYC integration, and reserve-security architecture converge.
-        In institutional contexts, gold becomes a recognized asset not merely when it is desired, but when
-        it is acquired under a contract that can withstand legal, compliance, and audit scrutiny. :contentReference[oaicite:2]{index=2}
+        This matters especially for funds, family offices, and ultra-high-net-worth investors because the contract
+        is where enforceability, AML and KYC integration, and reserve-security architecture converge. In institutional
+        contexts, gold becomes a recognized asset when it is acquired under a contract that can withstand legal,
+        compliance, and audit scrutiny.
       </p>
 
       <h2>Why structured contracts are essential</h2>
       <p>
-        The article states that without a structured contract, a gold transaction remains exposure without
-        legal protection. The SPA establishes property rights, codifies obligations, embeds compliance, and
-        creates a pre-agreed path for dispute resolution. This gives both buyer and seller a shared reference
-        point for enforcement rather than leaving the transaction dependent on informal understandings. :contentReference[oaicite:3]{index=3}
+        Without a structured contract, a gold transaction remains exposure without legal protection. The SPA establishes
+        property rights, codifies obligations, embeds compliance, and creates a pre-agreed path for dispute resolution.
       </p>
 
       <p>
-        It also explains that institutional governance standards require this contract-based approach. Pension
-        funds, asset managers, family offices, and other fiduciary actors must be able to defend the transaction
-        in front of regulators, beneficiaries, auditors, and internal committees. The SPA provides that
-        defensibility by making the allocation legible as a compliant institutional act. :contentReference[oaicite:4]{index=4}
+        Institutional governance standards require this contract-based approach. Pension funds, asset managers, family
+        offices, and other fiduciary actors must be able to defend the transaction in front of regulators, beneficiaries,
+        auditors, and internal committees.
       </p>
 
       <div class="note">
@@ -244,89 +126,80 @@
 
       <h2>Identification of parties is the first control layer</h2>
       <p>
-        A major section of the article focuses on identification of the buyer, seller, and any formally
-        recognized intermediaries. The SPA must specify who the legal buyer is, what entity the seller
-        controls, and whether any agents, mandates, or brokers are contractually recognized. This prevents
-        ambiguity over authority, payment rights, and legal standing in the transaction. :contentReference[oaicite:5]{index=5}
+        The SPA must specify who the legal buyer is, what entity the seller controls, and whether any agents, mandates,
+        or brokers are contractually recognized. This prevents ambiguity over authority, payment rights, and legal standing
+        in the transaction.
       </p>
 
       <p>
-        The article also ties party identification directly to AML/KYC controls. Corporate documents,
-        beneficial ownership information, passports, proof of address, banking references, and source-of-funds
-        evidence are treated as part of onboarding rather than as separate optional checks. This allows the
-        resulting gold holding to remain defensible under regulatory and accounting review. :contentReference[oaicite:6]{index=6}
+        Party identification is directly tied to AML and KYC controls. Corporate documents, beneficial ownership information,
+        passports, proof of address, banking references, and source-of-funds evidence are treated as part of onboarding
+        rather than as separate optional checks.
       </p>
 
       <h2>Specifications define what is actually being bought</h2>
       <p>
-        The article makes clear that institutional SPAs must specify the gold in precise terms: quantity,
-        fineness, refinery origin, assay support, packaging, serial data, and whether the bars meet LBMA
-        Good Delivery or other recognized standards. These are not technical side notes; they determine
-        whether the product is liquid, acceptable in custody, and verifiable by auditors. :contentReference[oaicite:7]{index=7}
+        Institutional SPAs must specify the gold in precise terms: quantity, fineness, refinery origin, assay support,
+        packaging, serial data, and whether the bars meet recognized market standards. These are not technical side notes;
+        they determine whether the product is liquid, acceptable in custody, and verifiable by auditors.
       </p>
 
       <p>
-        It further notes that the contract should define how bars are documented, whether delivery occurs
-        in one tranche or multiple tranches, and how non-conforming metal is handled. Product ambiguity
-        creates settlement and compliance risk; detailed specification prevents it. :contentReference[oaicite:8]{index=8}
+        The contract should also define how bars are documented, whether delivery occurs in one tranche or multiple tranches,
+        and how non-conforming metal is handled. Product ambiguity creates settlement and compliance risk; detailed
+        specification prevents it.
       </p>
 
       <ul>
         <li><strong>quantity:</strong> exact weight, tranche logic, and delivery schedule,</li>
-        <li><strong>quality:</strong> fineness, LBMA compliance, and acceptable refinery status,</li>
+        <li><strong>quality:</strong> fineness, standard compliance, and acceptable refinery status,</li>
         <li><strong>documentation:</strong> assay reports, barlists, certificates, and transport records,</li>
-        <li><strong>title clarity:</strong> confirmation that bullion is free of liens and prior claims. :contentReference[oaicite:9]{index=9}</li>
+        <li><strong>title clarity:</strong> confirmation that bullion is free of liens and prior claims.</li>
       </ul>
 
       <h2>Pricing models shape risk allocation</h2>
       <p>
-        The article describes three main pricing models used in institutional gold SPAs: fixed price,
-        floating benchmark-based price, and premium/discount structures applied over benchmark references.
-        Each model changes how market risk is distributed between signature date and settlement date. :contentReference[oaicite:10]{index=10}
+        Institutional gold SPAs commonly use three broad pricing models: fixed price, floating benchmark-based price,
+        and premium or discount structures applied over benchmark references. Each model changes how market risk is
+        distributed between signature date and settlement date.
       </p>
 
       <p>
-        Fixed-price models provide cost certainty but expose the buyer to market movement after signing.
-        Floating-price models link settlement to a benchmark such as LBMA, COMEX, or another defined source,
-        preserving market alignment but increasing exposure to volatility between contract signature and
-        settlement. Premium structures then adjust for bar size, logistics, refining, and local market
-        conditions. :contentReference[oaicite:11]{index=11}
+        Fixed-price models provide cost certainty but expose the buyer to market movement after signing. Floating-price
+        models preserve market alignment but increase exposure to volatility between contract signature and settlement.
+        Premium structures then adjust for bar size, logistics, refining, and local market conditions.
       </p>
 
       <h2>Payment and delivery terms must be synchronized</h2>
       <p>
-        The SPA structure described in the article also integrates payment mechanics and delivery obligations.
-        Settlement may involve MT103, escrow, staged payments, or other institutional transfer methods, but
-        these must be aligned with what the seller is obligated to deliver and when the buyer receives enforceable
-        title. Payment logic cannot be separated from logistics and custody. :contentReference[oaicite:12]{index=12}
+        The SPA integrates payment mechanics and delivery obligations. Settlement may involve bank transfer, escrow,
+        staged payments, or other institutional transfer methods, but these must be aligned with what the seller is
+        obligated to deliver and when the buyer receives enforceable title.
       </p>
 
       <p>
-        Delivery terms are commonly defined through Incoterms or vault-to-vault structures. The contract must
-        specify whether the seller provides insurance, where risk transfers, how custody is integrated, and what
-        evidence of delivery or allocation completes the transaction. These clauses turn abstract commercial intent
-        into a controlled operational sequence. :contentReference[oaicite:13]{index=13}
+        Delivery terms are often defined through Incoterms or vault-to-vault structures. The contract must specify
+        whether the seller provides insurance, where risk transfers, how custody is integrated, and what evidence
+        of delivery or allocation completes the transaction.
       </p>
 
       <h2>Jurisdiction and dispute resolution protect enforceability</h2>
       <p>
-        Another essential point in the article is that institutional SPAs must define legal jurisdiction and
-        dispute-resolution method in advance. This ensures that if a delivery failure, title conflict, or payment
-        dispute arises, both sides already know where and how it will be resolved. Without this, cross-border
-        enforceability becomes materially weaker. :contentReference[oaicite:14]{index=14}
+        Institutional SPAs must define legal jurisdiction and dispute-resolution method in advance. This ensures that
+        if a delivery failure, title conflict, or payment dispute arises, both sides already know where and how it
+        will be resolved.
       </p>
 
       <p>
-        In institutional gold markets, that legal certainty matters almost as much as price. A transaction is
-        only as strong as its ability to survive disagreement while preserving rights, evidence, and recoverability. :contentReference[oaicite:15]{index=15}
+        In institutional gold markets, legal certainty matters almost as much as price. A transaction is only as strong
+        as its ability to survive disagreement while preserving rights, evidence, and recoverability.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        The article’s core message is that a gold purchase agreement is what converts bullion from a commercial
-        offer into a recognized institutional asset. It creates legal enforceability, embeds AML/KYC discipline,
-        defines exactly what is being purchased, and aligns price, payment, delivery, and custody into one
-        auditable transaction framework. For serious buyers, the SPA is not ancillary to the deal — it is the deal. :contentReference[oaicite:16]{index=16}
+        A gold purchase agreement converts bullion from a commercial offer into a recognized institutional asset.
+        It creates legal enforceability, embeds AML and KYC discipline, defines exactly what is being purchased,
+        and aligns price, payment, delivery, and custody into one auditable transaction framework.
       </p>
 
       <section class="source-box">
@@ -337,13 +210,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -364,11 +233,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
