@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -207,16 +94,16 @@
 
       <h2>Overview</h2>
       <p>
-        The article explains that custody solves two different problems: holding bullion securely and proving
-        ownership over time. Vaults and insurance address the first; independent verification addresses the second.
-        Without external confirmation, custody remains an internal claim. With audits, it becomes evidence that can
-        withstand compliance checks, board review, and intergenerational transfer. :contentReference[oaicite:1]{index=1}
+        Custody solves two different problems: holding bullion securely and proving ownership over time.
+        Vaults and insurance address the first; independent verification addresses the second.
+        Without external confirmation, custody remains an internal claim. With audits, it becomes evidence
+        that can withstand compliance checks, board review, and intergenerational transfer.
       </p>
 
       <p>
         This is why audited custody matters beyond simple safekeeping. For institutions, it allows gold to be
         recognized in financial statements with credible supporting evidence. For family offices, it creates a
-        durable record that heirs, trustees, and advisers can rely on years later. :contentReference[oaicite:2]{index=2}
+        durable record that heirs, trustees, and advisers can rely on years later.
       </p>
 
       <div class="note">
@@ -227,27 +114,21 @@
 
       <h2>Why audits are central in gold custody</h2>
       <p>
-        The article states that an independent auditor reconciles barlists with physical holdings by counting bars,
-        matching serial numbers, checking weights and fineness, and issuing a report. That report becomes the bridge
-        between the vault and the investor’s balance sheet. It reduces counterparty risk by showing that allocated
-        bars are not merely presumed to exist, but have been independently verified. :contentReference[oaicite:3]{index=3}
+        An independent auditor reconciles barlists with physical holdings by counting bars, matching serial numbers,
+        checking weights and fineness, and issuing a report. That report becomes the bridge between the vault and
+        the investor’s balance sheet.
       </p>
 
       <p>
-        Over long horizons, this distinction matters greatly. The article explicitly contrasts “bars presumed to
-        exist” with “bars independently verified,” arguing that the difference between the two is the difference
-        between uncertainty and confidence. :contentReference[oaicite:4]{index=4}
+        Over long horizons, this distinction matters greatly. The difference between bars presumed to exist and bars
+        independently verified is the difference between uncertainty and confidence.
       </p>
 
       <h2>The barlist is the foundation of proof</h2>
       <p>
-        A major section of the article explains that the custody agreement promises allocated storage, but the
-        barlist is what makes that promise measurable. It converts bullion from a theoretical holding into an
-        identifiable inventory that can be checked, audited, and attached to governance files. :contentReference[oaicite:5]{index=5}
-      </p>
-
-      <p>
-        The article lists the core barlist data fields clearly:
+        The custody agreement promises allocated storage, but the barlist is what makes that promise measurable.
+        It converts bullion from a theoretical holding into an identifiable inventory that can be checked, audited,
+        and attached to governance files.
       </p>
 
       <ul>
@@ -256,82 +137,75 @@
         <li>weight in troy ounces or kilograms,</li>
         <li>fineness, typically to four decimals,</li>
         <li>vault location and identifier,</li>
-        <li>date of last audit or reconciliation. :contentReference[oaicite:6]{index=6}</li>
+        <li>date of last audit or reconciliation.</li>
       </ul>
 
       <p>
-        This level of detail allows institutions to cross-check holdings against vault records and enables family
-        offices to preserve continuity across generations by leaving heirs with precise evidence rather than vague
-        descriptions of stored wealth. :contentReference[oaicite:7]{index=7}
+        This level of detail allows institutions to cross-check holdings against vault records and enables family offices
+        to preserve continuity across generations by leaving heirs with precise evidence rather than vague descriptions
+        of stored wealth.
       </p>
 
       <h2>Independent auditors convert records into trusted evidence</h2>
       <p>
-        The article names specialist firms such as SGS and Alex Stewart International as examples of recognized
-        third parties used in bullion verification. Their independence is central: they do not promote the custody
-        provider but validate facts inside the vault. :contentReference[oaicite:8]{index=8}
+        Specialist firms such as SGS and Alex Stewart are often used as recognized third parties in bullion verification.
+        Their independence is central: they do not promote the custody provider but validate facts inside the vault.
       </p>
 
       <p>
-        According to the article, auditors typically count bars, verify serials and refiner marks, weigh samples,
-        test purity where required, and review insurance documentation. If discrepancies appear, they are flagged in
-        the report together with recommended remedial actions. :contentReference[oaicite:9]{index=9}
+        Auditors typically count bars, verify serials and refiner marks, weigh samples, test purity where required,
+        and review insurance documentation. If discrepancies appear, they are flagged in the report together with
+        recommended remedial actions.
       </p>
 
       <ul>
         <li><strong>Institutions need</strong> external reports acceptable to financial auditors and boards.</li>
         <li><strong>Family offices need</strong> continuity documents that can sit beside wills, trusts, and estate files.</li>
-        <li><strong>Both need</strong> proof that ownership claims correspond to physical reality. :contentReference[oaicite:10]{index=10}</li>
+        <li><strong>Both need</strong> proof that ownership claims correspond to physical reality.</li>
       </ul>
 
       <h2>Audit cycles and reporting discipline</h2>
       <p>
-        The article emphasizes that audits are not a one-time exercise. Custody agreements usually define an
-        audit cycle, and investors may use annual full counts, interim partial audits, or special audits when
-        holdings move or new allocations are added. Institutions often align audits with quarterly or semi-annual
-        reporting, while family offices may prefer annual full reconciliation with interim checks. :contentReference[oaicite:11]{index=11}
+        Audits are not a one-time exercise. Custody agreements usually define an audit cycle, and investors may use
+        annual full counts, interim partial audits, or special audits when holdings move or new allocations are added.
       </p>
 
       <p>
-        The article also outlines what reports usually contain: reference to the barlist examined, confirmation
-        of reconciled quantities and serials, details of any discrepancies, and signatures from both the audit
-        firm and relevant custody representatives. :contentReference[oaicite:12]{index=12}
+        Audit reports usually contain reference to the barlist examined, confirmation of reconciled quantities and serials,
+        details of any discrepancies, and signatures from both the audit firm and relevant custody representatives.
       </p>
 
       <h2>Why audited custody strengthens investor confidence</h2>
       <p>
-        The article frames confidence as the decisive outcome. Without audits, custody depends on trust in an
-        internal statement. With audits, the investor has signed external proof that the barlist matches the
-        metal inside the vault. This is what allows bullion to function as a governed asset rather than as an
-        opaque private reserve. :contentReference[oaicite:13]{index=13}
+        Without audits, custody depends on trust in an internal statement. With audits, the investor has signed external proof
+        that the barlist matches the metal inside the vault. This is what allows bullion to function as a governed asset rather
+        than as an opaque private reserve.
       </p>
 
       <p>
-        For institutions, this means gold can sit on the balance sheet with credible external support. For
-        family offices, it means trustees and heirs inherit not only bullion, but evidence that the bullion
-        has been preserved, recorded, and independently checked over time. :contentReference[oaicite:14]{index=14}
+        For institutions, this means gold can sit on the balance sheet with credible external support. For family offices,
+        it means trustees and heirs inherit not only bullion, but evidence that the bullion has been preserved, recorded,
+        and independently checked over time.
       </p>
 
       <h2>Practical integration into governance</h2>
       <p>
-        In its final section, the article explains that audited custody is most valuable when embedded directly
-        into wider governance systems. Institutions can attach audit certificates to quarterly reports and
-        compliance packs. Family offices can maintain a central custody file containing barlists, audit reports,
-        and insurance schedules alongside estate documents and family charters. :contentReference[oaicite:15]{index=15}
+        Audited custody is most valuable when embedded directly into wider governance systems. Institutions can attach audit
+        certificates to quarterly reports and compliance packs. Family offices can maintain a central custody file containing
+        barlists, audit reports, and insurance schedules alongside estate documents.
       </p>
 
       <p>
-        The article even gives practical steps: consolidate barlists into a central register, align audits with
-        reporting cycles, track insurance renewals on the same governance calendar, and store audit certificates
-        in both physical archives and secure digital repositories. :contentReference[oaicite:16]{index=16}
+        Practical discipline matters: consolidate barlists into a central register, align audits with reporting cycles,
+        track insurance renewals on the same governance calendar, and store audit certificates in both physical archives
+        and secure digital repositories.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        The article’s core conclusion is that audited custody turns bullion from passive storage into a controlled,
-        documented asset class. The value of gold is preserved not only by vault walls and insurance, but by the
-        quality of the evidence linking specific bars to the investor across time. That is what makes custody
-        reliable enough for reporting, succession, and long-term confidence. :contentReference[oaicite:17]{index=17}
+        Audited custody turns bullion from passive storage into a controlled, documented asset class. The value of gold is
+        preserved not only by vault walls and insurance, but by the quality of the evidence linking specific bars to the
+        investor across time.
       </p>
 
       <section class="source-box">
@@ -342,13 +216,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -369,11 +239,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
