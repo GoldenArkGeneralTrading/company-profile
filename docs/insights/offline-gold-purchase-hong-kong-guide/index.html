@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,90 +37,60 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
     .wrap {
       max-width: var(--max);
       margin: 0 auto;
       padding: 42px 20px 80px;
     }
-
     .topline {
       color: var(--muted);
       font-size: 14px;
       margin-bottom: 18px;
     }
-
     .article {
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 18px;
       padding: 34px 30px;
     }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
     .brand img {
       display: block;
       width: 190px;
       max-width: 100%;
       height: auto;
     }
-
     h1 {
       margin: 0 0 14px;
       line-height: 1.18;
       font-size: 38px;
       letter-spacing: -0.02em;
     }
-
     .lead {
       font-size: 19px;
       color: var(--muted);
       margin: 0 0 20px;
     }
-
     .meta {
       margin: 0 0 28px;
       font-size: 14px;
       color: var(--muted);
     }
-
     h2 {
       margin-top: 34px;
       margin-bottom: 14px;
       font-size: 25px;
       line-height: 1.25;
     }
-
-    p {
-      margin: 0 0 16px;
-    }
-
+    p { margin: 0 0 16px; }
     ul {
       margin: 0 0 18px 22px;
       padding: 0;
     }
-
-    li {
-      margin-bottom: 10px;
-    }
-
+    li { margin-bottom: 10px; }
     .note {
       padding: 18px 20px;
       border: 1px solid var(--line);
@@ -130,7 +98,6 @@
       background: rgba(255,255,255,0.02);
       margin: 24px 0;
     }
-
     .source-box {
       margin-top: 30px;
       padding: 18px 20px;
@@ -138,41 +105,19 @@
       border-radius: 12px;
       background: rgba(255,255,255,0.02);
     }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
+    .source-box + .source-box { margin-top: 18px; }
     .footer-note {
       margin-top: 28px;
       font-size: 14px;
       color: var(--muted);
     }
-
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +131,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -203,14 +145,14 @@
       </p>
 
       <p class="meta">
-        Insight mirror based on the original Golden Ark Reserve article published on 27 January 2026.
+        Insight mirror based on the original Golden Ark Reserve article.
       </p>
 
       <h2>Overview</h2>
       <p>
         In Hong Kong, offline physical gold buying takes place through direct interaction with a local
         counterparty, typically a bullion dealer, retail outlet, or bank-affiliated counter. The transaction
-        is completed in person, rather than through a remote platform, and relies on physical inspection,
+        is completed in person rather than through a remote platform and relies on physical inspection,
         immediate quote acceptance, documented payment, and direct receipt of the asset.
       </p>
 
@@ -218,20 +160,20 @@
         This model differs from online gold buying because execution, verification, and handover occur in one
         operational chain. The buyer must therefore evaluate not only spot-linked pricing, but also dealer
         reliability, authentication controls, settlement method, and whether the documentation is sufficient
-        to support later ownership evidence. :contentReference[oaicite:1]{index=1}
+        to support later ownership evidence.
       </p>
 
       <h2>How offline gold pricing works in Hong Kong</h2>
       <p>
         Hong Kong dealer pricing is commonly structured as a spot-linked quote plus a premium. The spot
         component provides the reference benchmark, while the premium reflects product form, fabrication,
-        distribution costs, dealer margin, inventory carrying conditions, and transaction method.
+        distribution costs, dealer margin, inventory conditions, and transaction method.
       </p>
 
       <p>
         Two dealers can therefore reference the same spot environment yet present different final prices.
         The premium layer is often the main variable separating one physical offer from another, especially
-        across bars, coins, standard denominations, and different levels of resale acceptance. :contentReference[oaicite:2]{index=2}
+        across bars, coins, standard denominations, and different levels of resale acceptance.
       </p>
 
       <div class="note">
@@ -264,7 +206,7 @@
       <p>
         Standardized bars and widely recognized bullion coins usually concentrate liquidity because they are
         easier to authenticate and easier to resell. Non-standard items introduce verification friction and
-        can widen future buy-sell spreads due to higher handling and authentication costs. :contentReference[oaicite:3]{index=3}
+        can widen future buy-sell spreads due to higher handling and authentication costs.
       </p>
 
       <ul>
@@ -283,28 +225,27 @@
       <p>
         Payment method also matters. The transaction should complete through a documented settlement path that
         can be matched coherently to the purchased item and the issuing seller. Evidence alignment between
-        payment, invoice, and delivered bullion strengthens the integrity of the acquisition chain. :contentReference[oaicite:4]{index=4}
+        payment, invoice, and delivered bullion strengthens the integrity of the acquisition chain.
       </p>
 
       <h2>Hong Kong-specific operating conditions</h2>
       <p>
-        The article frames Hong Kong offline gold purchase under general commercial law, dealer-defined
-        compliance procedures, and locally applied AML/KYC thresholds relevant to physical bullion transactions.
-        It also notes that non-residents may face stricter identity review and lower acceptance thresholds in
-        practice, especially where payment origin or documentation requires additional scrutiny. :contentReference[oaicite:5]{index=5}
+        Offline gold purchase in Hong Kong operates under general commercial law, dealer-defined compliance
+        procedures, and local AML or KYC thresholds relevant to physical bullion transactions. Non-residents
+        may encounter stricter identity review or lower acceptance thresholds in practice, especially where
+        payment origin or documentation requires additional scrutiny.
       </p>
 
       <p>
-        The scope is explicitly limited to in-person purchases of investment-grade physical gold in Hong Kong.
-        Excluded from the analytical framework are online or remote purchases, derivatives, paper gold, synthetic
-        exposure, jewelry, collectible products, and long-term custody strategy analysis beyond immediate
-        post-purchase handling. :contentReference[oaicite:6]{index=6}
+        The analytical scope is limited to in-person purchases of investment-grade physical gold in Hong Kong.
+        It does not cover online or remote purchases, derivatives, paper gold, jewelry, collectible products,
+        or long-term custody strategy beyond the immediate post-purchase stage.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        Offline gold purchase in Hong Kong can be efficient and legally straightforward, but only when the
-        transaction is approached as a controlled dealer process rather than a casual retail exchange. Good
+        Offline gold purchase in Hong Kong can be efficient and commercially straightforward, but only when the
+        transaction is approached as a controlled dealer process rather than as a casual retail exchange. Good
         execution depends on quote interpretation, seller quality, verification discipline, settlement clarity,
         and documentary completeness at the point of sale.
       </p>
@@ -317,13 +258,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -340,14 +277,11 @@
       <section class="source-box">
         <h2>Live gold spot price reference</h2>
         <p>
-          Golden Ark Reserve provides a live indicative gold spot price reference page for
-          wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
-          and unit conversions.
+          Golden Ark Reserve provides a live indicative gold spot price reference page for wholesale physical gold (XAU),
+          including benchmark valuation context, quote interpretation, and unit conversions.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
+          <a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a>
         </p>
       </section>
 
@@ -359,8 +293,7 @@
       </section>
 
       <p class="footer-note">
-        This page is a structured insight mirror. The original and canonical version is published on the official
-        Golden Ark Reserve website.
+        This page is a structured insight mirror. The original and canonical version is published on the official Golden Ark Reserve website.
       </p>
     </article>
   </main>
