@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Golden Ark Reserve Insights Index | Company Profile</title>
+  <meta name="description" content="Index page for Golden Ark Reserve insight mirrors published on GitHub Pages, including article links, company identifiers, legal names, and reference links." />
+  <link rel="canonical" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Golden Ark Reserve Insights Index | Company Profile" />
+  <meta property="og:description" content="Index page for Golden Ark Reserve insight mirrors with article links, legal names, and verification identifiers." />
+  <meta property="og:url" content="https://goldenarkgeneraltrading.github.io/company-profile/insights/" />
+  <meta property="og:site_name" content="Golden Ark Reserve" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Golden Ark Reserve Insights Index | Company Profile" />
+  <meta name="twitter:description" content="Index page for Golden Ark Reserve insight mirrors with article links and company verification identifiers." />
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --panel-2: #0f1727;
+      --text: #e8edf5;
+      --muted: #a8b3c7;
+      --line: #25324a;
+      --accent: #d4af37;
+      --accent-soft: rgba(212, 175, 55, 0.12);
+      --max: 1180px;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(212, 175, 55, 0.08), transparent 24%),
+        linear-gradient(180deg, #0b1220 0%, #0a1020 100%);
+      color: var(--text);
+      line-height: 1.72;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 36px 20px 80px;
+    }
+
+    .topline {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .hero {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 30px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      margin: 0 0 18px;
+    }
+
+    .brand a {
+      display: inline-block;
+      line-height: 0;
+    }
+
+    .brand img {
+      display: block;
+      width: 220px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 40px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    .lead {
+      margin: 0 0 20px;
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 900px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .box {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 18px;
+    }
+
+    .box h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+
+    .box p {
+      margin: 0 0 10px;
+    }
+
+    .legal-name {
+      font-weight: 700;
+    }
+
+    .arabic {
+      direction: rtl;
+      unicode-bidi: embed;
+      font-size: 18px;
+      margin-top: 4px;
+      color: var(--text);
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      border-radius: 999px;
+      color: var(--text);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .badge strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 30px 0 14px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    .section-note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .card-top {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(212,175,55,0.10), rgba(212,175,55,0.02));
+    }
+
+    .card-label {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .card-body {
+      padding: 18px 16px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      height: 100%;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .card-links {
+      margin-top: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-top: 4px;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      font-size: 14px;
+    }
+
+    .foot {
+      margin-top: 34px;
+      padding: 18px 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 20px 14px 48px;
+      }
+
+      .hero {
+        padding: 22px 18px;
+      }
+
+      h1 {
+        font-size: 31px;
+      }
+
+      .lead {
+        font-size: 17px;
+      }
+
+      .brand img {
+        width: 180px;
+      }
+
+      .section-head h2 {
+        font-size: 24px;
+      }
+
+      .card h3 {
+        font-size: 20px;
+      }
+
+      .badge {
+        white-space: normal;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topline">
+      <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Golden Ark Reserve</a>
+      / Insights Index
+    </div>
+
+    <section class="hero">
+      <div class="brand">
+        <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
+          <img
+            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
+            alt="Golden Ark Reserve"
+          />
+        </a>
+      </div>
+
+      <h1>Golden Ark Reserve Insights Index</h1>
+
+      <p class="lead">
+        This page consolidates the insight mirror articles published under the Golden Ark Reserve
+        company-profile environment. It is designed as a single reference page for readers, compliance teams,
+        search systems, and entity-verification workflows.
+      </p>
+
+      <div class="hero-grid">
+        <section class="box">
+          <h2>Legal identity</h2>
+          <p class="legal-name">Golden Ark General Trading (FZC) LLC</p>
+          <p>Operating trade name: <strong>Golden Ark Reserve</strong></p>
+          <p class="arabic">القوس الذهبي للتجارة العامة (شركة منطقة حرة)</p>
+          <p>Sultanate of Oman · Sohar Free Zone · Commercial Registration No. <strong>1603777</strong></p>
+        </section>
+
+        <section class="box">
+          <h2>Verification identifiers</h2>
+          <div class="badges">
+            <span class="badge"><strong>LEI</strong> 98450040E688696D1C47</span>
+            <span class="badge"><strong>PermID</strong> 5097108870</span>
+            <span class="badge"><strong>D-U-N-S</strong> 85-040-3724</span>
+            <span class="badge"><strong>BBID</strong> 72802597</span>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <div class="section-head">
+      <h2>Published insight mirrors</h2>
+      <div class="section-note">25 articles consolidated on one page</div>
+    </div>
+
+    <section class="cards">
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 01</div></div>
+        <div class="card-body">
+          <h3>How to Buy Physical Gold Offline in Hong Kong: Dealers, Process, and Transaction Security</h3>
+          <p>Dealer execution, on-site verification, settlement evidence, and secure handover controls.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/offline-gold-purchase-hong-kong-guide/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/offline-gold-purchase-hong-kong-guide/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 02</div></div>
+        <div class="card-body">
+          <h3>Gold Spot Price vs Premiums: Structural Pricing Mechanics of Physical Gold</h3>
+          <p>How benchmark spot price and physical execution premiums combine into real acquisition cost.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-spot-price-vs-premiums/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-spot-price-vs-premiums/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 03</div></div>
+        <div class="card-body">
+          <h3>CIF vs FOB for Gold Doré: Incoterms Allocation of Cost, Risk, and Delivery Obligations</h3>
+          <p>How CIF and FOB shift transport control, insurance burden, and risk-transfer logic.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/cif-vs-fob-gold-dore/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/cif-vs-fob-gold-dore/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 04</div></div>
+        <div class="card-body">
+          <h3>Gold vs Crypto vs Bank Transfers: How Capital Moves, Settles, and Stays Under Control</h3>
+          <p>Comparing bank rails, blockchain transfers, and physical gold settlement as capital systems.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-vs-crypto-vs-bank-transfers/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-vs-crypto-vs-bank-transfers/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 05</div></div>
+        <div class="card-body">
+          <h3>What Is the Gold Spot Price</h3>
+          <p>Definition, quotation standard, settlement horizon, and institutional role of spot gold.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/what-is-gold-spot-price/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/what-is-gold-spot-price/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 06</div></div>
+        <div class="card-body">
+          <h3>Offline Gold Purchase: Benefits, Security Controls, and a Step-by-Step Process</h3>
+          <p>Why in-person bullion acquisition can improve verification, title transfer, and control.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/offline-gold-purchase-benefits/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/offline-gold-purchase-benefits/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 07</div></div>
+        <div class="card-body">
+          <h3>Why Invest in Physical Gold as a Long-Term Asset</h3>
+          <p>Store-of-value logic, bearer ownership, scarcity, and long-horizon reserve relevance.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/why-invest-in-physical-gold/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/why-invest-in-physical-gold/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 08</div></div>
+        <div class="card-body">
+          <h3>How to Buy Gold with Bitcoin: Process, Settlement, and Custody</h3>
+          <p>Bitcoin as settlement rail and allocated physical bullion as the final owned asset.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/buy-gold-with-bitcoin/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 09</div></div>
+        <div class="card-body">
+          <h3>Institutional Doré Offtake: How Serious Buyers Operate, Verify, and Settle in Hong Kong</h3>
+          <p>Refinery authority, melting, assay governance, and settlement discipline in doré offtake.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/institutional-dore-offtake-hong-kong/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/institutional-dore-offtake-hong-kong/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 10</div></div>
+        <div class="card-body">
+          <h3>How Global Gold Spot Pricing Works: LBMA, COMEX, and the OTC Market</h3>
+          <p>How benchmark, futures, and OTC markets interact to form executable global spot pricing.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/how-global-gold-spot-pricing-works-lbma-comex-otc/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/how-global-gold-spot-pricing-works-lbma-comex-otc/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 11</div></div>
+        <div class="card-body">
+          <h3>Spot vs Futures Gold: Key Differences for Institutional Investors</h3>
+          <p>Settlement structure, leverage, rolling, basis, and portfolio use-case distinctions.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/spot-vs-futures-gold/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/spot-vs-futures-gold/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 12</div></div>
+        <div class="card-body">
+          <h3>How to Check the Quality of a Gold Bullion</h3>
+          <p>XRF, density, ultrasonic, and conductivity methods for professional bullion verification.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/how-to-check-the-quality-of-a-gold-bullion/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/how-to-check-the-quality-of-a-gold-bullion/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 13</div></div>
+        <div class="card-body">
+          <h3>Gold Spot Price Explained: How It’s Set, What It Reflects, and Why It Matters</h3>
+          <p>A practical reference on how spot works and why it is the base layer of physical gold pricing.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-spot-price-explained-how-it-s-set-what-it-reflects-and-why-it-matters/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-spot-price-explained-how-it-s-set-what-it-reflects-and-why-it-matters/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 14</div></div>
+        <div class="card-body">
+          <h3>Gold Purchase Agreements: How Institutional Contracts Are Structured</h3>
+          <p>SPA logic, party identification, pricing, delivery, and enforceability in institutional bullion deals.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-purchase-agreements-how-institutional-contracts-are-structured/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-purchase-agreements-how-institutional-contracts-are-structured/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 15</div></div>
+        <div class="card-body">
+          <h3>Tokenized Gold vs Allocated Custody: Institutional Perspectives</h3>
+          <p>Comparing tokenized claims and allocated bars across ownership, auditability, and reserve suitability.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/tokenized-gold-vs-allocated-custody-institutional-perspectives/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/tokenized-gold-vs-allocated-custody-institutional-perspectives/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 16</div></div>
+        <div class="card-body">
+          <h3>Capital Gains and Tax Structures in Institutional Gold Deals</h3>
+          <p>Why tax regime, contract structure, and settlement path determine reserve efficiency.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/capital-gains-and-tax-structures-in-institutional-gold-deals/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/capital-gains-and-tax-structures-in-institutional-gold-deals/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 17</div></div>
+        <div class="card-body">
+          <h3>Investing in Physical Gold: Institutional Guide to Secure Custody</h3>
+          <p>Allocated bars, vault standards, audits, insurance, and Hong Kong custody architecture.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/investing-in-physical-gold-institutional-guide-to-secure-custody/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/investing-in-physical-gold-institutional-guide-to-secure-custody/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 18</div></div>
+        <div class="card-body">
+          <h3>Offshore Gold Storage: How Geopolitical Risks Shape Custody Strategies</h3>
+          <p>Sanctions, capital controls, asset freezes, and how jurisdiction shapes gold access.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/offshore-gold-storage-how-geopolitical-risks-shape-custody-strategies/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/offshore-gold-storage-how-geopolitical-risks-shape-custody-strategies/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 19</div></div>
+        <div class="card-body">
+          <h3>Gold Custody Fees: How to Spot and Avoid Hidden Costs</h3>
+          <p>Storage, insurance, transfer costs, spreads, and where hidden custody expenses usually sit.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-custody-fees-how-to-spot-and-avoid-hidden-costs/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-custody-fees-how-to-spot-and-avoid-hidden-costs/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 20</div></div>
+        <div class="card-body">
+          <h3>Allocated vs Unallocated Gold: Key Differences</h3>
+          <p>Direct title versus general claim, and why the distinction matters in custody and insolvency.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/allocated-vs-unallocated-gold-key-differences/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/allocated-vs-unallocated-gold-key-differences/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 21</div></div>
+        <div class="card-body">
+          <h3>Gold Settlement via SWIFT and Crypto: Liquidity Options for Institutions</h3>
+          <p>How settlement rails turn stored bullion into usable liquidity for institutions and family offices.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-settlement-via-swift-and-crypto-liquidity-options-for-institutions/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-settlement-via-swift-and-crypto-liquidity-options-for-institutions/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 22</div></div>
+        <div class="card-body">
+          <h3>Audited Gold Custody for Investor Confidence and Reporting</h3>
+          <p>Why barlists, independent checks, and custody reporting convert bullion into governed evidence.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/audited-gold-custody-for-investor-confidence-and-reporting/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/audited-gold-custody-for-investor-confidence-and-reporting/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 23</div></div>
+        <div class="card-body">
+          <h3>Diversification with Offshore Gold Custody: Strategies for Family Offices</h3>
+          <p>How multi-jurisdiction vaulting improves resilience, reporting continuity, and succession readiness.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/diversification-with-offshore-gold-custody-strategies-for-family-offices/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/diversification-with-offshore-gold-custody-strategies-for-family-offices/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 24</div></div>
+        <div class="card-body">
+          <h3>Tax-Free Gold Storage in Dubai and Hong Kong</h3>
+          <p>How tax-neutral hubs can improve effective ounce yield and long-term reserve efficiency.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/tax-free-gold-storage-in-dubai-and-hong-kong/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/tax-free-gold-storage-in-dubai-and-hong-kong/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 25</div></div>
+        <div class="card-body">
+          <h3>Gold Custody for Long-Term Capital Preservation</h3>
+          <p>Allocated ownership, audits, insurance, liquidity access, and jurisdictional resilience for long-horizon reserves.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-custody-for-long-term-capital-preservation/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-custody-for-long-term-capital-preservation/">Original article</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="foot">
+      This index page is intended as a structured navigation layer for the Golden Ark Reserve insight mirrors
+      published on GitHub Pages. The original and canonical articles remain published on the official
+      Golden Ark Reserve website.
+    </section>
+  </main>
+</body>
+</html>
