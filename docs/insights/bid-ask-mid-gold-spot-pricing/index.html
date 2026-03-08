@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bid, Ask, and Mid in Gold Spot Pricing: Quote Fields, Spread Mechanics, and Use-Case Selection | Golden Ark Reserve</title>
+  <meta name="description" content="Structured insight mirror on bid, ask, and mid in gold spot pricing, including quote fields, spread mechanics, valuation logic, and practical use-case selection." />
+  <link rel="canonical" href="https://goldenarkreserve.com/blog/bid-ask-mid-gold-spot-pricing/" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Bid, Ask, and Mid in Gold Spot Pricing: Quote Fields, Spread Mechanics, and Use-Case Selection | Golden Ark Reserve" />
+  <meta property="og:description" content="A structured insight mirror on how bid, ask, and mid quotes work in gold spot pricing and how each field should be used." />
+  <meta property="og:url" content="https://goldenarkgeneraltrading.github.io/company-profile/insights/bid-ask-mid-gold-spot-pricing/" />
+  <meta property="og:site_name" content="Golden Ark Reserve" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bid, Ask, and Mid in Gold Spot Pricing: Quote Fields, Spread Mechanics, and Use-Case Selection | Golden Ark Reserve" />
+  <meta name="twitter:description" content="Structured mirror based on the original Golden Ark Reserve article on bid, ask, and mid in gold spot pricing." />
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --text: #e8edf5;
+      --muted: #a8b3c7;
+      --line: #25324a;
+      --accent: #d4af37;
+      --max: 920px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.74;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 42px 20px 80px;
+    }
+
+    .topline {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 34px 30px;
+    }
+
+    .brand {
+      margin: 0 0 18px;
+    }
+
+    .brand a {
+      display: inline-block;
+      line-height: 0;
+    }
+
+    .brand img {
+      display: block;
+      width: 190px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      line-height: 1.18;
+      font-size: 38px;
+      letter-spacing: -0.02em;
+    }
+
+    .lead {
+      font-size: 19px;
+      color: var(--muted);
+      margin: 0 0 20px;
+    }
+
+    .meta {
+      margin: 0 0 28px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 14px;
+      font-size: 25px;
+      line-height: 1.25;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      margin: 0 0 18px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .note {
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+      margin: 24px 0;
+    }
+
+    .source-box {
+      margin-top: 30px;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .source-box + .source-box {
+      margin-top: 18px;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 20px 14px 48px;
+      }
+
+      .article {
+        padding: 24px 18px;
+      }
+
+      .brand img {
+        width: 160px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .lead {
+        font-size: 17px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topline">
+      <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Golden Ark Reserve</a>
+      / Insights
+    </div>
+
+    <article class="article">
+      <div class="brand">
+        <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
+          <img
+            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
+            alt="Golden Ark Reserve"
+          />
+        </a>
+      </div>
+
+      <h1>Bid, Ask, and Mid in Gold Spot Pricing: Quote Fields, Spread Mechanics, and Use-Case Selection</h1>
+
+      <p class="lead">
+        Gold spot pricing is not a single number. Professional quote screens separate bid, ask,
+        and mid because each field reflects a different market function: executable selling,
+        executable buying, and neutral benchmark reference.
+      </p>
+
+      <p class="meta">
+        Insight mirror based on the original Golden Ark Reserve article published on 19 February 2026.
+      </p>
+
+      <h2>Overview</h2>
+      <p>
+        In wholesale gold markets, spot screens commonly display separate quote fields rather than
+        one universal “price.” This matters because the number used for valuation, the number used
+        for a buyer’s execution, and the number used for a seller’s execution are not identical.
+      </p>
+
+      <p>
+        Bid, ask, and mid exist to distinguish these functions clearly. Without that distinction,
+        market participants can confuse benchmark valuation with executable dealing terms, or use a
+        neutral reference price where a one-sided quote is actually required.
+      </p>
+
+      <h2>What the bid price means</h2>
+      <p>
+        The bid is the price at which the market is willing to buy. For a holder of gold, it is the
+        relevant reference when evaluating immediate liquidation or dealer take-back value. In simple
+        terms, if a seller wishes to exit, the bid side is the side that matters first.
+      </p>
+
+      <p>
+        This is why bid is associated with selling into the market, not buying from it. It reflects
+        the level at which a counterparty is prepared to receive the asset, subject to transaction
+        conditions, quantity, form, and operational feasibility.
+      </p>
+
+      <h2>What the ask price means</h2>
+      <p>
+        The ask is the price at which the market is willing to sell. For a buyer of gold, this is
+        the relevant side of the quote because it represents the market’s offered level for incoming
+        acquisition.
+      </p>
+
+      <p>
+        In practice, the ask matters when a client needs to know the starting point for purchase
+        execution. It is the offered side, not the neutral center point, and therefore it is the
+        more realistic directional reference for immediate buying decisions.
+      </p>
+
+      <div class="note">
+        <strong>Quote logic:</strong><br />
+        bid corresponds to immediate selling value;<br />
+        ask corresponds to immediate buying cost;<br />
+        mid corresponds to a neutral benchmark between the two.
+      </div>
+
+      <h2>What the mid price is for</h2>
+      <p>
+        The mid sits between bid and ask. It is typically used as an indicative benchmark reference
+        rather than an immediately executable transaction side. Because it is centered between the
+        two quoted dealing levels, it is useful for valuation displays, market monitoring, charting,
+        and internal benchmarking.
+      </p>
+
+      <p>
+        Mid is especially helpful when the goal is not to model a one-sided trade, but to present a
+        balanced reference level for market observation, reserve marking, or comparative analysis.
+      </p>
+
+      <h2>Why the spread exists</h2>
+      <p>
+        The spread is the difference between bid and ask. It reflects the market interval between
+        buying and selling interest and helps compensate for execution, dealing risk, inventory
+        management, liquidity conditions, and other operational realities of the market.
+      </p>
+
+      <p>
+        A spread is therefore not an error or a contradiction. It is part of how a real market
+        functions. The presence of a spread makes it possible to distinguish between theoretical
+        valuation and executable dealing conditions.
+      </p>
+
+      <h2>Use-case selection matters</h2>
+      <p>
+        Choosing the wrong quote field leads to analytical errors. A buyer who models acquisition
+        cost using mid may understate immediate purchase pricing. A seller who evaluates liquidation
+        using ask may overstate realizable proceeds. A valuation system that always uses bid or ask
+        may also introduce directional distortion where a neutral benchmark is more appropriate.
+      </p>
+
+      <ul>
+        <li><strong>Use bid</strong> when assessing immediate selling value or exit-side execution.</li>
+        <li><strong>Use ask</strong> when assessing immediate buying cost or entry-side execution.</li>
+        <li><strong>Use mid</strong> when a neutral indicative benchmark is needed for valuation or monitoring.</li>
+      </ul>
+
+      <h2>Why this matters in gold</h2>
+      <p>
+        In physical gold markets, confusion between quote fields can cascade into wider misunderstandings
+        about premiums, executable offers, and valuation references. The quote screen is only one layer
+        of pricing logic. Correctly interpreting bid, ask, and mid is the first step toward understanding
+        how market reference prices connect to real physical dealing conditions.
+      </p>
+
+      <p>
+        Sound pricing analysis begins by asking not “what is the price?” but “which quote field is
+        relevant for this purpose?” That distinction is essential for professional market use.
+      </p>
+
+      <section class="source-box">
+        <h2>About the publisher</h2>
+        <p>
+          This insight is published by <strong>Golden Ark General Trading (FZC) LLC</strong>,
+          operating under the trade name <strong>Golden Ark Reserve</strong>, Sultanate of Oman
+          (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
+        </p>
+        <p>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
+            Canonical company profile
+          </a>
+          |
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
+            Entity &amp; verification page
+          </a>
+        </p>
+      </section>
+
+      <section class="source-box">
+        <h2>Entity verification</h2>
+        <ul>
+          <li><strong>LEI:</strong> 98450040E688696D1C47</li>
+          <li><strong>Refinitiv PermID:</strong> 5097108870</li>
+          <li><strong>D-U-N-S:</strong> 85-040-3724</li>
+          <li><strong>Bloomberg Company ID (BBID):</strong> 72802597</li>
+        </ul>
+      </section>
+
+      <section class="source-box">
+        <h2>Live gold spot price reference</h2>
+        <p>
+          Golden Ark Reserve provides a live indicative gold spot price reference page for
+          wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
+          and unit conversions.
+        </p>
+        <p>
+          <a href="https://goldenarkreserve.com/gold-price/">
+            Check the current gold spot price
+          </a>
+        </p>
+      </section>
+
+      <section class="source-box">
+        <strong>Original article:</strong><br />
+        <a href="https://goldenarkreserve.com/blog/bid-ask-mid-gold-spot-pricing/">
+          Bid, Ask, and Mid in Gold Spot Pricing: Quote Fields, Spread Mechanics, and Use-Case Selection
+        </a>
+      </section>
+
+      <p class="footer-note">
+        This page is a structured insight mirror. The original and canonical version is published on the official
+        Golden Ark Reserve website.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
