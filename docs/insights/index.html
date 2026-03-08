@@ -27,7 +27,6 @@
       --muted: #a8b3c7;
       --line: #25324a;
       --accent: #d4af37;
-      --accent-soft: rgba(212, 175, 55, 0.12);
       --max: 1180px;
       --shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
     }
@@ -102,7 +101,7 @@
       margin: 0 0 20px;
       font-size: 18px;
       color: var(--muted);
-      max-width: 900px;
+      max-width: 920px;
     }
 
     .hero-grid {
@@ -116,7 +115,7 @@
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 16px;
-      padding: 18px 18px;
+      padding: 18px;
     }
 
     .box h2 {
@@ -253,9 +252,35 @@
       font-size: 14px;
     }
 
+    .repo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .repo-card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .repo-card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+
+    .repo-card p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
     .foot {
       margin-top: 34px;
-      padding: 18px 18px;
+      padding: 18px;
       border: 1px solid var(--line);
       border-radius: 16px;
       background: var(--panel);
@@ -268,7 +293,8 @@
         grid-template-columns: 1fr;
       }
 
-      .cards {
+      .cards,
+      .repo-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -329,9 +355,9 @@
       <h1>Golden Ark Reserve Insights Index</h1>
 
       <p class="lead">
-        This page consolidates the insight mirror articles published under the Golden Ark Reserve
-        company-profile environment. It is designed as a single reference page for readers, compliance teams,
-        search systems, and entity-verification workflows.
+        This page consolidates the published Golden Ark Reserve insight mirrors and related blog references
+        in one structured navigation layer for readers, compliance teams, entity-verification workflows,
+        and search systems.
       </p>
 
       <div class="hero-grid">
@@ -356,13 +382,72 @@
     </section>
 
     <div class="section-head">
-      <h2>Published insight mirrors</h2>
-      <div class="section-note">25 articles consolidated on one page</div>
+      <h2>Published insight mirrors and blog references</h2>
+      <div class="section-note">32 articles listed</div>
     </div>
 
     <section class="cards">
       <article class="card">
         <div class="card-top"><div class="card-label">Insight 01</div></div>
+        <div class="card-body">
+          <h3>Gold vs Cash Allocation Strategy</h3>
+          <p>Reserve allocation logic between immediately spendable cash and long-horizon gold holdings.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-vs-cash-allocation-strategy/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 02</div></div>
+        <div class="card-body">
+          <h3>Gold as a Strategic Reserve Asset: Scarcity, Stability, and Access</h3>
+          <p>Why gold functions as a strategic reserve asset through scarcity, resilience, and access.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-strategic-reserve-asset-scarcity-stability-access/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-as-a-strategic-reserve-asset-scarcity-stability-and-access/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 03</div></div>
+        <div class="card-body">
+          <h3>Bid, Ask, and Mid in Gold Spot Pricing: Quote Fields, Spread Mechanics, and Use-Case Selection</h3>
+          <p>How bid, ask, and mid define real pricing behavior in spot gold markets.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/bid-ask-mid-gold-spot-pricing/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/bid-ask-mid-gold-spot-pricing/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 04</div></div>
+        <div class="card-body">
+          <h3>When to Sell Gold: A Decision Framework for Timing Physical Gold Exits</h3>
+          <p>Decision framework for exiting physical gold based on strategy, liquidity, and market structure.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/when-to-sell-gold/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/when-to-sell-gold/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 05</div></div>
+        <div class="card-body">
+          <h3>Buying Physical Gold: Market Integrity, Settlement, and Risk Control</h3>
+          <p>How physical gold acquisition depends on transaction integrity, settlement design, and risk control.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/buying-physical-gold-integrity-settlement-risk-control/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/buying-physical-gold-integrity-settlement-risk-control/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 06</div></div>
         <div class="card-body">
           <h3>How to Buy Physical Gold Offline in Hong Kong: Dealers, Process, and Transaction Security</h3>
           <p>Dealer execution, on-site verification, settlement evidence, and secure handover controls.</p>
@@ -374,7 +459,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 02</div></div>
+        <div class="card-top"><div class="card-label">Insight 07</div></div>
         <div class="card-body">
           <h3>Gold Spot Price vs Premiums: Structural Pricing Mechanics of Physical Gold</h3>
           <p>How benchmark spot price and physical execution premiums combine into real acquisition cost.</p>
@@ -386,7 +471,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 03</div></div>
+        <div class="card-top"><div class="card-label">Insight 08</div></div>
         <div class="card-body">
           <h3>CIF vs FOB for Gold Doré: Incoterms Allocation of Cost, Risk, and Delivery Obligations</h3>
           <p>How CIF and FOB shift transport control, insurance burden, and risk-transfer logic.</p>
@@ -398,7 +483,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 04</div></div>
+        <div class="card-top"><div class="card-label">Insight 09</div></div>
         <div class="card-body">
           <h3>Gold vs Crypto vs Bank Transfers: How Capital Moves, Settles, and Stays Under Control</h3>
           <p>Comparing bank rails, blockchain transfers, and physical gold settlement as capital systems.</p>
@@ -410,7 +495,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 05</div></div>
+        <div class="card-top"><div class="card-label">Insight 10</div></div>
         <div class="card-body">
           <h3>What Is the Gold Spot Price</h3>
           <p>Definition, quotation standard, settlement horizon, and institutional role of spot gold.</p>
@@ -422,7 +507,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 06</div></div>
+        <div class="card-top"><div class="card-label">Insight 11</div></div>
         <div class="card-body">
           <h3>Offline Gold Purchase: Benefits, Security Controls, and a Step-by-Step Process</h3>
           <p>Why in-person bullion acquisition can improve verification, title transfer, and control.</p>
@@ -434,7 +519,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 07</div></div>
+        <div class="card-top"><div class="card-label">Insight 12</div></div>
         <div class="card-body">
           <h3>Why Invest in Physical Gold as a Long-Term Asset</h3>
           <p>Store-of-value logic, bearer ownership, scarcity, and long-horizon reserve relevance.</p>
@@ -446,7 +531,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 08</div></div>
+        <div class="card-top"><div class="card-label">Insight 13</div></div>
         <div class="card-body">
           <h3>How to Buy Gold with Bitcoin: Process, Settlement, and Custody</h3>
           <p>Bitcoin as settlement rail and allocated physical bullion as the final owned asset.</p>
@@ -458,7 +543,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 09</div></div>
+        <div class="card-top"><div class="card-label">Insight 14</div></div>
         <div class="card-body">
           <h3>Institutional Doré Offtake: How Serious Buyers Operate, Verify, and Settle in Hong Kong</h3>
           <p>Refinery authority, melting, assay governance, and settlement discipline in doré offtake.</p>
@@ -470,7 +555,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 10</div></div>
+        <div class="card-top"><div class="card-label">Insight 15</div></div>
         <div class="card-body">
           <h3>How Global Gold Spot Pricing Works: LBMA, COMEX, and the OTC Market</h3>
           <p>How benchmark, futures, and OTC markets interact to form executable global spot pricing.</p>
@@ -482,7 +567,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 11</div></div>
+        <div class="card-top"><div class="card-label">Insight 16</div></div>
         <div class="card-body">
           <h3>Spot vs Futures Gold: Key Differences for Institutional Investors</h3>
           <p>Settlement structure, leverage, rolling, basis, and portfolio use-case distinctions.</p>
@@ -494,7 +579,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 12</div></div>
+        <div class="card-top"><div class="card-label">Insight 17</div></div>
         <div class="card-body">
           <h3>How to Check the Quality of a Gold Bullion</h3>
           <p>XRF, density, ultrasonic, and conductivity methods for professional bullion verification.</p>
@@ -506,7 +591,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 13</div></div>
+        <div class="card-top"><div class="card-label">Insight 18</div></div>
         <div class="card-body">
           <h3>Gold Spot Price Explained: How It’s Set, What It Reflects, and Why It Matters</h3>
           <p>A practical reference on how spot works and why it is the base layer of physical gold pricing.</p>
@@ -518,7 +603,19 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 14</div></div>
+        <div class="card-top"><div class="card-label">Insight 19</div></div>
+        <div class="card-body">
+          <h3>Why Institutions Standardize on 400 oz LBMA Bars</h3>
+          <p>Why 400 oz London Good Delivery bars dominate institutional bullion movement and custody.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/why-institutions-standardize-on-400-oz-lbma-bars/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/why-institutions-standardize-on-400-oz-lbma-bars/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 20</div></div>
         <div class="card-body">
           <h3>Gold Purchase Agreements: How Institutional Contracts Are Structured</h3>
           <p>SPA logic, party identification, pricing, delivery, and enforceability in institutional bullion deals.</p>
@@ -530,7 +627,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 15</div></div>
+        <div class="card-top"><div class="card-label">Insight 21</div></div>
         <div class="card-body">
           <h3>Tokenized Gold vs Allocated Custody: Institutional Perspectives</h3>
           <p>Comparing tokenized claims and allocated bars across ownership, auditability, and reserve suitability.</p>
@@ -542,7 +639,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 16</div></div>
+        <div class="card-top"><div class="card-label">Insight 22</div></div>
         <div class="card-body">
           <h3>Capital Gains and Tax Structures in Institutional Gold Deals</h3>
           <p>Why tax regime, contract structure, and settlement path determine reserve efficiency.</p>
@@ -554,7 +651,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 17</div></div>
+        <div class="card-top"><div class="card-label">Insight 23</div></div>
         <div class="card-body">
           <h3>Investing in Physical Gold: Institutional Guide to Secure Custody</h3>
           <p>Allocated bars, vault standards, audits, insurance, and Hong Kong custody architecture.</p>
@@ -566,7 +663,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 18</div></div>
+        <div class="card-top"><div class="card-label">Insight 24</div></div>
         <div class="card-body">
           <h3>Offshore Gold Storage: How Geopolitical Risks Shape Custody Strategies</h3>
           <p>Sanctions, capital controls, asset freezes, and how jurisdiction shapes gold access.</p>
@@ -578,7 +675,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 19</div></div>
+        <div class="card-top"><div class="card-label">Insight 25</div></div>
         <div class="card-body">
           <h3>Gold Custody Fees: How to Spot and Avoid Hidden Costs</h3>
           <p>Storage, insurance, transfer costs, spreads, and where hidden custody expenses usually sit.</p>
@@ -590,7 +687,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 20</div></div>
+        <div class="card-top"><div class="card-label">Insight 26</div></div>
         <div class="card-body">
           <h3>Allocated vs Unallocated Gold: Key Differences</h3>
           <p>Direct title versus general claim, and why the distinction matters in custody and insolvency.</p>
@@ -602,7 +699,19 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 21</div></div>
+        <div class="card-top"><div class="card-label">Insight 27</div></div>
+        <div class="card-body">
+          <h3>Global Gold Logistics: Why Brinks and Ferrari Group Dominate Institutional Delivery</h3>
+          <p>How major secure-logistics operators support institutional bullion delivery and custody continuity.</p>
+          <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/global-gold-logistics-why-brinks-and-ferrari-group-dominate-institutional-delivery/">Mirror page</a>
+            <a class="link-pill" href="https://goldenarkreserve.com/blog/global-gold-logistics-why-brinks-and-ferrari-group-dominate-institutional-delivery/">Original article</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><div class="card-label">Insight 28</div></div>
         <div class="card-body">
           <h3>Gold Settlement via SWIFT and Crypto: Liquidity Options for Institutions</h3>
           <p>How settlement rails turn stored bullion into usable liquidity for institutions and family offices.</p>
@@ -614,7 +723,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 22</div></div>
+        <div class="card-top"><div class="card-label">Insight 29</div></div>
         <div class="card-body">
           <h3>Audited Gold Custody for Investor Confidence and Reporting</h3>
           <p>Why barlists, independent checks, and custody reporting convert bullion into governed evidence.</p>
@@ -626,7 +735,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 23</div></div>
+        <div class="card-top"><div class="card-label">Insight 30</div></div>
         <div class="card-body">
           <h3>Diversification with Offshore Gold Custody: Strategies for Family Offices</h3>
           <p>How multi-jurisdiction vaulting improves resilience, reporting continuity, and succession readiness.</p>
@@ -638,7 +747,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 24</div></div>
+        <div class="card-top"><div class="card-label">Insight 31</div></div>
         <div class="card-body">
           <h3>Tax-Free Gold Storage in Dubai and Hong Kong</h3>
           <p>How tax-neutral hubs can improve effective ounce yield and long-term reserve efficiency.</p>
@@ -650,7 +759,7 @@
       </article>
 
       <article class="card">
-        <div class="card-top"><div class="card-label">Insight 25</div></div>
+        <div class="card-top"><div class="card-label">Insight 32</div></div>
         <div class="card-body">
           <h3>Gold Custody for Long-Term Capital Preservation</h3>
           <p>Allocated ownership, audits, insurance, liquidity access, and jurisdictional resilience for long-horizon reserves.</p>
@@ -662,9 +771,40 @@
       </article>
     </section>
 
+    <div class="section-head">
+      <h2>Mirror repositories</h2>
+      <div class="section-note">Public Pages endpoints</div>
+    </div>
+
+    <section class="repo-grid">
+      <article class="repo-card">
+        <h3>GitHub Pages</h3>
+        <p>Primary company-profile mirror hosted on GitHub Pages.</p>
+        <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/">Open GitHub Pages</a>
+      </article>
+
+      <article class="repo-card">
+        <h3>GitLab Pages</h3>
+        <p>Parallel company-profile mirror hosted on GitLab Pages.</p>
+        <a class="link-pill" href="https://company-profile-43c34c.gitlab.io/">Open GitLab Pages</a>
+      </article>
+
+      <article class="repo-card">
+        <h3>Codeberg Pages</h3>
+        <p>Parallel company-profile mirror hosted on Codeberg Pages.</p>
+        <a class="link-pill" href="https://goldenarkreserve.codeberg.page/company-profile/">Open Codeberg Pages</a>
+      </article>
+
+      <article class="repo-card">
+        <h3>Bitbucket Pages</h3>
+        <p>Parallel company-profile mirror hosted on Bitbucket Pages.</p>
+        <a class="link-pill" href="https://goldenarkreserve.bitbucket.io/">Open Bitbucket Pages</a>
+      </article>
+    </section>
+
     <section class="foot">
-      This index page is intended as a structured navigation layer for the Golden Ark Reserve insight mirrors
-      published on GitHub Pages. The original and canonical articles remain published on the official
+      This index page is intended as a structured navigation layer for Golden Ark Reserve insight mirrors and
+      canonical blog references. The original and canonical articles remain published on the official
       Golden Ark Reserve website.
     </section>
   </main>
