@@ -20,176 +20,51 @@
 
   <style>
     :root {
-      --bg: #0b1220;
-      --panel: #121a2b;
-      --text: #e8edf5;
-      --muted: #a8b3c7;
-      --line: #25324a;
-      --accent: #d4af37;
-      --max: 920px;
+      --bg: #0b1220; --panel: #121a2b; --text: #e8edf5; --muted: #a8b3c7;
+      --line: #25324a; --accent: #d4af37; --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.74;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); line-height: 1.74; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
 <body>
   <main class="wrap">
     <div class="topline">
-      <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Golden Ark Reserve</a>
-      / Insights
+      <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Golden Ark Reserve</a> / Insights
     </div>
 
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -199,43 +74,40 @@
         The gold spot price is the globally recognized reference price for immediate or near-immediate
         gold transactions in the professional bullion market. It is quoted per troy ounce of refined
         gold and functions as the common valuation anchor used across physical bullion, OTC settlement,
-        accounting, and institutional reporting. 
+        accounting, and institutional reporting.
       </p>
 
-      <p class="meta">
-        Insight mirror based on the original Golden Ark Reserve article published on 13 January 2026.
-      </p>
+      <p class="meta">Insight mirror based on the original Golden Ark Reserve article.</p>
 
       <h2>Overview</h2>
       <p>
-        The article defines the gold spot price as the executable market price for refined gold under
-        current liquidity conditions. It is not a retail shelf quote, not a product-specific final price,
-        and not a generic estimate. It is the professional market reference used to align valuation and
-        settlement at a specific timestamp. :contentReference[oaicite:1]{index=1}
+        Gold spot price is the executable market reference for refined gold under current liquidity conditions.
+        It is not a retail shelf quote, not a product-specific final price, and not a generic estimate. It is
+        the professional market reference used to align valuation and settlement at a specific timestamp.
       </p>
 
       <p>
-        This matters because transaction-level costs such as premiums, fabrication charges, logistics,
-        delivery terms, and custody conditions are applied separately. The spot price provides the base
-        reference; deal-specific terms determine the final executable outcome. :contentReference[oaicite:2]{index=2}
+        Transaction-level costs such as premiums, fabrication charges, logistics, delivery terms, and custody
+        conditions are applied separately. The spot price provides the base reference; deal-specific terms
+        determine the final executable outcome.
       </p>
 
       <h2>Definition and scope</h2>
       <p>
-        On the page, the spot price is framed as the market-clearing price at which refined gold can
-        be traded for immediate or near-immediate settlement in the global bullion market. Its scope is
-        limited to professional bullion venues and OTC transactions where executable bids and offers exist. :contentReference[oaicite:3]{index=3}
+        The gold spot price is the market-clearing price at which refined gold can be traded for immediate or
+        near-immediate settlement in the global bullion market. Its scope is limited to professional bullion
+        venues and OTC transactions where executable bids and offers exist.
       </p>
 
       <p>
-        The article also defines clear scope boundaries:
+        Its scope can be broken down into four levels:
       </p>
 
       <ul>
         <li><strong>asset scope:</strong> refined physical gold meeting professional market purity standards,</li>
         <li><strong>market scope:</strong> wholesale bullion venues and OTC liquidity,</li>
         <li><strong>time scope:</strong> current market conditions at a defined timestamp,</li>
-        <li><strong>functional scope:</strong> valuation, settlement alignment, and reporting reference. :contentReference[oaicite:4]{index=4}</li>
+        <li><strong>functional scope:</strong> valuation, settlement alignment, and reporting reference.</li>
       </ul>
 
       <div class="note">
@@ -246,81 +118,74 @@
 
       <h2>Quotation unit and purity standard</h2>
       <p>
-        The article states that the quotation unit for gold spot price is the troy ounce, defined as
-        <strong>31.1035 grams</strong>. This unit is used consistently across OTC trades, benchmarks,
-        valuation systems, and reporting calculations. :contentReference[oaicite:5]{index=5}
+        The quotation unit for the gold spot price is the troy ounce, defined as <strong>31.1035 grams</strong>.
+        This unit is used consistently across OTC trades, benchmarks, valuation systems, and reporting calculations.
       </p>
 
       <p>
-        It also states that the reference purity standard is <strong>999.9 fineness</strong>, or 99.99%
-        refined gold. This purity standard serves as the default quality baseline for pricing, valuation,
-        and settlement reference in the professional bullion market. Gold with different fineness levels
-        requires transaction-level conversion rather than changing the spot reference itself. :contentReference[oaicite:6]{index=6}
+        The reference purity standard is <strong>999.9 fineness</strong>, or 99.99% refined gold. This purity standard
+        serves as the default quality baseline for pricing, valuation, and settlement reference in the professional
+        bullion market. Gold with different fineness levels requires transaction-level conversion rather than changing
+        the spot reference itself.
       </p>
 
       <h2>What asset the spot price actually references</h2>
       <p>
-        The page is explicit that the referenced asset is refined physical gold represented as a market
-        standard unit. It is not a derivative contract, not a paper claim, and not an arbitrary retail
-        product. The market treats compliant refined gold as a uniform valuation unit, while differences
-        in bar size, brand, packaging, or delivery form apply at the transaction layer. :contentReference[oaicite:7]{index=7}
+        The referenced asset is refined physical gold represented as a market standard unit. It is not a derivative
+        contract, not a paper claim, and not an arbitrary retail product. The market treats compliant refined gold
+        as a uniform valuation unit, while differences in bar size, brand, packaging, or delivery form apply at the
+        transaction layer.
       </p>
 
       <h2>Settlement horizon and areas of use</h2>
       <p>
-        The article defines spot as linked to immediate or near-immediate settlement under professional
-        bullion market conventions. This means the price corresponds to liquidity available at execution
-        time rather than to deferred delivery arrangements or long-dated contract structures. :contentReference[oaicite:8]{index=8}
+        Spot is linked to immediate or near-immediate settlement under professional bullion market conventions.
+        This means the price corresponds to liquidity available at execution time rather than to deferred delivery
+        arrangements or long-dated contract structures.
       </p>
 
       <p>
-        It then breaks down the three primary application areas:
+        It has three primary institutional uses:
       </p>
 
       <ul>
         <li><strong>valuation:</strong> marking current monetary value of refined gold holdings,</li>
         <li><strong>settlement:</strong> anchoring OTC cash-for-metal exchanges at execution time,</li>
-        <li><strong>accounting:</strong> supporting fair-value reporting, internal controls, and audit consistency. :contentReference[oaicite:9]{index=9}</li>
+        <li><strong>accounting:</strong> supporting fair-value reporting, internal controls, and audit consistency.</li>
       </ul>
 
       <h2>How the spot price is formed</h2>
       <p>
-        The formation section explains that spot pricing emerges from real-time interaction between executable
-        supply and demand in professional bullion markets. It is liquidity-driven, timestamp-specific, and
-        structurally aligned across venues and benchmark points rather than based on retail opinion or delayed
-        indicative pricing. :contentReference[oaicite:10]{index=10}
+        Spot pricing emerges from real-time interaction between executable supply and demand in professional bullion
+        markets. It is liquidity-driven, timestamp-specific, and structurally aligned across venues and benchmark
+        points rather than based on retail opinion or delayed indicative pricing.
       </p>
 
       <p>
-        The article identifies eligible participants such as bullion banks, market makers, accredited refiners,
-        and institutional traders, and describes how OTC bilateral trades, executable streaming quotes, and
-        wholesale liquidity pools contribute to continuous price discovery. Retail quotations, futures with
-        deferred delivery, and non-executable indicative prices are explicitly excluded from the formation logic. :contentReference[oaicite:11]{index=11}
+        Price formation is typically shaped by bullion banks, market makers, accredited refiners, and institutional
+        traders, together with OTC bilateral trades, executable streaming quotes, and wholesale liquidity pools.
+        Retail quotations, futures with deferred delivery, and non-executable indicative prices do not define the
+        core spot benchmark in the same way.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        Gold spot price is the professional reference layer that makes valuation, settlement, and reporting
-        coherent across the bullion market. Understanding what it includes—and what it deliberately excludes—
-        is essential for interpreting physical offers correctly and separating benchmark value from the final
-        economics of a real gold transaction. :contentReference[oaicite:12]{index=12}
+        Gold spot price is the professional reference layer that makes valuation, settlement, and reporting coherent
+        across the bullion market. Understanding what it includes and what it deliberately excludes is essential for
+        interpreting physical offers correctly and separating benchmark value from the final economics of a real gold transaction.
       </p>
 
       <section class="source-box">
         <h2>About the publisher</h2>
         <p>
           This insight is published by <strong>Golden Ark General Trading (FZC) LLC</strong>,
-          operating under the trade name <strong>Golden Ark Reserve</strong>, Sultanate of Oman
-          (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
+          operating under the trade name <strong>Golden Ark Reserve</strong>, Sultanate of Oman (Sohar Free Zone),
+          Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -337,15 +202,10 @@
       <section class="source-box">
         <h2>Live gold spot price reference</h2>
         <p>
-          Golden Ark Reserve provides a live indicative gold spot price reference page for
-          wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
-          and unit conversions.
+          Golden Ark Reserve provides a live indicative gold spot price reference page for wholesale physical gold (XAU),
+          including benchmark valuation context, quote interpretation, and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
@@ -356,8 +216,7 @@
       </section>
 
       <p class="footer-note">
-        This page is a structured insight mirror. The original and canonical version is published on the official
-        Golden Ark Reserve website.
+        This page is a structured insight mirror. The original and canonical version is published on the official Golden Ark Reserve website.
       </p>
     </article>
   </main>
