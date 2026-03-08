@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -208,29 +95,28 @@
 
       <h2>Overview</h2>
       <p>
-        The article argues that institutions and corporates cannot evaluate gold custody purely through
-        vault quality or insurance standards. Tax regimes determine whether reserves can be rebalanced,
-        mobilized, and liquidated without fiscal drag. In that sense, capital gains treatment becomes a
-        structural part of reserve design, not a post-transaction accounting detail. :contentReference[oaicite:1]{index=1}
+        Institutions and corporates cannot evaluate gold custody purely through vault quality or insurance standards.
+        Tax regimes determine whether reserves can be rebalanced, mobilized, and liquidated without fiscal drag.
+        In that sense, capital gains treatment becomes a structural part of reserve design, not a post-transaction accounting detail.
       </p>
 
       <p>
-        This is why the page compares major custody hubs not only by reputation, but by how each jurisdiction
-        handles gains, VAT or GST, and reporting. The institutional question is straightforward: can gold
-        remain a usable balance-sheet reserve, or does the jurisdiction turn it into a tax-burdened commodity? :contentReference[oaicite:2]{index=2}
+        This is why major custody hubs should be compared not only by reputation, but by how each jurisdiction handles
+        gains, VAT or GST, and reporting. The institutional question is straightforward: can gold remain a usable
+        balance-sheet reserve, or does the jurisdiction turn it into a tax-burdened commodity?
       </p>
 
       <h2>Why tax treatment defines strategy</h2>
       <p>
-        The article states that institutions allocate to gold for capital preservation and liquidity resilience,
-        but these functions are weakened if every liquidation event triggers taxation. Rebalancing then becomes
-        fiscally costly, and over time that drag can undermine the very stability gold is meant to provide. :contentReference[oaicite:3]{index=3}
+        Institutions allocate to gold for capital preservation and liquidity resilience, but these functions are weakened
+        if every liquidation event triggers taxation. Rebalancing then becomes fiscally costly, and over time that drag
+        can undermine the very stability gold is meant to provide.
       </p>
 
       <p>
         For corporates, the issue is even more operational. Treasury reserves must be usable for trade obligations,
         debt service, or emergency liquidity. If a gold sale in the chosen jurisdiction generates capital gains tax
-        or tax-like reclassification, the reserve becomes less effective as a live treasury asset. :contentReference[oaicite:4]{index=4}
+        or tax-like reclassification, the reserve becomes less effective as a live treasury asset.
       </p>
 
       <div class="note">
@@ -241,98 +127,68 @@
 
       <h2>Major custody hubs apply different tax logic</h2>
       <p>
-        The article compares four key custody hubs: Hong Kong, Switzerland, Singapore, and Dubai or UAE.
-        It presents them not as interchangeable “safe jurisdictions,” but as environments with materially
-        different treatment of gains, indirect taxes, and reporting requirements. :contentReference[oaicite:5]{index=5}
+        Key custody hubs such as Hong Kong, Switzerland, Singapore, and Dubai or UAE should not be treated as
+        interchangeable “safe jurisdictions.” They are environments with materially different treatment of gains,
+        indirect taxes, and reporting requirements.
       </p>
 
       <ul>
-        <li><strong>Hong Kong:</strong> 0% capital gains on physical gold transactions, making it highly efficient for rebalancing and treasury use. :contentReference[oaicite:6]{index=6}</li>
-        <li><strong>Switzerland:</strong> investment gold may be VAT-exempt, but institutional or commercial treatment can trigger taxable income classification and stronger reporting obligations. :contentReference[oaicite:7]{index=7}</li>
-        <li><strong>Singapore:</strong> investment-grade gold is GST-exempt, but institutional activity can be taxed if classified as trading rather than passive holding. :contentReference[oaicite:8]{index=8}</li>
-        <li><strong>Dubai/UAE:</strong> federal capital gains neutrality and free-zone structuring can support tax-efficient gold custody and trading. :contentReference[oaicite:9]{index=9}</li>
+        <li><strong>Hong Kong:</strong> often used where capital-gains neutrality and efficient reserve use are important.</li>
+        <li><strong>Switzerland:</strong> strong bullion credibility, but tax outcome depends on holder profile and structure.</li>
+        <li><strong>Singapore:</strong> can be efficient for investment-grade bullion, but classification still matters.</li>
+        <li><strong>Dubai/UAE:</strong> often used where tax neutrality and free-zone structuring support gold custody and trading.</li>
       </ul>
-
-      <h2>Hong Kong as a tax-neutral reserve hub</h2>
-      <p>
-        The article gives particular weight to Hong Kong because profits from the sale of physical gold are
-        not subject to capital gains tax. That neutrality allows institutions to rebalance without creating
-        tax leakage and allows corporates to mobilize reserves without reducing proceeds through fiscal erosion. :contentReference[oaicite:10]{index=10}
-      </p>
-
-      <p>
-        The page also links this tax neutrality to Hong Kong’s broader institutional environment: common-law
-        property rights, LBMA-standard vault infrastructure, and suitability for reserve management at scale.
-        The implication is that tax efficiency and custody quality reinforce one another in the jurisdiction. :contentReference[oaicite:11]{index=11}
-      </p>
-
-      <h2>Switzerland and Singapore reward structure, not assumptions</h2>
-      <p>
-        Switzerland and Singapore are presented as highly credible bullion hubs, but not automatically tax-free
-        in institutional use. Switzerland distinguishes between private and commercial treatment, while Singapore
-        distinguishes between passive holdings and activity that resembles trading income. In both cases, reporting,
-        accounting alignment, and sometimes tax opinions become necessary. :contentReference[oaicite:12]{index=12}
-      </p>
-
-      <p>
-        The article’s point is not that these jurisdictions are unattractive. Rather, it shows that they require
-        more deliberate classification work. Fiscal efficiency is available, but only if the structure, contract
-        language, and reporting treatment are aligned from the beginning. :contentReference[oaicite:13]{index=13}
-      </p>
 
       <h2>Contracts must preserve favorable treatment</h2>
       <p>
-        A major section of the article explains that tax regimes do not operate independently of contracts.
-        Purchase agreements must specify jurisdiction, ownership structure, reporting obligations, and liquidation
-        treatment clearly enough to preserve the intended fiscal outcome. Otherwise, a theoretically favorable
-        jurisdiction can still produce unwanted tax recognition. :contentReference[oaicite:14]{index=14}
+        Tax regimes do not operate independently of contracts. Purchase agreements must specify jurisdiction,
+        ownership structure, reporting obligations, and liquidation treatment clearly enough to preserve the
+        intended fiscal outcome.
       </p>
 
       <p>
-        The page highlights concrete contract-design implications:
+        A theoretically favorable jurisdiction can still produce unwanted tax recognition if the contract fails
+        to define the gold as investment-grade allocated property or if it leaves room for reclassification into
+        trading stock or commercial inventory.
       </p>
 
       <ul>
-        <li>jurisdiction clauses determine where gains are recognized and enforced,</li>
-        <li>investment-grade definitions may be needed to secure GST or VAT exemptions,</li>
-        <li>allocated ownership wording helps prevent gold from being reclassified as trading stock,</li>
-        <li>free-zone anchoring may preserve neutrality in Dubai or DMCC-linked structures. :contentReference[oaicite:15]{index=15}</li>
+        <li>jurisdiction clauses influence where gains are recognized and enforced,</li>
+        <li>investment-grade definitions may be needed to preserve indirect-tax exemptions,</li>
+        <li>allocated ownership wording helps separate reserves from trading positions,</li>
+        <li>free-zone anchoring may preserve neutrality in certain regional structures.</li>
       </ul>
 
       <h2>Multi-jurisdiction custody complicates tax outcomes</h2>
       <p>
-        The article also addresses multi-jurisdiction custody as a resilience strategy that can create fiscal
-        complexity. A bar liquidated in Hong Kong may remain tax-neutral, while the same action in Switzerland
-        may be treated differently. Consolidated reporting, intercompany transfer pricing, and OECD alignment
-        all become relevant when reserves are moved across borders or entities. :contentReference[oaicite:16]{index=16}
+        Diversified custody may strengthen resilience, but it also creates fiscal complexity. A bar liquidated in one
+        hub may remain tax-neutral, while the same action in another may be treated differently. Consolidated reporting,
+        transfer pricing, and cross-border recognition rules then become relevant.
       </p>
 
       <p>
-        This means diversified custody reduces one type of risk while increasing the need for clear tax
-        architecture. Institutions and corporates must define primary hubs, recognition rules, and reporting
-        paths before the reserve is mobilized, not after. :contentReference[oaicite:17]{index=17}
+        Institutions and corporates therefore need to define primary hubs, recognition rules, and reporting paths
+        before the reserve is mobilized, not after.
       </p>
 
       <h2>Settlement routes can trigger tax events</h2>
       <p>
-        The article is especially useful in showing that tax is not triggered only by a sale price on paper.
-        Settlement mechanics matter. Ownership transfer, jurisdiction of settlement, currency conversion, and
-        even the payment route can determine when and where gains are recognized. MT103 wires, letters of credit,
-        escrow, and crypto-based rails each create different recognition points and evidentiary issues. :contentReference[oaicite:18]{index=18}
+        Tax is not triggered only by a sale price on paper. Settlement mechanics matter. Ownership transfer,
+        jurisdiction of settlement, currency conversion, and even the payment route can determine when and where
+        gains are recognized.
       </p>
 
       <p>
         Institutions therefore use contracts to control not just price and delivery, but the sequence in which
         ownership transfers and proceeds are recognized. This is how settlement is aligned with favorable tax
-        treatment rather than accidentally routed through a taxable event. :contentReference[oaicite:19]{index=19}
+        treatment rather than accidentally routed through a taxable event.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        The article’s core conclusion is that institutional gold is only as efficient as the fiscal structure
-        supporting it. Jurisdiction choice, contract wording, reporting design, and settlement routing determine
-        whether gold remains a reserve asset with preserved value or becomes a holding eroded by tax drag and
-        compliance friction. For serious institutions, tax architecture is part of reserve architecture. :contentReference[oaicite:20]{index=20}
+        Institutional gold is only as efficient as the fiscal structure supporting it. Jurisdiction choice,
+        contract wording, reporting design, and settlement routing determine whether gold remains a reserve
+        asset with preserved value or becomes a holding eroded by tax drag and compliance friction.
       </p>
 
       <section class="source-box">
@@ -343,13 +199,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -370,11 +222,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
