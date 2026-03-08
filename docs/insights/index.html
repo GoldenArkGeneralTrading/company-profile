@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
   <title>Golden Ark Reserve Insights Index | Company Profile</title>
   <meta name="description" content="Index page for Golden Ark Reserve insight mirrors published on GitHub Pages, including article links, company identifiers, legal names, and reference links." />
   <link rel="canonical" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/" />
@@ -158,10 +159,19 @@
       color: var(--text);
       font-size: 14px;
       white-space: nowrap;
+      -webkit-text-fill-color: var(--text);
+    }
+
+    .badge,
+    .badge * {
+      color: var(--text) !important;
+      -webkit-text-fill-color: var(--text) !important;
+      text-decoration: none !important;
     }
 
     .badge strong {
-      color: var(--accent);
+      color: var(--accent) !important;
+      -webkit-text-fill-color: var(--accent) !important;
       font-weight: 700;
     }
 
@@ -177,11 +187,6 @@
       margin: 0;
       font-size: 28px;
       line-height: 1.15;
-    }
-
-    .section-note {
-      color: var(--muted);
-      font-size: 14px;
     }
 
     .cards {
@@ -383,7 +388,6 @@
 
     <div class="section-head">
       <h2>Published insight mirrors and blog references</h2>
-      <div class="section-note">32 articles listed</div>
     </div>
 
     <section class="cards">
@@ -393,6 +397,7 @@
           <h3>Gold vs Cash Allocation Strategy</h3>
           <p>Reserve allocation logic between immediately spendable cash and long-horizon gold holdings.</p>
           <div class="card-links">
+            <a class="link-pill" href="https://goldenarkgeneraltrading.github.io/company-profile/insights/gold-vs-cash-allocation-strategy/">Mirror page</a>
             <a class="link-pill" href="https://goldenarkreserve.com/blog/gold-vs-cash-allocation-strategy/">Original article</a>
           </div>
         </div>
@@ -773,7 +778,6 @@
 
     <div class="section-head">
       <h2>Mirror repositories</h2>
-      <div class="section-note">Public Pages endpoints</div>
     </div>
 
     <section class="repo-grid">
