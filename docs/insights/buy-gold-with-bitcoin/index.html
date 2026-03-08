@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -207,30 +94,29 @@
 
       <h2>Overview</h2>
       <p>
-        The article explains Bitcoin-to-gold acquisition as a defined operational sequence rather than
-        a generic crypto payment event. The transaction begins with BTC settlement, proceeds through
-        price fixation under agreed execution rules, and ends with allocation of specific physical gold
-        bars under custody. The buyer exits Bitcoin exposure and enters bullion ownership. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        Bitcoin-to-gold acquisition is a defined operational sequence rather than a generic crypto payment event.
+        The transaction begins with BTC settlement, proceeds through price fixation under agreed execution rules,
+        and ends with allocation of specific physical gold bars under custody. The buyer exits Bitcoin exposure
+        and enters bullion ownership.
       </p>
 
       <p>
-        This distinction matters because the transaction is not structured as continued digital-asset
-        investment. Bitcoin functions only at the settlement stage. Once pricing is fixed and bullion is
-        allocated, the economic exposure is entirely shifted into physical gold held under custody. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        This distinction matters because the transaction is not structured as continued digital-asset investment.
+        Bitcoin functions only at the settlement stage. Once pricing is fixed and bullion is allocated, the economic
+        exposure is entirely shifted into physical gold held under custody.
       </p>
 
       <h2>Bitcoin is the settlement medium, not the product</h2>
       <p>
-        The article is explicit that BTC in this structure serves as a settlement asset rather than as the
-        final investment object. The buyer initiates a blockchain transfer to a designated address, the
-        transaction is confirmed on-chain, and the confirmed value is then converted into a gold quantity
-        according to predefined pricing parameters. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        BTC in this structure serves as a settlement asset rather than as the final investment object. The buyer
+        initiates a blockchain transfer to a designated address, the transaction is confirmed on-chain, and the
+        confirmed value is then converted into a gold quantity according to predefined pricing parameters.
       </p>
 
       <p>
-        This keeps the transaction in the category of value transfer and asset conversion rather than crypto
-        trading. After completion, the buyer’s position is represented by physical bullion and standard custody
-        documentation, not by a continuing claim to digital units. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        This keeps the transaction in the category of value transfer and asset conversion rather than crypto trading.
+        After completion, the buyer’s position is represented by physical bullion and standard custody documentation,
+        not by a continuing claim to digital units.
       </p>
 
       <div class="note">
@@ -241,70 +127,68 @@
 
       <h2>Pricing and settlement are fixed through execution rules</h2>
       <p>
-        The article explains that Bitcoin-to-gold transactions follow predefined execution logic. Pricing is
-        fixed at a defined settlement point, often after a specified number of blockchain confirmations or
-        within an agreed execution window. Once that point is reached, the Bitcoin value is translated into a
-        physical gold quantity and is no longer exposed to subsequent Bitcoin price movement. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        Bitcoin-to-gold transactions follow predefined execution logic. Pricing is fixed at a defined settlement point,
+        often after a specified number of blockchain confirmations or within an agreed execution window. Once that point
+        is reached, the Bitcoin value is translated into a physical gold quantity and is no longer exposed to subsequent
+        Bitcoin price movement.
       </p>
 
       <p>
-        This matters because transaction integrity depends on separating transfer confirmation from pricing
-        finality. The article frames confirmation thresholds and execution windows as risk-control tools that
-        align value transfer, pricing discipline, and bullion allocation in one coherent process. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        This matters because transaction integrity depends on separating transfer confirmation from pricing finality.
+        Confirmation thresholds and execution windows align value transfer, pricing discipline, and bullion allocation
+        in one coherent process.
       </p>
 
       <h2>Allocated physical gold is the standard outcome</h2>
       <p>
-        The article states that Bitcoin-based gold purchase typically results in allocated bullion ownership.
-        Under allocated custody, specific bars are assigned to the named buyer and recorded individually at
-        the custody level. Ownership attaches to identified bullion rather than to a general account balance
-        or tokenized representation. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        Bitcoin-based gold purchase typically results in allocated bullion ownership. Under allocated custody, specific
+        bars are assigned to the named buyer and recorded individually at the custody level. Ownership attaches to
+        identified bullion rather than to a general account balance or tokenized representation.
       </p>
 
       <p>
-        This structure is contrasted with digital or tokenized gold formats. Allocated bullion provides legal
-        clarity because each bar is traceable by weight, purity, refiner mark, and serial number, and the
-        owner’s rights remain independent of the custodian’s balance sheet. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        This structure is contrasted with digital or tokenized gold formats. Allocated bullion provides legal clarity
+        because each bar is traceable by weight, purity, refiner mark, and serial number, and the owner’s rights remain
+        independent of the custodian’s balance sheet.
       </p>
 
       <ul>
         <li>institutional transactions commonly use LBMA Good Delivery bars,</li>
         <li>private and corporate transactions commonly use 1 kilogram bars,</li>
-        <li>allocation defines ownership through bar-level identification and custody records. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))</li>
+        <li>allocation defines ownership through bar-level identification and custody records.</li>
       </ul>
 
       <h2>Custody is part of the transaction, not a later add-on</h2>
       <p>
-        The article treats custody as part of the same execution chain as settlement. Once Bitcoin settlement
-        is recognized and pricing is fixed, the resulting gold must be allocated into a custody system that can
-        prove ownership, maintain auditability, and support future reporting, transfer, or withdrawal. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        Custody is part of the same execution chain as settlement. Once Bitcoin settlement is recognized and pricing is
+        fixed, the resulting gold must be allocated into a custody system that can prove ownership, maintain auditability,
+        and support future reporting, transfer, or withdrawal.
       </p>
 
       <p>
-        This is why custody proof, allocation reports, and ownership statements are not secondary documents.
-        They are the evidence that the digital settlement event has been converted into a physical reserve asset
-        under recognized control conditions.
+        This is why custody proof, allocation reports, and ownership statements are not secondary documents. They are the
+        evidence that the digital settlement event has been converted into a physical reserve asset under recognized
+        control conditions.
       </p>
 
       <h2>Compliance remains central even when payment is in Bitcoin</h2>
       <p>
-        The article is also clear that Bitcoin-based settlement does not bypass compliance. Identity verification,
-        transaction screening, source-of-funds review, and AML controls still apply because the resulting transaction
-        is a regulated precious-metals acquisition. Allocation and custody proceed only after these checks are satisfied. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        Bitcoin-based settlement does not bypass compliance. Identity verification, transaction screening, source-of-funds
+        review, and AML controls still apply because the resulting transaction is a regulated precious-metals acquisition.
+        Allocation and custody proceed only after these checks are satisfied.
       </p>
 
       <p>
-        Post-settlement documentation typically includes confirmation of Bitcoin settlement, allocation records
-        identifying the physical bullion, and custody confirmations linking the digital transfer to the newly
-        allocated gold position. ([goldenarkreserve.com](https://goldenarkreserve.com/blog/buy-gold-with-bitcoin/))
+        Post-settlement documentation typically includes confirmation of Bitcoin settlement, allocation records identifying
+        the physical bullion, and custody confirmations linking the digital transfer to the newly allocated gold position.
       </p>
 
       <h2>Why this matters</h2>
       <p>
         Bitcoin-to-gold transactions are useful because they separate mobility of value from final form of ownership.
-        Bitcoin provides the transfer layer; physical gold provides the long-term asset layer. Understanding how
-        pricing, confirmation thresholds, allocation, custody, and compliance fit together is essential if the goal
-        is not merely payment convenience, but defensible ownership of physical bullion.
+        Bitcoin provides the transfer layer; physical gold provides the long-term asset layer. Understanding how pricing,
+        confirmation thresholds, allocation, custody, and compliance fit together is essential if the goal is not merely
+        payment convenience, but defensible ownership of physical bullion.
       </p>
 
       <section class="source-box">
@@ -315,13 +199,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -342,11 +222,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
