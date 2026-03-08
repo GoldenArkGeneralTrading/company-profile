@@ -28,10 +28,8 @@
       --accent: #d4af37;
       --max: 920px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -39,140 +37,32 @@
       color: var(--text);
       line-height: 1.74;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .wrap {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 42px 20px 80px;
-    }
-
-    .topline {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 34px 30px;
-    }
-
-    .brand {
-      margin: 0 0 18px;
-    }
-
-    .brand a {
-      display: inline-block;
-      line-height: 0;
-    }
-
-    .brand img {
-      display: block;
-      width: 190px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      line-height: 1.18;
-      font-size: 38px;
-      letter-spacing: -0.02em;
-    }
-
-    .lead {
-      font-size: 19px;
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    .meta {
-      margin: 0 0 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    h2 {
-      margin-top: 34px;
-      margin-bottom: 14px;
-      font-size: 25px;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    ul {
-      margin: 0 0 18px 22px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      margin: 24px 0;
-    }
-
-    .source-box {
-      margin-top: 30px;
-      padding: 18px 20px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .source-box + .source-box {
-      margin-top: 18px;
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 20px 80px; }
+    .topline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+    .article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; }
+    .brand { margin: 0 0 18px; }
+    .brand a { display: inline-block; line-height: 0; }
+    .brand img { display: block; width: 190px; max-width: 100%; height: auto; }
+    h1 { margin: 0 0 14px; line-height: 1.18; font-size: 38px; letter-spacing: -0.02em; }
+    .lead { font-size: 19px; color: var(--muted); margin: 0 0 20px; }
+    .meta { margin: 0 0 28px; font-size: 14px; color: var(--muted); }
+    h2 { margin-top: 34px; margin-bottom: 14px; font-size: 25px; line-height: 1.25; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 18px 22px; padding: 0; }
+    li { margin-bottom: 10px; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 24px 0; }
+    .source-box { margin-top: 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); }
+    .source-box + .source-box { margin-top: 18px; }
+    .footer-note { margin-top: 28px; font-size: 14px; color: var(--muted); }
     @media (max-width: 640px) {
-      .wrap {
-        padding: 20px 14px 48px;
-      }
-
-      .article {
-        padding: 24px 18px;
-      }
-
-      .brand img {
-        width: 160px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .lead {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
+      .wrap { padding: 20px 14px 48px; }
+      .article { padding: 24px 18px; }
+      .brand img { width: 160px; }
+      h1 { font-size: 30px; }
+      .lead { font-size: 17px; }
+      h2 { font-size: 22px; }
     }
   </style>
 </head>
@@ -186,10 +76,7 @@
     <article class="article">
       <div class="brand">
         <a href="https://goldenarkreserve.com/" aria-label="Golden Ark Reserve">
-          <img
-            src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png"
-            alt="Golden Ark Reserve"
-          />
+          <img src="https://goldenarkreserve.com/wp-content/uploads/2025/10/galogo-text300.png" alt="Golden Ark Reserve" />
         </a>
       </div>
 
@@ -215,7 +102,6 @@
       <p>
         But long-term preservation depends on custody structure, not on price exposure alone. Paper gold instruments may track
         market movement, yet they do not create the same ownership profile as allocated bullion held under the investor’s name.
-        For a reserve strategy measured in decades, legal title and documentary continuity matter as much as valuation.
       </p>
 
       <div class="note">
@@ -226,28 +112,28 @@
 
       <h2>Why physical gold matters for long horizons</h2>
       <p>
-        Physical gold serves a different function from cash, bonds, or paper claims. Cash steadily loses purchasing power under inflation.
-        Financial assets may perform well for long periods, but they remain exposed to market cycles, policy shifts, and systemic shocks.
-        Gold is relevant because it can act as a reserve asset that is not dependent on the credit quality of an issuing institution.
+        Physical gold serves a different function from cash, bonds, or paper claims. Cash steadily loses purchasing power
+        under inflation. Financial assets may perform well for long periods, but they remain exposed to market cycles,
+        policy shifts, and systemic shocks.
       </p>
 
       <p>
-        This is especially important for family offices and institutions that think across 20- to 30-year horizons. Over such periods,
-        leadership changes, rules change, and asset-class correlations shift. A reserve asset intended for continuity must survive all of that
-        without expiring, restructuring, or relying on the solvency of intermediaries.
+        This is especially important for family offices and institutions that think across 20- to 30-year horizons.
+        Over such periods, leadership changes, rules change, and asset-class correlations shift. A reserve asset intended
+        for continuity must survive all of that without expiring, restructuring, or relying on the solvency of intermediaries.
       </p>
 
       <h2>Allocated custody as the core legal structure</h2>
       <p>
-        Allocated custody is the foundation of long-term bullion ownership. In this structure, bars are held in the investor’s name rather than
-        inside a pooled account. Each bar is identified by serial number, refiner mark, weight, and fineness, and those details appear on a barlist
-        issued by the vault or custody provider.
+        Allocated custody is the foundation of long-term bullion ownership. In this structure, bars are held in the investor’s
+        name rather than inside a pooled account. Each bar is identified by serial number, refiner mark, weight, and fineness,
+        and those details appear on a barlist issued by the vault or custody provider.
       </p>
 
       <p>
-        The custody agreement then gives those records legal force. It confirms that the investor is the owner of the bars and that the metal is
-        held outside the custodian’s own balance sheet. That distinction matters because it separates enforceable property rights from general
-        creditor claims against a provider.
+        The custody agreement then gives those records legal force. It confirms that the investor is the owner of the bars and
+        that the metal is held outside the custodian’s own balance sheet. That distinction matters because it separates enforceable
+        property rights from general creditor claims.
       </p>
 
       <ul>
@@ -258,49 +144,50 @@
 
       <h2>Audits and insurance complete the custody framework</h2>
       <p>
-        Independent audits provide the verification layer. Auditors reconcile the physical bars in the vault against the barlist and confirm that the
-        custody records match reality. Over long periods, this converts custody from a private assertion into an externally checkable fact.
+        Independent audits provide the verification layer. Auditors reconcile the physical bars in the vault against the barlist
+        and confirm that the custody records match reality. Over long periods, this converts custody from a private assertion
+        into an externally checkable fact.
       </p>
 
       <p>
-        Insurance adds the protective layer that covers theft, fire, physical damage, and other loss events, subject to policy terms. In a strong structure,
-        the coverage is tied to the allocated bars rather than merely to the vault operator as an institution. This makes the custody system more complete:
-        title proves ownership, audits prove existence, and insurance protects against physical loss.
+        Insurance adds the protective layer that covers theft, fire, physical damage, and other loss events. In a strong structure,
+        the coverage is tied to the allocated bars rather than merely to the vault operator as an institution.
       </p>
 
       <h2>Liquidity still matters, even in a long-term plan</h2>
       <p>
-        A 10- or 20-year reserve horizon does not eliminate the need for liquidity. Even long-term capital must remain usable for rebalancing, emergency funding,
-        or strategic redeployment. That is why serious custody structures define settlement access in advance rather than assuming it can be improvised later.
+        A 10- or 20-year reserve horizon does not eliminate the need for liquidity. Even long-term capital must remain usable
+        for rebalancing, emergency funding, or strategic redeployment. That is why serious custody structures define settlement
+        access in advance rather than assuming it can be improvised later.
       </p>
 
       <p>
-        Strong bullion custody can support settlement through bank rails such as SWIFT and SEPA and, where appropriate, through approved digital rails.
-        This does not turn gold into a trading instrument; it ensures that preserved wealth remains operationally accessible if conditions require action.
+        Strong bullion custody can support settlement through bank rails such as SWIFT and SEPA and, where appropriate,
+        through approved digital rails. This ensures that preserved wealth remains operationally accessible if conditions require action.
       </p>
 
       <h2>Governance and continuity across decades</h2>
       <p>
-        Long-term custody needs governance because people change even when the bars do not. Boards rotate, trustees change, advisers come and go, and family
-        structures evolve across generations. Without written rules, even well-stored gold can become operationally ambiguous.
+        Long-term custody needs governance because people change even when the bars do not. Boards rotate, trustees change,
+        advisers come and go, and family structures evolve across generations. Without written rules, even well-stored gold
+        can become operationally ambiguous.
       </p>
 
       <p>
-        A simple governance framework usually defines allocation range, audit frequency, insurance limits, approved vault jurisdictions, transfer authority,
-        and reporting cadence. This ensures that the gold remains part of a controlled system rather than becoming a passive asset with unclear oversight.
+        A simple governance framework usually defines allocation range, audit frequency, insurance limits, approved vault jurisdictions,
+        transfer authority, and reporting cadence. This ensures that the gold remains part of a controlled system.
       </p>
 
       <h2>Jurisdictional diversification strengthens resilience</h2>
       <p>
-        Where gold is stored matters as much as how it is stored. Relying on a single vault or jurisdiction creates concentration risk in one legal and political
-        environment. Diversifying across locations reduces the chance that a local regulatory change, sanctions issue, banking disruption, or operational problem
-        will affect the entire reserve at once.
+        Where gold is stored matters as much as how it is stored. Relying on a single vault or jurisdiction creates concentration
+        risk in one legal and political environment. Diversifying across locations reduces the chance that a local regulatory change,
+        sanctions issue, banking disruption, or operational problem will affect the entire reserve at once.
       </p>
 
       <p>
-        This is why multi-jurisdiction custody is often used in long-term structures. Centers such as Dubai and Hong Kong can complement each other by combining
-        legal clarity, tax efficiency, Asian market access, and broader geopolitical diversification. The goal is not complexity for its own sake, but continuity
-        if one location becomes constrained.
+        This is why multi-jurisdiction custody is often used in long-term structures. Centers such as Dubai and Hong Kong can
+        complement each other by combining legal clarity, tax efficiency, Asian market access, and broader geopolitical diversification.
       </p>
 
       <ul>
@@ -311,22 +198,20 @@
 
       <h2>Practical implementation sequence</h2>
       <p>
-        A durable custody structure begins with defining the preservation objective. Then comes jurisdiction planning, followed by contract review to confirm
-        allocated storage, barlist issuance, audit rights, insurance scope, and settlement access. After that, the governance layer should define reporting cycles,
-        signatory authority, and transfer controls.
+        A durable custody structure begins with defining the preservation objective. Then comes jurisdiction planning, followed by
+        contract review to confirm allocated storage, barlist issuance, audit rights, insurance scope, and settlement access.
+        After that, the governance layer should define reporting cycles, signatory authority, and transfer controls.
       </p>
 
       <p>
-        The final step is operational testing. Before scaling to a core allocation, it is prudent to review the barlist format, confirm the audit process, check
-        insurance wording, and validate that transfer or withdrawal procedures work as described. Long-term preservation depends on systems that function in practice,
-        not just in theory.
+        The final step is operational testing. Before scaling to a core allocation, it is prudent to review the barlist format,
+        confirm the audit process, check insurance wording, and validate that transfer or withdrawal procedures work as described.
       </p>
 
       <h2>Why this matters</h2>
       <p>
-        Gold custody becomes a real capital-preservation tool only when the bullion is legally owned, independently verifiable, properly insured, liquid enough to
-        remain usable, and diversified enough to withstand political and financial change. When those elements are aligned, bullion stops being passive storage and
-        becomes a durable reserve framework built to survive across decades.
+        Gold custody becomes a real capital-preservation tool only when the bullion is legally owned, independently verifiable,
+        properly insured, liquid enough to remain usable, and diversified enough to withstand political and financial change.
       </p>
 
       <section class="source-box">
@@ -337,13 +222,9 @@
           (Sohar Free Zone), Commercial Registration No. <strong>1603777</strong>.
         </p>
         <p>
-          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">
-            Canonical company profile
-          </a>
+          <a href="https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/">Canonical company profile</a>
           |
-          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">
-            Entity &amp; verification page
-          </a>
+          <a href="https://goldenarkgeneraltrading.github.io/company-profile/">Entity &amp; verification page</a>
         </p>
       </section>
 
@@ -364,11 +245,7 @@
           wholesale physical gold (XAU), including benchmark valuation context, quote interpretation,
           and unit conversions.
         </p>
-        <p>
-          <a href="https://goldenarkreserve.com/gold-price/">
-            Check the current gold spot price
-          </a>
-        </p>
+        <p><a href="https://goldenarkreserve.com/gold-price/">Check the current gold spot price</a></p>
       </section>
 
       <section class="source-box">
