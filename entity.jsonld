@@ -9,7 +9,7 @@
     "القوس الذهبي للتجارة العامة (شركة منطقة حرة)"
   ],
   "url": "https://goldenarkreserve.com",
-  "description": "Physical precious metals trading focused on institutional and corporate counterparties, including sourcing, structured sales, allocated storage with Brink’s, and secure delivery execution through Brink’s.",
+  "description": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
   "foundingLocation": {
     "@type": "Place",
     "name": "Sultanate of Oman"
@@ -95,25 +95,35 @@
   "sameAs": [
     "https://goldenarkreserve.com",
     "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
+    "https://goldenarkreserve.com/about/partners-service-providers/",
     "https://goldenarkreserve.com/press/",
+    "https://goldenarkreserve.com/buy-physical-gold/",
+    "https://goldenarkreserve.com/gold-bars/",
     "https://goldenarkreserve.com/gold-storage/",
     "https://goldenarkreserve.com/gold-delivery/",
+    "https://goldenarkreserve.com/gold-price/",
+
+    "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+    "https://company-profile-43c34c.gitlab.io/",
+    "https://company-profile-43c34c.gitlab.io/insights.html",
 
     "https://www.wikidata.org/wiki/Q137885502",
     "https://grokipedia.com/page/Golden_Ark_Reserve",
+    "https://www.linkedin.com/company/golden-ark-general-trading",
+    "https://www.youtube.com/@GoldenArkReserve",
+    "https://www.crunchbase.com/organization/golden-ark-reserve",
 
-    "https://goldenarkgeneraltrading.github.io/company-profile/",
     "https://github.com/GoldenArkGeneralTrading/",
     "https://github.com/GoldenArkGeneralTrading/company-profile",
 
-    "https://company-profile-43c34c.gitlab.io/",
     "https://gitlab.com/goldenarkreserve-group",
     "https://gitlab.com/goldenarkreserve-group/gitlab-profile",
     "https://gitlab.com/goldenarkreserve-group/company-profile",
 
-    "https://goldenarkreserve.codeberg.page/company-profile/",
     "https://codeberg.org/goldenarkreserve",
     "https://codeberg.org/goldenarkreserve/entity-verification",
+    "https://goldenarkreserve.codeberg.page/company-profile/",
 
     "https://goldenarkreserve.bitbucket.io/",
     "https://bitbucket.org/goldenarkreserve/company-profile",
