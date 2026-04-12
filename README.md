@@ -12,9 +12,9 @@ Official company entity information and public verification sources.
 - **English legal name:** Golden Ark General Trading (FZC) LLC  
 - **Trade name / brand:** Golden Ark Reserve  
 
-The operating model is **physical gold sales and delivery execution for qualified investors and corporate counterparties**, executed on a **contract basis** with documented sale records.
+The operating model is **physical gold sales, allocated storage, and delivery execution for qualified investors and corporate counterparties**, executed on a **contract basis** with documented sale records.
 
-Operational delivery steps may involve **licensed third-party vault and logistics operators** under their procedures and terms.
+Operational execution may include **allocated gold storage with Brink’s** and **secure physical delivery through Brink’s**, subject to the applicable transaction structure, jurisdiction, and procedures.
 
 ---
 
@@ -67,8 +67,46 @@ Press index (mirror):
 
 ## Business activity
 
-Physical precious metals trading focused on institutional and corporate counterparties, including sourcing, structured sales, and delivery execution under contract-based workflows with documented sale records.  
-Where required by the transaction structure, storage, custody, and transport steps may be executed via licensed third-party vault and logistics providers under their procedures and terms.
+Physical precious metals trading focused on institutional and corporate counterparties, including sourcing, structured sales, **allocated storage with Brink’s**, and **secure delivery execution through Brink’s** under contract-based workflows with documented sale records.  
+Where required by the transaction structure, account setup, vault placement, release, transport, and delivery steps are coordinated within the applicable storage, carrier, and compliance framework.
+
+---
+
+## Memberships
+
+### Responsible Jewellery Council (RJC)
+
+Golden Ark General Trading (FZC) LLC is a member of the Responsible Jewellery Council (RJC).
+
+Leading global standards organisation for the jewellery and precious metals industry, bringing together major market participants and advancing responsible business practices across the supply chain.
+
+- https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/
+
+### International Precious Metals Institute (IPMI)
+
+Golden Ark General Trading (FZC) LLC is a member of IPMI.
+
+Founded in 1976, IPMI is a global trade association focused on the precious metals industry. IPMI supports professional exchange and industry practice development through conferences, chapters, and working committees.
+
+- https://www.ipmi.org/
+
+### International Chamber of Commerce (ICC)
+
+Golden Ark General Trading (FZC) LLC is a full member of ICC.
+
+Golden Ark General Trading (FZC) LLC is engaged in the work of the following ICC Commissions: Banking; Corporate Responsibility & Anti-Corruption; Customs & Trade Facilitation; Trade & Investment.
+
+Founded in 1919, ICC is a global business organization active in more than 170 countries, supporting international trade by representing business in policy and regulatory discussions and by providing practical frameworks used in cross-border commerce.
+
+- https://iccwbo.org/
+
+### Oman Chamber of Commerce and Industry (OCCI)
+
+Golden Ark General Trading (FZC) LLC is a member of OCCI.
+
+OCCI is Oman’s national chamber, representing registered members and serving as a link between the government and the private sector.
+
+- https://omanchamber.om/
 
 ---
 
