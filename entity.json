@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "last_updated_utc": "2026-04-12",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
@@ -12,10 +12,24 @@
     "press": "https://goldenarkreserve.com/press/"
   },
   "business_activity": {
-    "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including sourcing, structured sales, allocated storage with Brink’s, and secure delivery execution through Brink’s under contract-based workflows with documented sale records.",
+    "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
     "client_focus": "Qualified investors and corporate counterparties",
     "execution_model": "Contract-based workflows with documented sale records",
     "storage_and_delivery": "Allocated storage with Brink’s and secure delivery through Brink’s are available within the applicable transaction structure, jurisdiction, and procedures."
+  },
+  "supplier_relationships": {
+    "heraeus_precious_metals": {
+      "organization_name": "Heraeus Precious Metals",
+      "relationship": "official supplier",
+      "reference_page": "https://goldenarkreserve.com/about/partners-service-providers/"
+    }
+  },
+  "key_service_pages": {
+    "buy_physical_gold": "https://goldenarkreserve.com/buy-physical-gold/",
+    "gold_bars": "https://goldenarkreserve.com/gold-bars/",
+    "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
+    "physical_delivery": "https://goldenarkreserve.com/gold-delivery/",
+    "gold_price_reference": "https://goldenarkreserve.com/gold-price/"
   },
   "identifiers": {
     "lei": "98450040E688696D1C47",
@@ -63,7 +77,9 @@
   },
   "public_pages": {
     "github_pages": "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "github_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
     "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
+    "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
     "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
     "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/"
   },
@@ -108,9 +124,15 @@
       "icc": "https://iccwbo.org/",
       "occi": "https://omanchamber.om/"
     },
-    "operational_pages": {
+    "supplier_relationships": {
+      "heraeus_precious_metals": "https://goldenarkreserve.com/about/partners-service-providers/"
+    },
+    "service_pages": {
+      "buy_physical_gold": "https://goldenarkreserve.com/buy-physical-gold/",
+      "gold_bars": "https://goldenarkreserve.com/gold-bars/",
       "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
-      "delivery_execution": "https://goldenarkreserve.com/gold-delivery/"
+      "physical_delivery": "https://goldenarkreserve.com/gold-delivery/",
+      "gold_price_reference": "https://goldenarkreserve.com/gold-price/"
     },
     "disclosures": {
       "canonical_press": "https://goldenarkreserve.com/press/",
@@ -131,5 +153,5 @@
       "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile"
     }
   },
-  "notes": "Mirror dataset for public verification. Keep identifiers, canonical URLs, memberships, and operating model references consistent across all mirrors."
+  "notes": "Mirror dataset for public verification. Keep identifiers, canonical URLs, memberships, supplier references, service-page references, and operating model references consistent across all mirrors."
 }
