@@ -1,18 +1,29 @@
 # PRESS / Media Coverage Index
 
-This file provides a curated public index of selected media pickups related to Golden Ark General Trading (FZC) LLC / Golden Ark Reserve.
+This file provides a curated public index of selected media pickups and issuer-disclosure references related to **Golden Ark General Trading (FZC) LLC** / **Golden Ark Reserve**.
 
-For the complete machine-readable list of all available pickups (including syndications/reprints), see:
+For the canonical company press page, see:
+- https://goldenarkreserve.com/press/
+
+For the complete machine-readable list of available pickups, syndications, and reprints, see:
 - `press/press-index.csv`
 
 ---
 
+## Canonical press / disclosures
+
+- Golden Ark Reserve Press and Media Coverage: <https://goldenarkreserve.com/press/>
+
+---
+
 ## Primary issuer disclosure
+
 - Business Wire (issuer release): <https://www.businesswire.com/news/home/20260203826775/en>
 
 ---
 
 ## Key media pickups (curated)
+
 - The Financial Times (Markets / announcement feed): <https://markets.ft.com/data/announce/detail?dockey=600-202602030435BIZWIRE_USPRX____20260203_BW826775-1>
 - Yahoo Finance: <https://finance.yahoo.com/news/rising-global-bullion-market-risks-093500139.html>
 - Agence France-Presse (AFP): <https://www.afp.com/index.php/de/node/3813017>
@@ -30,11 +41,13 @@ For the complete machine-readable list of all available pickups (including syndi
 - CSV (GitHub view): <https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/press/press-index.csv>
 - CSV (raw): <https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv>
 
-Note: links in the CSV file may appear as plain text in GitHub’s table view. For clickable links, use this `PRESS.md` page.
+Note: links in the CSV file may appear as plain text in GitHub’s table view. For clickable links, use this `PRESS.md` page or the canonical press page on the main website.
 
 ---
 
 ## Notes
-- This list is curated for readability and due diligence convenience.
-- The complete index may include syndications, mirrors, and reposts of the same release.
-- Inclusion in the index does not imply editorial endorsement by the listed outlet.
+
+- This list is curated for readability, entity-reference consistency, and preliminary due diligence convenience.
+- The full index may include syndications, mirrors, localized versions, and reposts of the same issuer disclosure.
+- Some third-party publisher pages may vary in availability by region, access policy, or indexing status over time.
+- Inclusion in this index does not imply editorial endorsement by the listed outlet.
