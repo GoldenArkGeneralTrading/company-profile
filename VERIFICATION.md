@@ -63,9 +63,15 @@ https://goldenarkreserve.com/press/
 
 ## Memberships / institutional affiliations (public references)
 
+### Responsible Jewellery Council (RJC)
+**Status:** Member  
+**Member page:** https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/  
+Leading global standards organisation for the jewellery and precious metals industry, bringing together major market participants and advancing responsible business practices across the supply chain.
+
 ### International Precious Metals Institute (IPMI)
 **Status:** Member  
-**Website:** https://www.ipmi.org/
+**Website:** https://www.ipmi.org/  
+Founded in 1976, IPMI is a global trade association focused on the precious metals industry. IPMI supports professional exchange and industry practice development through conferences, chapters, and working committees.
 
 ### International Chamber of Commerce (ICC)
 **Status:** Full member  
@@ -76,9 +82,24 @@ https://goldenarkreserve.com/press/
 - Customs & Trade Facilitation
 - Trade & Investment
 
+Founded in 1919, ICC is a global business organization active in more than 170 countries, supporting international trade by representing business in policy and regulatory discussions and by providing practical frameworks used in cross-border commerce.
+
 ### Oman Chamber of Commerce and Industry (OCCI)
 **Status:** Member  
-**Website:** https://omanchamber.om/
+**Website:** https://omanchamber.om/  
+OCCI is Oman’s national chamber, representing registered members and serving as a link between the government and the private sector.
+
+---
+
+## Operating model / public service references
+
+Golden Ark Reserve’s public service pages describe an operating model centered on physical gold sales and transaction execution, including allocated storage with Brink’s and secure delivery through Brink’s under the applicable transaction structure and procedures.
+
+### Allocated storage with Brink’s
+- Storage page: https://goldenarkreserve.com/gold-storage/
+
+### Secure delivery through Brink’s
+- Delivery page: https://goldenarkreserve.com/gold-delivery/
 
 ---
 
@@ -143,7 +164,7 @@ Codeberg (raw):
 ## Notes for counterparties / researchers
 
 - Public web references may contain syndicated copies, mirrors, or localized versions of the same issuer disclosure.
-- For authoritative legal-entity identification, use the identifier records above (especially LEI / GLEIF and other recognized entity databases).
+- For authoritative legal-entity identification, use the identifier records above, especially LEI / GLEIF and other recognized entity databases.
 - Public references are provided for convenience and preliminary cross-checking only.
 - Formal onboarding, KYC/AML review, and transaction due diligence are conducted separately and are not substituted by this page.
 
