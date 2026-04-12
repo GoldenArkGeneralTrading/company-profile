@@ -1,6 +1,6 @@
 {
-  "version": "1.3",
-  "last_updated_utc": "2026-03-03",
+  "version": "1.4",
+  "last_updated_utc": "2026-04-12",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -10,6 +10,12 @@
   "canonical": {
     "company_profile": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
     "press": "https://goldenarkreserve.com/press/"
+  },
+  "business_activity": {
+    "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including sourcing, structured sales, allocated storage with Brink’s, and secure delivery execution through Brink’s under contract-based workflows with documented sale records.",
+    "client_focus": "Qualified investors and corporate counterparties",
+    "execution_model": "Contract-based workflows with documented sale records",
+    "storage_and_delivery": "Allocated storage with Brink’s and secure delivery through Brink’s are available within the applicable transaction structure, jurisdiction, and procedures."
   },
   "identifiers": {
     "lei": "98450040E688696D1C47",
@@ -23,6 +29,13 @@
     "isni": "0000000529692415"
   },
   "memberships": {
+    "rjc": {
+      "organization_name": "Responsible Jewellery Council",
+      "abbreviation": "RJC",
+      "membership_status": "member",
+      "member_page": "https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/",
+      "website": "https://www.responsiblejewellery.com/"
+    },
     "ipmi": {
       "organization_name": "International Precious Metals Institute",
       "abbreviation": "IPMI",
@@ -90,9 +103,14 @@
       "dnb_business_directory_profile": "https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html"
     },
     "memberships": {
+      "rjc": "https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/",
       "ipmi": "https://www.ipmi.org/",
       "icc": "https://iccwbo.org/",
       "occi": "https://omanchamber.om/"
+    },
+    "operational_pages": {
+      "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
+      "delivery_execution": "https://goldenarkreserve.com/gold-delivery/"
     },
     "disclosures": {
       "canonical_press": "https://goldenarkreserve.com/press/",
@@ -113,5 +131,5 @@
       "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile"
     }
   },
-  "notes": "Mirror dataset for public verification. Keep identifiers and canonical URLs consistent across all mirrors."
+  "notes": "Mirror dataset for public verification. Keep identifiers, canonical URLs, memberships, and operating model references consistent across all mirrors."
 }
