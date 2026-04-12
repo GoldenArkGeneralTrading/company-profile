@@ -21,6 +21,9 @@ https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 **Canonical press / disclosures (main website):**  
 https://goldenarkreserve.com/press/
 
+**Official insights page (main website):**  
+https://goldenarkreserve.com/blog/
+
 ---
 
 ## Core entity identifiers
@@ -91,6 +94,40 @@ OCCI is Oman’s national chamber, representing registered members and serving a
 
 ---
 
+## Supplier relationship / refinery-origin supply references
+
+### Official Supplier of Heraeus Precious Metals
+Golden Ark Reserve is an official supplier of Heraeus Precious Metals for refinery-origin bullion and precious metals products.
+
+This supply relationship supports access to both Heraeus and Argor-Heraeus bar formats used in physical gold sales, allocation, and delivery execution.
+
+**Public reference:**  
+https://goldenarkreserve.com/about/partners-service-providers/
+
+---
+
+## Key service references
+
+### Buy Physical Gold
+Golden Ark Reserve provides structured physical gold acquisition for qualified investors and corporate counterparties. Transactions are organized around selected product format, requested quantity, confirmed commercial terms, onboarding, compliance review, payment verification, and documented execution.
+
+**Service page:**  
+https://goldenarkreserve.com/buy-physical-gold/
+
+### Refinery-origin Gold Bars
+Golden Ark Reserve supplies refinery-origin gold bars bearing the stamps of Heraeus and Argor-Heraeus SA (Switzerland). The public product page presents standardized bullion formats with defined weight, fineness, and refiner mark attributes used for structured commercial acquisition and documented allocation.
+
+**Product page:**  
+https://goldenarkreserve.com/gold-bars/
+
+### Gold Spot Price reference
+Golden Ark Reserve maintains a public gold spot price page presenting an indicative OTC mid-market reference for XAU quoted in USD per troy ounce. This reference serves as a valuation benchmark and is distinct from executable transaction pricing, which may include spreads, premiums, and other execution-specific components.
+
+**Reference page:**  
+https://goldenarkreserve.com/gold-price/
+
+---
+
 ## Operating model / public service references
 
 Golden Ark Reserve’s public service pages describe an operating model centered on physical gold sales and transaction execution, including allocated storage with Brink’s and secure delivery through Brink’s under the applicable transaction structure and procedures.
@@ -108,7 +145,9 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 ### Public mirror pages (Entity & Verification)
 
 - GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/
+- GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights/
 - GitLab Pages: https://company-profile-43c34c.gitlab.io/
+- GitLab Pages (Capital & Gold Insights): https://company-profile-43c34c.gitlab.io/insights.html
 - Codeberg Pages: https://goldenarkreserve.codeberg.page/company-profile/
 - Bitbucket Pages: https://goldenarkreserve.bitbucket.io/
 
