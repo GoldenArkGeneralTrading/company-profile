@@ -128,6 +128,24 @@ https://goldenarkreserve.com/gold-price/
 
 ---
 
+## Capital & Gold Insights
+
+Golden Ark Reserve publishes institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, and gold pricing.
+
+**Official insights archive:**  
+https://goldenarkreserve.com/blog/
+
+**GitHub Pages insights navigation:**  
+https://goldenarkgeneraltrading.github.io/company-profile/insights.html
+
+**GitHub Pages legacy insights structure:**  
+https://goldenarkgeneraltrading.github.io/company-profile/insights/
+
+**GitLab Pages insights navigation:**  
+https://company-profile-43c34c.gitlab.io/insights.html
+
+---
+
 ## Operating model / public service references
 
 Golden Ark Reserve’s public service pages describe an operating model centered on physical gold sales and transaction execution, including allocated storage with Brink’s and secure delivery through Brink’s under the applicable transaction structure and procedures.
@@ -145,7 +163,8 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 ### Public mirror pages (Entity & Verification)
 
 - GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/
-- GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights/
+- GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights.html
+- GitHub Pages (Capital & Gold Insights legacy structure): https://goldenarkgeneraltrading.github.io/company-profile/insights/
 - GitLab Pages: https://company-profile-43c34c.gitlab.io/
 - GitLab Pages (Capital & Gold Insights): https://company-profile-43c34c.gitlab.io/insights.html
 - Codeberg Pages: https://goldenarkreserve.codeberg.page/company-profile/
@@ -153,7 +172,11 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 
 ### Canonical entity files (public)
 
-GitHub (raw):
+GitHub Pages:
+- entity.json: https://goldenarkgeneraltrading.github.io/company-profile/entity.json
+- entity.jsonld: https://goldenarkgeneraltrading.github.io/company-profile/entity.jsonld
+
+GitHub raw:
 - entity.json: https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.json
 - entity.jsonld: https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.jsonld
 
