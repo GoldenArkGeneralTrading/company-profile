@@ -8,70 +8,81 @@
 - **English legal name:** Golden Ark General Trading (FZC) LLC  
 - **Trade name / brand:** Golden Ark Reserve  
 
-The operating model is **physical precious metals trading for qualified investors and corporate counterparties**, including **structured physical gold sales, refinery-origin gold bars, allocated storage with Brink’s, and secure delivery execution through Brink’s**, carried out on a **contract basis** with documented sale records.
+Golden Ark Reserve operates a physical precious metals trading model for **qualified investors and corporate counterparties**. The operating model includes **structured physical gold sales, refinery-origin gold bars, allocated storage with Brink’s, and secure delivery execution through Brink’s**, carried out on a **contract basis** with documented sale records.
+
+This GitHub repository is maintained as a public entity verification profile for Golden Ark Reserve. It connects legal identity, official website pages, public identifiers, membership references, supplier references, service pages, machine-readable files, and public research resources in one structured repository.
 
 ---
 
-## Canonical company profile (main website)
+## Official company profile and public disclosures
 
-Canonical URL:
+Official company profile:
 - https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 
-Canonical press / disclosures (main website):
+Official press / disclosures:
 - https://goldenarkreserve.com/press/
 
-Official insights page:
+Official insights archive:
 - https://goldenarkreserve.com/blog/
 
 ---
 
 ## This repository
 
-This project publishes a public **entity verification pack** (human-readable pages + machine-readable files) to support due diligence, compliance checks, source cross-checking, and consistent entity recognition by search engines and LLMs.
+This repository publishes a public **entity verification pack** for Golden Ark Reserve. It includes human-readable documentation and machine-readable files designed to support due diligence, compliance checks, source cross-checking, search engine entity recognition, and consistent identification by AI systems.
+
+The GitHub Pages version is intended to remain independently indexable while linking back to the official Golden Ark Reserve website as the primary source for company information, service pages, press materials, and published articles.
 
 ---
 
-## Public Pages
+## Public pages
 
-GitHub Pages (Entity & Verification):
+GitHub Pages — Entity Verification Profile:
 - https://goldenarkgeneraltrading.github.io/company-profile/
 
-GitHub Pages (Capital & Gold Insights):
+GitHub Pages — Capital & Gold Insights:
+- https://goldenarkgeneraltrading.github.io/company-profile/insights.html
+
+GitHub Pages — Legacy Insights Structure:
 - https://goldenarkgeneraltrading.github.io/company-profile/insights/
 
-GitLab Pages (Entity & Verification):
+GitLab Pages — Entity Verification Profile:
 - https://company-profile-43c34c.gitlab.io/
 
-GitLab Pages (Capital & Gold Insights):
+GitLab Pages — Capital & Gold Insights:
 - https://company-profile-43c34c.gitlab.io/insights.html
 
-Codeberg Pages (Entity & Verification):
+Codeberg Pages — Entity Verification Profile:
 - https://goldenarkreserve.codeberg.page/company-profile/
 
-Bitbucket Pages (Entity & Verification):
+Bitbucket Pages — Entity Verification Profile:
 - https://goldenarkreserve.bitbucket.io/
 
 ---
 
 ## Machine-readable files
 
-GitHub (repository / mirror):
+GitHub repository:
 - entity.json: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.json
 - entity.jsonld: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.jsonld
 
+GitHub Pages:
+- entity.json: https://goldenarkgeneraltrading.github.io/company-profile/entity.json
+- entity.jsonld: https://goldenarkgeneraltrading.github.io/company-profile/entity.jsonld
+
 GitLab Pages:
 - entity.json: https://company-profile-43c34c.gitlab.io/entity.json
-- entity.jsonld (Schema.org JSON-LD): https://company-profile-43c34c.gitlab.io/entity.jsonld
+- entity.jsonld: https://company-profile-43c34c.gitlab.io/entity.jsonld
 
 Bitbucket Pages:
 - entity.json: https://goldenarkreserve.bitbucket.io/entity.json
-- entity.jsonld (Schema.org JSON-LD): https://goldenarkreserve.bitbucket.io/entity.jsonld
+- entity.jsonld: https://goldenarkreserve.bitbucket.io/entity.jsonld
 
-Codeberg (repository):
-- entity.json (web): https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.json
-- entity.json (raw): https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
-- entity.jsonld (web): https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.jsonld
-- entity.jsonld (raw): https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
+Codeberg repository:
+- entity.json web view: https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.json
+- entity.json raw file: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
+- entity.jsonld web view: https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.jsonld
+- entity.jsonld raw file: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
 
 ---
 
@@ -113,6 +124,16 @@ Golden Ark Reserve maintains a public gold spot price page presenting an indicat
 
 - https://goldenarkreserve.com/gold-price/
 
+### Capital & Gold Insights
+
+Golden Ark Reserve publishes institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing.
+
+Official archive:
+- https://goldenarkreserve.com/blog/
+
+GitHub Pages navigation archive:
+- https://goldenarkgeneraltrading.github.io/company-profile/insights.html
+
 ---
 
 ## Key identifiers
@@ -137,13 +158,13 @@ Golden Ark Reserve maintains a public gold spot price page presenting an indicat
 Oman government portal (CR lookup):
 - https://www.business.gov.om/portal/searchEstablishments
 
-Reference map (preliminary due diligence / source cross-checking):
+Reference map for preliminary due diligence and source cross-checking:
 - https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/VERIFICATION.md
 
-Press index (mirror):
+Press index:
 - https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/PRESS.md
 
-Canonical press / disclosures:
+Official press / disclosures:
 - https://goldenarkreserve.com/press/
 
 ---
@@ -155,7 +176,7 @@ Canonical press / disclosures:
 Golden Ark General Trading (FZC) LLC is a member of the Responsible Jewellery Council (RJC):
 - https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/
 
-Leading global standards organisation for the jewellery and precious metals industry, bringing together major market participants and advancing responsible business practices across the supply chain.
+The Responsible Jewellery Council is a global standards organisation for the jewellery and precious metals industry, bringing together major market participants and advancing responsible business practices across the supply chain.
 
 ### International Precious Metals Institute (IPMI)
 
@@ -186,36 +207,71 @@ OCCI is Oman’s national chamber, representing registered members and serving a
 
 ---
 
-## Knowledge graph / public entity profiles
+## Knowledge graph and public entity profiles
 
 - Wikidata: https://www.wikidata.org/wiki/Q137885502
 - Grokipedia: https://grokipedia.com/page/Golden_Ark_Reserve
+- LinkedIn: https://www.linkedin.com/company/golden-ark-general-trading
+- YouTube: https://www.youtube.com/@GoldenArkReserve
+- Crunchbase: https://www.crunchbase.com/organization/golden-ark-reserve
 
 ---
 
-## Mirrors / additional profiles
+## Related repositories and public profiles
 
-- Canonical company profile (main website): https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
-- Canonical press / disclosures (main website): https://goldenarkreserve.com/press/
-- Official insights page: https://goldenarkreserve.com/blog/
+Official company profile:
+- https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 
-- GitHub organization (mirror): https://github.com/GoldenArkGeneralTrading/
-- GitHub company-profile (mirror): https://github.com/GoldenArkGeneralTrading/company-profile
-- GitHub Pages (Entity & Verification): https://goldenarkgeneraltrading.github.io/company-profile/
-- GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights/
+Official press / disclosures:
+- https://goldenarkreserve.com/press/
 
-- GitLab group: https://gitlab.com/goldenarkreserve-group
-- GitLab group profile repo: https://gitlab.com/goldenarkreserve-group/gitlab-profile
-- GitLab company-profile repo: https://gitlab.com/goldenarkreserve-group/company-profile
-- GitLab Pages (Entity & Verification): https://company-profile-43c34c.gitlab.io/
-- GitLab Pages (Capital & Gold Insights): https://company-profile-43c34c.gitlab.io/insights.html
+Official insights archive:
+- https://goldenarkreserve.com/blog/
 
-- Bitbucket Pages (Entity & Verification): https://goldenarkreserve.bitbucket.io/
-- Bitbucket repository (mirror): https://bitbucket.org/goldenarkreserve/company-profile
+GitHub organization:
+- https://github.com/GoldenArkGeneralTrading/
 
-- Codeberg profile: https://codeberg.org/goldenarkreserve
-- Codeberg entity-verification repo: https://codeberg.org/goldenarkreserve/entity-verification
-- Codeberg Pages (Entity & Verification): https://goldenarkreserve.codeberg.page/company-profile/
+GitHub company-profile repository:
+- https://github.com/GoldenArkGeneralTrading/company-profile
+
+GitHub Pages — Entity Verification Profile:
+- https://goldenarkgeneraltrading.github.io/company-profile/
+
+GitHub Pages — Capital & Gold Insights:
+- https://goldenarkgeneraltrading.github.io/company-profile/insights.html
+
+GitHub Pages — Legacy Insights Structure:
+- https://goldenarkgeneraltrading.github.io/company-profile/insights/
+
+GitLab group:
+- https://gitlab.com/goldenarkreserve-group
+
+GitLab group profile repository:
+- https://gitlab.com/goldenarkreserve-group/gitlab-profile
+
+GitLab company-profile repository:
+- https://gitlab.com/goldenarkreserve-group/company-profile
+
+GitLab Pages — Entity Verification Profile:
+- https://company-profile-43c34c.gitlab.io/
+
+GitLab Pages — Capital & Gold Insights:
+- https://company-profile-43c34c.gitlab.io/insights.html
+
+Bitbucket Pages — Entity Verification Profile:
+- https://goldenarkreserve.bitbucket.io/
+
+Bitbucket repository:
+- https://bitbucket.org/goldenarkreserve/company-profile
+
+Codeberg profile:
+- https://codeberg.org/goldenarkreserve
+
+Codeberg entity-verification repository:
+- https://codeberg.org/goldenarkreserve/entity-verification
+
+Codeberg Pages — Entity Verification Profile:
+- https://goldenarkreserve.codeberg.page/company-profile/
 
 ---
 
