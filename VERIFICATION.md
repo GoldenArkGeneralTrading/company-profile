@@ -4,6 +4,8 @@ This document provides a structured public reference map for **Golden Ark Genera
 
 It is intended as a public reference layer only and does not replace formal KYC/AML onboarding, corporate documentation exchange, or contractual due diligence.
 
+This GitHub-hosted verification map is part of the public entity profile for Golden Ark Reserve. It is maintained to connect legal identity, official website pages, public identifiers, membership references, supplier references, service pages, machine-readable files, and research resources in one consistent reference document.
+
 ---
 
 ## Legal entity
@@ -15,13 +17,13 @@ It is intended as a public reference layer only and does not replace formal KYC/
 **Commercial Registration Number (CR):** 1603777  
 **Website:** https://goldenarkreserve.com  
 
-**Canonical company profile (main website):**  
+**Official company profile:**  
 https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 
-**Canonical press / disclosures (main website):**  
+**Official press / disclosures:**  
 https://goldenarkreserve.com/press/
 
-**Official insights page (main website):**  
+**Official insights archive:**  
 https://goldenarkreserve.com/blog/
 
 ---
@@ -64,22 +66,25 @@ https://goldenarkreserve.com/blog/
 
 ---
 
-## Memberships / institutional affiliations (public references)
+## Memberships / institutional affiliations
 
 ### Responsible Jewellery Council (RJC)
 **Status:** Member  
 **Member page:** https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/  
-Leading global standards organisation for the jewellery and precious metals industry, bringing together major market participants and advancing responsible business practices across the supply chain.
+
+The Responsible Jewellery Council is a global standards organisation for the jewellery and precious metals industry, bringing together major market participants and advancing responsible business practices across the supply chain.
 
 ### International Precious Metals Institute (IPMI)
 **Status:** Member  
 **Website:** https://www.ipmi.org/  
+
 Founded in 1976, IPMI is a global trade association focused on the precious metals industry. IPMI supports professional exchange and industry practice development through conferences, chapters, and working committees.
 
 ### International Chamber of Commerce (ICC)
 **Status:** Full member  
 **Website:** https://iccwbo.org/  
-**ICC Commissions (active participation):**
+
+**ICC Commissions:**
 - Banking
 - Corporate Responsibility & Anti-Corruption
 - Customs & Trade Facilitation
@@ -90,6 +95,7 @@ Founded in 1919, ICC is a global business organization active in more than 170 c
 ### Oman Chamber of Commerce and Industry (OCCI)
 **Status:** Member  
 **Website:** https://omanchamber.om/  
+
 OCCI is Oman’s national chamber, representing registered members and serving as a link between the government and the private sector.
 
 ---
@@ -97,9 +103,10 @@ OCCI is Oman’s national chamber, representing registered members and serving a
 ## Supplier relationship / refinery-origin supply references
 
 ### Official Supplier of Heraeus Precious Metals
+
 Golden Ark Reserve is an official supplier of Heraeus Precious Metals for refinery-origin bullion and precious metals products.
 
-This supply relationship supports access to both Heraeus and Argor-Heraeus bar formats used in physical gold sales, allocation, and delivery execution.
+This supply relationship supports access to both Heraeus and Argor-Heraeus SA (Switzerland) bar formats used in physical gold sales, allocation, and delivery execution.
 
 **Public reference:**  
 https://goldenarkreserve.com/about/partners-service-providers/
@@ -109,18 +116,21 @@ https://goldenarkreserve.com/about/partners-service-providers/
 ## Key service references
 
 ### Buy Physical Gold
+
 Golden Ark Reserve provides structured physical gold acquisition for qualified investors and corporate counterparties. Transactions are organized around selected product format, requested quantity, confirmed commercial terms, onboarding, compliance review, payment verification, and documented execution.
 
 **Service page:**  
 https://goldenarkreserve.com/buy-physical-gold/
 
 ### Refinery-origin Gold Bars
+
 Golden Ark Reserve supplies refinery-origin gold bars bearing the stamps of Heraeus and Argor-Heraeus SA (Switzerland). The public product page presents standardized bullion formats with defined weight, fineness, and refiner mark attributes used for structured commercial acquisition and documented allocation.
 
 **Product page:**  
 https://goldenarkreserve.com/gold-bars/
 
 ### Gold Spot Price reference
+
 Golden Ark Reserve maintains a public gold spot price page presenting an indicative OTC mid-market reference for XAU quoted in USD per troy ounce. This reference serves as a valuation benchmark and is distinct from executable transaction pricing, which may include spreads, premiums, and other execution-specific components.
 
 **Reference page:**  
@@ -130,7 +140,7 @@ https://goldenarkreserve.com/gold-price/
 
 ## Capital & Gold Insights
 
-Golden Ark Reserve publishes institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, and gold pricing.
+Golden Ark Reserve publishes institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing.
 
 **Official insights archive:**  
 https://goldenarkreserve.com/blog/
@@ -158,9 +168,9 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 
 ---
 
-## Public company profile records (machine-readable / knowledge graph support)
+## Public company profile records
 
-### Public mirror pages (Entity & Verification)
+### Public entity verification pages
 
 - GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/
 - GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights.html
@@ -170,7 +180,7 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 - Codeberg Pages: https://goldenarkreserve.codeberg.page/company-profile/
 - Bitbucket Pages: https://goldenarkreserve.bitbucket.io/
 
-### Canonical entity files (public)
+### Public entity files
 
 GitHub Pages:
 - entity.json: https://goldenarkgeneraltrading.github.io/company-profile/entity.json
@@ -188,18 +198,18 @@ Bitbucket Pages:
 - entity.json: https://goldenarkreserve.bitbucket.io/entity.json
 - entity.jsonld: https://goldenarkreserve.bitbucket.io/entity.jsonld
 
-Codeberg (raw):
+Codeberg raw:
 - entity.json: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
 - entity.jsonld: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
 
-### Repositories (source mirrors)
+### Repositories
 
 - GitHub organization: https://github.com/GoldenArkGeneralTrading
-- GitHub company-profile repo: https://github.com/GoldenArkGeneralTrading/company-profile
+- GitHub company-profile repository: https://github.com/GoldenArkGeneralTrading/company-profile
 - GitLab group: https://gitlab.com/goldenarkreserve-group
-- GitLab company-profile repo: https://gitlab.com/goldenarkreserve-group/company-profile
+- GitLab company-profile repository: https://gitlab.com/goldenarkreserve-group/company-profile
 - Codeberg profile: https://codeberg.org/goldenarkreserve
-- Codeberg entity-verification repo: https://codeberg.org/goldenarkreserve/entity-verification
+- Codeberg entity-verification repository: https://codeberg.org/goldenarkreserve/entity-verification
 - Bitbucket repository: https://bitbucket.org/goldenarkreserve/company-profile
 
 ### Knowledge graph profiles
@@ -209,15 +219,15 @@ Codeberg (raw):
 
 ---
 
-## Public disclosures / media references (selected)
+## Public disclosures / media references
 
-### Canonical press / disclosures (main website)
+### Official press / disclosures
 - https://goldenarkreserve.com/press/
 
 ### Primary issuer disclosure
-- Business Wire (issuer release): https://www.businesswire.com/news/home/20260203826775/en
+- Business Wire issuer release: https://www.businesswire.com/news/home/20260203826775/en
 
-### Curated media index (mirrors)
+### Public media index
 - PRESS / Media Coverage Index: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/PRESS.md
 - Full machine-readable media index (CSV): https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv
 
@@ -225,7 +235,7 @@ Codeberg (raw):
 
 ## Notes for counterparties / researchers
 
-- Public web references may contain syndicated copies, mirrors, or localized versions of the same issuer disclosure.
+- Public web references may contain syndicated copies, repository pages, or localized versions of the same issuer disclosure.
 - For authoritative legal-entity identification, use the identifier records above, especially LEI / GLEIF and other recognized entity databases.
 - Public references are provided for convenience and preliminary cross-checking only.
 - Formal onboarding, KYC/AML review, and transaction due diligence are conducted separately and are not substituted by this page.
