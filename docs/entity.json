@@ -1,6 +1,6 @@
 {
-  "version": "1.6",
-  "last_updated_utc": "2026-05-06",
+  "version": "1.7",
+  "last_updated_utc": "2026-05-09",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -10,7 +10,9 @@
   "canonical": {
     "company_profile": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
     "press": "https://goldenarkreserve.com/press/",
-    "capital_gold_insights": "https://goldenarkreserve.com/blog/"
+    "capital_gold_insights": "https://goldenarkreserve.com/blog/",
+    "github_pages_profile": "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "github_pages_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html"
   },
   "business_activity": {
     "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
@@ -39,7 +41,12 @@
       "official_archive": "https://goldenarkreserve.com/blog/",
       "github_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "gitlab_navigation_page": "https://company-profile-43c34c.gitlab.io/insights.html",
-      "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, and gold pricing."
+      "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, Swiss refinery standards, and gold pricing."
+    },
+    "github_research_archive": {
+      "name": "GitHub Pages Capital & Gold Insights Archive",
+      "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+      "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing mirrored article copies."
     }
   },
   "identifiers": {
@@ -94,6 +101,20 @@
     "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
     "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
     "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/"
+  },
+  "github_pages_profile": {
+    "profile_url": "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "insights_url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+    "purpose": "Independent GitHub Pages entity verification profile connecting the legal entity, trade name, identifiers, service pages, memberships, supplier references, public disclosures, and research archive for Golden Ark Reserve.",
+    "indexing_status_intent": "indexable public profile with self-canonical GitHub Pages URLs",
+    "content_scope": [
+      "entity verification",
+      "public identifiers",
+      "institutional precious metals trading profile",
+      "refinery-origin bullion references",
+      "allocated storage and secure delivery references",
+      "Capital & Gold Insights navigation"
+    ]
   },
   "machine_readable_files": {
     "github_repo": {
@@ -177,5 +198,5 @@
       "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile"
     }
   },
-  "notes": "Mirror dataset for public verification. Keep identifiers, canonical URLs, memberships, supplier references, service-page references, content-resource references, and operating model references consistent across all mirrors."
+  "notes": "GitHub Pages entity verification dataset for Golden Ark Reserve. Keep legal identity, identifiers, official website URLs, memberships, supplier references, service-page references, content-resource references, and operating model references consistent across public profiles while allowing each repository page to remain independently indexable and context-specific."
 }
