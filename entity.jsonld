@@ -92,6 +92,53 @@
       "url": "https://omanchamber.om/"
     }
   ],
+  "subjectOf": [
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve Company Profile",
+      "url": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve Press and Public Disclosures",
+      "url": "https://goldenarkreserve.com/press/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve GitHub Pages Entity Verification Profile",
+      "url": "https://goldenarkgeneraltrading.github.io/company-profile/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights",
+      "url": "https://goldenarkreserve.com/blog/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights | GitHub Pages",
+      "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights | GitHub Pages Legacy Structure",
+      "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights | GitLab Pages",
+      "url": "https://company-profile-43c34c.gitlab.io/insights.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve Codeberg Pages Entity Verification Profile",
+      "url": "https://goldenarkreserve.codeberg.page/company-profile/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve Bitbucket Pages Entity Verification Profile",
+      "url": "https://goldenarkreserve.bitbucket.io/"
+    }
+  ],
   "sameAs": [
     "https://goldenarkreserve.com",
     "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
@@ -102,8 +149,10 @@
     "https://goldenarkreserve.com/gold-storage/",
     "https://goldenarkreserve.com/gold-delivery/",
     "https://goldenarkreserve.com/gold-price/",
+    "https://goldenarkreserve.com/blog/",
 
     "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
     "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
     "https://company-profile-43c34c.gitlab.io/",
     "https://company-profile-43c34c.gitlab.io/insights.html",
