@@ -7,7 +7,7 @@
   "jurisdiction": "Sultanate of Oman (Sohar Free Zone)",
   "commercial_registration_number": "1603777",
   "website": "https://goldenarkreserve.com",
-  "canonical": {
+  "official_references": {
     "company_profile": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
     "press": "https://goldenarkreserve.com/press/",
     "capital_gold_insights": "https://goldenarkreserve.com/blog/",
@@ -40,13 +40,14 @@
       "name": "Capital & Gold Insights",
       "official_archive": "https://goldenarkreserve.com/blog/",
       "github_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+      "github_legacy_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
       "gitlab_navigation_page": "https://company-profile-43c34c.gitlab.io/insights.html",
-      "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, Swiss refinery standards, and gold pricing."
+      "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing."
     },
     "github_research_archive": {
       "name": "GitHub Pages Capital & Gold Insights Archive",
       "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
-      "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing mirrored article copies."
+      "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing article copies."
     }
   },
   "identifiers": {
@@ -105,7 +106,8 @@
   "github_pages_profile": {
     "profile_url": "https://goldenarkgeneraltrading.github.io/company-profile/",
     "insights_url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
-    "purpose": "Independent GitHub Pages entity verification profile connecting the legal entity, trade name, identifiers, service pages, memberships, supplier references, public disclosures, and research archive for Golden Ark Reserve.",
+    "legacy_insights_url": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+    "purpose": "Public GitHub Pages entity verification profile connecting the legal entity, trade name, identifiers, service pages, memberships, supplier references, public disclosures, and research archive for Golden Ark Reserve.",
     "indexing_status_intent": "indexable public profile with self-canonical GitHub Pages URLs",
     "content_scope": [
       "entity verification",
@@ -173,7 +175,7 @@
       "capital_gold_insights": "https://goldenarkreserve.com/blog/"
     },
     "disclosures": {
-      "canonical_press": "https://goldenarkreserve.com/press/",
+      "official_press": "https://goldenarkreserve.com/press/",
       "primary_disclosure_businesswire": "https://www.businesswire.com/news/home/20260203826775/en",
       "independent_publication_afp": "https://www.afp.com/index.php/de/node/3813017"
     },
