@@ -1,15 +1,16 @@
 {
-  "version": "1.5",
-  "last_updated_utc": "2026-04-12",
+  "version": "1.7",
+  "last_updated_utc": "2026-05-09",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
   "jurisdiction": "Sultanate of Oman (Sohar Free Zone)",
   "commercial_registration_number": "1603777",
   "website": "https://goldenarkreserve.com",
-  "canonical": {
+  "official_references": {
     "company_profile": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
-    "press": "https://goldenarkreserve.com/press/"
+    "press": "https://goldenarkreserve.com/press/",
+    "capital_gold_insights": "https://goldenarkreserve.com/blog/"
   },
   "business_activity": {
     "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
@@ -29,7 +30,23 @@
     "gold_bars": "https://goldenarkreserve.com/gold-bars/",
     "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
     "physical_delivery": "https://goldenarkreserve.com/gold-delivery/",
-    "gold_price_reference": "https://goldenarkreserve.com/gold-price/"
+    "gold_price_reference": "https://goldenarkreserve.com/gold-price/",
+    "capital_gold_insights": "https://goldenarkreserve.com/blog/"
+  },
+  "content_resources": {
+    "capital_gold_insights": {
+      "name": "Capital & Gold Insights",
+      "official_archive": "https://goldenarkreserve.com/blog/",
+      "github_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+      "github_legacy_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+      "gitlab_navigation_page": "https://company-profile-43c34c.gitlab.io/insights.html",
+      "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing."
+    },
+    "github_research_archive": {
+      "name": "GitHub Pages Capital & Gold Insights Archive",
+      "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+      "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing article copies."
+    }
   },
   "identifiers": {
     "lei": "98450040E688696D1C47",
@@ -77,16 +94,36 @@
   },
   "public_pages": {
     "github_pages": "https://goldenarkgeneraltrading.github.io/company-profile/",
-    "github_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+    "github_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+    "github_legacy_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
     "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
     "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
     "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
     "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/"
   },
+  "github_pages_profile": {
+    "profile_url": "https://goldenarkgeneraltrading.github.io/company-profile/",
+    "insights_url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+    "legacy_insights_url": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+    "purpose": "Public GitHub Pages entity verification profile connecting the legal entity, trade name, identifiers, service pages, memberships, supplier references, public disclosures, and research archive for Golden Ark Reserve.",
+    "indexing_status_intent": "indexable public profile with self-canonical GitHub Pages URLs",
+    "content_scope": [
+      "entity verification",
+      "public identifiers",
+      "institutional precious metals trading profile",
+      "refinery-origin bullion references",
+      "allocated storage and secure delivery references",
+      "Capital & Gold Insights navigation"
+    ]
+  },
   "machine_readable_files": {
     "github_repo": {
       "entity_json": "https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.json",
       "entity_jsonld": "https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.jsonld"
+    },
+    "github_pages": {
+      "entity_json": "https://goldenarkgeneraltrading.github.io/company-profile/entity.json",
+      "entity_jsonld": "https://goldenarkgeneraltrading.github.io/company-profile/entity.jsonld"
     },
     "gitlab_pages": {
       "entity_json": "https://company-profile-43c34c.gitlab.io/entity.json",
@@ -132,10 +169,11 @@
       "gold_bars": "https://goldenarkreserve.com/gold-bars/",
       "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
       "physical_delivery": "https://goldenarkreserve.com/gold-delivery/",
-      "gold_price_reference": "https://goldenarkreserve.com/gold-price/"
+      "gold_price_reference": "https://goldenarkreserve.com/gold-price/",
+      "capital_gold_insights": "https://goldenarkreserve.com/blog/"
     },
     "disclosures": {
-      "canonical_press": "https://goldenarkreserve.com/press/",
+      "official_press": "https://goldenarkreserve.com/press/",
       "primary_disclosure_businesswire": "https://www.businesswire.com/news/home/20260203826775/en",
       "independent_publication_afp": "https://www.afp.com/index.php/de/node/3813017"
     },
@@ -146,12 +184,19 @@
     "public_profiles_and_repos": {
       "github_org": "https://github.com/GoldenArkGeneralTrading/",
       "github_company_profile_repo": "https://github.com/GoldenArkGeneralTrading/company-profile",
+      "github_pages": "https://goldenarkgeneraltrading.github.io/company-profile/",
+      "github_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+      "github_legacy_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
       "gitlab_group": "https://gitlab.com/goldenarkreserve-group",
       "gitlab_company_profile_repo": "https://gitlab.com/goldenarkreserve-group/company-profile",
+      "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
+      "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
       "codeberg_profile": "https://codeberg.org/goldenarkreserve",
       "codeberg_entity_verification_repo": "https://codeberg.org/goldenarkreserve/entity-verification",
+      "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
+      "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/",
       "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile"
     }
   },
-  "notes": "Mirror dataset for public verification. Keep identifiers, canonical URLs, memberships, supplier references, service-page references, and operating model references consistent across all mirrors."
+  "notes": "Public entity verification dataset for Golden Ark Reserve. Keep legal identity, identifiers, official website URLs, memberships, supplier references, service-page references, content-resource references, and operating model references consistent across public profiles while allowing each repository page to remain independently indexable and context-specific."
 }
