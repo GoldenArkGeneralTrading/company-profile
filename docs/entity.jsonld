@@ -125,6 +125,21 @@
     },
     {
       "@type": "WebPage",
+      "name": "Golden Ark Reserve Framagit Pages Entity Verification Profile",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights | Framagit Pages",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/insights.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Press / Media Coverage Index | Framagit Pages",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/press.html"
+    },
+    {
+      "@type": "WebPage",
       "name": "Capital & Gold Insights | GitLab Pages",
       "url": "https://company-profile-43c34c.gitlab.io/insights.html"
     },
@@ -154,6 +169,12 @@
     "https://goldenarkgeneraltrading.github.io/company-profile/",
     "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
     "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+
+    "https://framagit.org/goldenark/golden-ark-reserve",
+    "https://goldenark.frama.io/golden-ark-reserve/",
+    "https://goldenark.frama.io/golden-ark-reserve/insights.html",
+    "https://goldenark.frama.io/golden-ark-reserve/press.html",
+
     "https://company-profile-43c34c.gitlab.io/",
     "https://company-profile-43c34c.gitlab.io/insights.html",
 
