@@ -1,6 +1,6 @@
 {
-  "version": "1.7",
-  "last_updated_utc": "2026-05-09",
+  "version": "1.8",
+  "last_updated_utc": "2026-05-25",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -12,7 +12,10 @@
     "press": "https://goldenarkreserve.com/press/",
     "capital_gold_insights": "https://goldenarkreserve.com/blog/",
     "github_pages_profile": "https://goldenarkgeneraltrading.github.io/company-profile/",
-    "github_pages_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html"
+    "github_pages_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
+    "framagit_pages_profile": "https://goldenark.frama.io/golden-ark-reserve/",
+    "framagit_pages_insights": "https://goldenark.frama.io/golden-ark-reserve/insights.html",
+    "framagit_pages_press": "https://goldenark.frama.io/golden-ark-reserve/press.html"
   },
   "business_activity": {
     "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
@@ -41,6 +44,7 @@
       "official_archive": "https://goldenarkreserve.com/blog/",
       "github_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "github_legacy_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+      "framagit_navigation_page": "https://goldenark.frama.io/golden-ark-reserve/insights.html",
       "gitlab_navigation_page": "https://company-profile-43c34c.gitlab.io/insights.html",
       "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing."
     },
@@ -48,6 +52,16 @@
       "name": "GitHub Pages Capital & Gold Insights Archive",
       "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing article copies."
+    },
+    "framagit_research_archive": {
+      "name": "Framagit Pages Capital & Gold Insights Archive",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/insights.html",
+      "description": "Framagit-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing article copies."
+    },
+    "framagit_press_index": {
+      "name": "Framagit Pages Press / Media Coverage Index",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/press.html",
+      "description": "Framagit-hosted public media coverage and issuer-disclosure reference index for Golden Ark Reserve."
     }
   },
   "identifiers": {
@@ -98,6 +112,9 @@
     "github_pages": "https://goldenarkgeneraltrading.github.io/company-profile/",
     "github_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
     "github_legacy_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+    "framagit_pages": "https://goldenark.frama.io/golden-ark-reserve/",
+    "framagit_insights": "https://goldenark.frama.io/golden-ark-reserve/insights.html",
+    "framagit_press": "https://goldenark.frama.io/golden-ark-reserve/press.html",
     "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
     "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
     "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
@@ -118,6 +135,23 @@
       "Capital & Gold Insights navigation"
     ]
   },
+  "framagit_pages_profile": {
+    "profile_url": "https://goldenark.frama.io/golden-ark-reserve/",
+    "insights_url": "https://goldenark.frama.io/golden-ark-reserve/insights.html",
+    "press_url": "https://goldenark.frama.io/golden-ark-reserve/press.html",
+    "repository_url": "https://framagit.org/goldenark/golden-ark-reserve",
+    "purpose": "Public Framagit Pages entity verification mirror connecting the legal entity, trade name, identifiers, service pages, memberships, supplier references, public disclosures, and research archive for Golden Ark Reserve.",
+    "indexing_status_intent": "indexable public Framagit Pages mirror with Framagit Pages URLs",
+    "content_scope": [
+      "entity verification mirror",
+      "public identifiers",
+      "institutional precious metals trading profile",
+      "refinery-origin bullion references",
+      "allocated storage and secure delivery references",
+      "Capital & Gold Insights navigation",
+      "press and media coverage index"
+    ]
+  },
   "machine_readable_files": {
     "github_repo": {
       "entity_json": "https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.json",
@@ -126,6 +160,21 @@
     "github_pages": {
       "entity_json": "https://goldenarkgeneraltrading.github.io/company-profile/entity.json",
       "entity_jsonld": "https://goldenarkgeneraltrading.github.io/company-profile/entity.jsonld"
+    },
+    "framagit_pages": {
+      "entity_json": "https://goldenark.frama.io/golden-ark-reserve/entity.json",
+      "entity_jsonld": "https://goldenark.frama.io/golden-ark-reserve/entity.jsonld",
+      "press_html": "https://goldenark.frama.io/golden-ark-reserve/press.html",
+      "press_md": "https://goldenark.frama.io/golden-ark-reserve/press.md",
+      "llms_txt": "https://goldenark.frama.io/golden-ark-reserve/llms.txt",
+      "security_txt": "https://goldenark.frama.io/golden-ark-reserve/.well-known/security.txt"
+    },
+    "framagit_repo": {
+      "entity_json": "https://framagit.org/goldenark/golden-ark-reserve/-/blob/main/public/entity.json",
+      "entity_jsonld": "https://framagit.org/goldenark/golden-ark-reserve/-/blob/main/public/entity.jsonld",
+      "press_html": "https://framagit.org/goldenark/golden-ark-reserve/-/blob/main/public/press.html",
+      "press_md": "https://framagit.org/goldenark/golden-ark-reserve/-/blob/main/public/press.md",
+      "llms_txt": "https://framagit.org/goldenark/golden-ark-reserve/-/blob/main/public/llms.txt"
     },
     "gitlab_pages": {
       "entity_json": "https://company-profile-43c34c.gitlab.io/entity.json",
@@ -189,6 +238,11 @@
       "github_pages": "https://goldenarkgeneraltrading.github.io/company-profile/",
       "github_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "github_legacy_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
+      "framagit_profile": "https://framagit.org/goldenark",
+      "framagit_company_profile_repo": "https://framagit.org/goldenark/golden-ark-reserve",
+      "framagit_pages": "https://goldenark.frama.io/golden-ark-reserve/",
+      "framagit_insights": "https://goldenark.frama.io/golden-ark-reserve/insights.html",
+      "framagit_press": "https://goldenark.frama.io/golden-ark-reserve/press.html",
       "gitlab_group": "https://gitlab.com/goldenarkreserve-group",
       "gitlab_company_profile_repo": "https://gitlab.com/goldenarkreserve-group/company-profile",
       "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
