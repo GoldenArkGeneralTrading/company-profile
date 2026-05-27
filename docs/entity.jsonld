@@ -140,6 +140,11 @@
     },
     {
       "@type": "WebPage",
+      "name": "Golden Ark Reserve GitLab Pages Entity Verification Profile",
+      "url": "https://company-profile-43c34c.gitlab.io/"
+    },
+    {
+      "@type": "WebPage",
       "name": "Capital & Gold Insights | GitLab Pages",
       "url": "https://company-profile-43c34c.gitlab.io/insights.html"
     },
@@ -152,6 +157,26 @@
       "@type": "WebPage",
       "name": "Golden Ark Reserve Bitbucket Pages Entity Verification Profile",
       "url": "https://goldenarkreserve.bitbucket.io/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve SourceForge Public Profile",
+      "url": "https://goldenarkreserve.sourceforge.io/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights | SourceForge Pages",
+      "url": "https://goldenarkreserve.sourceforge.io/insights.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve SourceForge Project",
+      "url": "https://sourceforge.net/projects/goldenarkreserve/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve SourceForge Code Repository",
+      "url": "https://sourceforge.net/p/goldenarkreserve/code/"
     }
   ],
   "sameAs": [
@@ -178,6 +203,18 @@
     "https://company-profile-43c34c.gitlab.io/",
     "https://company-profile-43c34c.gitlab.io/insights.html",
 
+    "https://goldenarkreserve.codeberg.page/company-profile/",
+    "https://goldenarkreserve.bitbucket.io/",
+
+    "https://sourceforge.net/projects/goldenarkreserve/",
+    "https://sourceforge.net/p/goldenarkreserve/code/",
+    "https://goldenarkreserve.sourceforge.io/",
+    "https://goldenarkreserve.sourceforge.io/insights.html",
+    "https://goldenarkreserve.sourceforge.io/entity.json",
+    "https://goldenarkreserve.sourceforge.io/entity.jsonld",
+    "https://goldenarkreserve.sourceforge.io/organization.json",
+    "https://goldenarkreserve.sourceforge.io/schema.jsonld",
+
     "https://www.wikidata.org/wiki/Q137885502",
     "https://grokipedia.com/page/Golden_Ark_Reserve",
     "https://www.linkedin.com/company/golden-ark-general-trading",
@@ -193,9 +230,7 @@
 
     "https://codeberg.org/goldenarkreserve",
     "https://codeberg.org/goldenarkreserve/entity-verification",
-    "https://goldenarkreserve.codeberg.page/company-profile/",
 
-    "https://goldenarkreserve.bitbucket.io/",
     "https://bitbucket.org/goldenarkreserve/company-profile",
 
     "https://search.gleif.org/#/record/98450040E688696D1C47",
