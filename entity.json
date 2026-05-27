@@ -1,6 +1,6 @@
 {
-  "version": "1.7",
-  "last_updated_utc": "2026-05-09",
+  "version": "1.8",
+  "last_updated_utc": "2026-05-27",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -40,12 +40,20 @@
       "github_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "github_legacy_navigation_page": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
       "gitlab_navigation_page": "https://company-profile-43c34c.gitlab.io/insights.html",
+      "sourceforge_navigation_page": "https://goldenarkreserve.sourceforge.io/insights.html",
       "description": "Institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing."
     },
     "github_research_archive": {
       "name": "GitHub Pages Capital & Gold Insights Archive",
       "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing article copies."
+    },
+    "sourceforge_public_profile": {
+      "name": "SourceForge Public Profile",
+      "project_url": "https://sourceforge.net/projects/goldenarkreserve/",
+      "pages_url": "https://goldenarkreserve.sourceforge.io/",
+      "insights_url": "https://goldenarkreserve.sourceforge.io/insights.html",
+      "description": "SourceForge-hosted public profile and structured documentation page for Golden Ark Reserve, including entity data, JSON-LD files, and Capital & Gold Insights navigation."
     }
   },
   "identifiers": {
@@ -99,7 +107,10 @@
     "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
     "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
     "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
-    "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/"
+    "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/",
+    "sourceforge_project": "https://sourceforge.net/projects/goldenarkreserve/",
+    "sourceforge_pages": "https://goldenarkreserve.sourceforge.io/",
+    "sourceforge_insights": "https://goldenarkreserve.sourceforge.io/insights.html"
   },
   "github_pages_profile": {
     "profile_url": "https://goldenarkgeneraltrading.github.io/company-profile/",
@@ -144,6 +155,18 @@
     "bitbucket_repo": {
       "entity_json": "https://bitbucket.org/goldenarkreserve/company-profile/src/main/entity.json",
       "entity_jsonld": "https://bitbucket.org/goldenarkreserve/company-profile/src/main/entity.jsonld"
+    },
+    "sourceforge_pages": {
+      "entity_json": "https://goldenarkreserve.sourceforge.io/entity.json",
+      "entity_jsonld": "https://goldenarkreserve.sourceforge.io/entity.jsonld",
+      "organization_json": "https://goldenarkreserve.sourceforge.io/organization.json",
+      "schema_jsonld": "https://goldenarkreserve.sourceforge.io/schema.jsonld",
+      "security_txt": "https://goldenarkreserve.sourceforge.io/security.txt",
+      "robots_txt": "https://goldenarkreserve.sourceforge.io/robots.txt"
+    },
+    "sourceforge_project": {
+      "project_url": "https://sourceforge.net/projects/goldenarkreserve/",
+      "code_url": "https://sourceforge.net/p/goldenarkreserve/code/"
     }
   },
   "sources": {
@@ -195,7 +218,11 @@
       "codeberg_entity_verification_repo": "https://codeberg.org/goldenarkreserve/entity-verification",
       "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
       "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/",
-      "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile"
+      "bitbucket_repo": "https://bitbucket.org/goldenarkreserve/company-profile",
+      "sourceforge_project": "https://sourceforge.net/projects/goldenarkreserve/",
+      "sourceforge_code": "https://sourceforge.net/p/goldenarkreserve/code/",
+      "sourceforge_pages": "https://goldenarkreserve.sourceforge.io/",
+      "sourceforge_insights": "https://goldenarkreserve.sourceforge.io/insights.html"
     }
   },
   "notes": "Public entity verification dataset for Golden Ark Reserve. Keep legal identity, identifiers, official website URLs, memberships, supplier references, service-page references, content-resource references, and operating model references consistent across public profiles while allowing each repository page to remain independently indexable and context-specific."
