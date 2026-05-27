@@ -84,6 +84,15 @@ This issuer release became the primary public disclosure source for multiple syn
 ### GitHub Pages — Legacy Insights Structure
 - https://goldenarkgeneraltrading.github.io/company-profile/insights/
 
+### Framagit Pages — Entity Verification Profile
+- https://goldenark.frama.io/golden-ark-reserve/
+
+### Framagit Pages — Capital & Gold Insights
+- https://goldenark.frama.io/golden-ark-reserve/insights.html
+
+### Framagit Pages — Press / Media Coverage Index
+- https://goldenark.frama.io/golden-ark-reserve/press.html
+
 ### GitLab Pages — Entity Verification Profile
 - https://company-profile-43c34c.gitlab.io/
 
@@ -95,6 +104,15 @@ This issuer release became the primary public disclosure source for multiple syn
 
 ### Bitbucket Pages — Entity Verification Profile
 - https://goldenarkreserve.bitbucket.io/
+
+### SourceForge Project — Public Profile Repository
+- https://sourceforge.net/projects/goldenarkreserve/
+
+### SourceForge Pages — Entity Verification Profile
+- https://goldenarkreserve.sourceforge.io/
+
+### SourceForge Pages — Capital & Gold Insights
+- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -118,8 +136,50 @@ The CSV file contains additional publication records, syndicated copies, localiz
 - https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/VERIFICATION.md
 
 ### Public entity files
+
+GitHub Pages:
 - entity.json: https://goldenarkgeneraltrading.github.io/company-profile/entity.json
 - entity.jsonld: https://goldenarkgeneraltrading.github.io/company-profile/entity.jsonld
+
+Framagit Pages:
+- entity.json: https://goldenark.frama.io/golden-ark-reserve/entity.json
+- entity.jsonld: https://goldenark.frama.io/golden-ark-reserve/entity.jsonld
+- llms.txt: https://goldenark.frama.io/golden-ark-reserve/llms.txt
+- security.txt: https://goldenark.frama.io/golden-ark-reserve/.well-known/security.txt
+
+GitLab Pages:
+- entity.json: https://company-profile-43c34c.gitlab.io/entity.json
+- entity.jsonld: https://company-profile-43c34c.gitlab.io/entity.jsonld
+
+Bitbucket Pages:
+- entity.json: https://goldenarkreserve.bitbucket.io/entity.json
+- entity.jsonld: https://goldenarkreserve.bitbucket.io/entity.jsonld
+
+Codeberg raw:
+- entity.json: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
+- entity.jsonld: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
+
+SourceForge Pages:
+- entity.json: https://goldenarkreserve.sourceforge.io/entity.json
+- entity.jsonld: https://goldenarkreserve.sourceforge.io/entity.jsonld
+- organization.json: https://goldenarkreserve.sourceforge.io/organization.json
+- schema.jsonld: https://goldenarkreserve.sourceforge.io/schema.jsonld
+- security.txt: https://goldenarkreserve.sourceforge.io/security.txt
+- robots.txt: https://goldenarkreserve.sourceforge.io/robots.txt
+
+### Repositories
+
+- GitHub organization: https://github.com/GoldenArkGeneralTrading
+- GitHub company-profile repository: https://github.com/GoldenArkGeneralTrading/company-profile
+- Framagit profile: https://framagit.org/goldenark
+- Framagit repository: https://framagit.org/goldenark/golden-ark-reserve
+- GitLab group: https://gitlab.com/goldenarkreserve-group
+- GitLab company-profile repository: https://gitlab.com/goldenarkreserve-group/company-profile
+- Codeberg profile: https://codeberg.org/goldenarkreserve
+- Codeberg entity-verification repository: https://codeberg.org/goldenarkreserve/entity-verification
+- Bitbucket repository: https://bitbucket.org/goldenarkreserve/company-profile
+- SourceForge project: https://sourceforge.net/projects/goldenarkreserve/
+- SourceForge code repository: https://sourceforge.net/p/goldenarkreserve/code/
 
 ### Knowledge graph profiles
 - Wikidata: https://www.wikidata.org/wiki/Q137885502
