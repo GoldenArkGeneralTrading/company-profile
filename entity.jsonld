@@ -130,6 +130,11 @@
     },
     {
       "@type": "WebPage",
+      "name": "Golden Ark Reserve Framagit Pages Entity Verification Profile",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/"
+    },
+    {
+      "@type": "WebPage",
       "name": "Golden Ark Reserve Codeberg Pages Entity Verification Profile",
       "url": "https://goldenarkreserve.codeberg.page/company-profile/"
     },
@@ -137,6 +142,21 @@
       "@type": "WebPage",
       "name": "Golden Ark Reserve Bitbucket Pages Entity Verification Profile",
       "url": "https://goldenarkreserve.bitbucket.io/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve SourceForge Public Profile",
+      "url": "https://goldenarkreserve.sourceforge.io/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Capital & Gold Insights | SourceForge Pages",
+      "url": "https://goldenarkreserve.sourceforge.io/insights.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve SourceForge Project",
+      "url": "https://sourceforge.net/projects/goldenarkreserve/"
     }
   ],
   "sameAs": [
@@ -156,6 +176,13 @@
     "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
     "https://company-profile-43c34c.gitlab.io/",
     "https://company-profile-43c34c.gitlab.io/insights.html",
+    "https://goldenark.frama.io/golden-ark-reserve/",
+    "https://goldenarkreserve.codeberg.page/company-profile/",
+    "https://goldenarkreserve.bitbucket.io/",
+    "https://sourceforge.net/projects/goldenarkreserve/",
+    "https://sourceforge.net/p/goldenarkreserve/code/",
+    "https://goldenarkreserve.sourceforge.io/",
+    "https://goldenarkreserve.sourceforge.io/insights.html",
 
     "https://www.wikidata.org/wiki/Q137885502",
     "https://grokipedia.com/page/Golden_Ark_Reserve",
@@ -172,7 +199,6 @@
 
     "https://codeberg.org/goldenarkreserve",
     "https://codeberg.org/goldenarkreserve/entity-verification",
-    "https://goldenarkreserve.codeberg.page/company-profile/",
 
     "https://goldenarkreserve.bitbucket.io/",
     "https://bitbucket.org/goldenarkreserve/company-profile",
