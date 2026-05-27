@@ -58,6 +58,15 @@ Codeberg Pages — Entity Verification Profile:
 Bitbucket Pages — Entity Verification Profile:
 - https://goldenarkreserve.bitbucket.io/
 
+SourceForge Project — Public Profile Repository:
+- https://sourceforge.net/projects/goldenarkreserve/
+
+SourceForge Pages — Public Profile:
+- https://goldenarkreserve.sourceforge.io/
+
+SourceForge Pages — Capital & Gold Insights:
+- https://goldenarkreserve.sourceforge.io/insights.html
+
 ---
 
 ## Machine-readable files
@@ -83,6 +92,14 @@ Codeberg repository:
 - entity.json raw file: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
 - entity.jsonld web view: https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.jsonld
 - entity.jsonld raw file: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
+
+SourceForge Pages:
+- entity.json: https://goldenarkreserve.sourceforge.io/entity.json
+- entity.jsonld: https://goldenarkreserve.sourceforge.io/entity.jsonld
+- organization.json: https://goldenarkreserve.sourceforge.io/organization.json
+- schema.jsonld: https://goldenarkreserve.sourceforge.io/schema.jsonld
+- security.txt: https://goldenarkreserve.sourceforge.io/security.txt
+- robots.txt: https://goldenarkreserve.sourceforge.io/robots.txt
 
 ---
 
@@ -133,6 +150,12 @@ Official archive:
 
 GitHub Pages navigation archive:
 - https://goldenarkgeneraltrading.github.io/company-profile/insights.html
+
+GitLab Pages navigation archive:
+- https://company-profile-43c34c.gitlab.io/insights.html
+
+SourceForge Pages navigation archive:
+- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -272,6 +295,15 @@ Codeberg entity-verification repository:
 
 Codeberg Pages — Entity Verification Profile:
 - https://goldenarkreserve.codeberg.page/company-profile/
+
+SourceForge Project — Public Profile Repository:
+- https://sourceforge.net/projects/goldenarkreserve/
+
+SourceForge Pages — Entity Verification Profile:
+- https://goldenarkreserve.sourceforge.io/
+
+SourceForge Pages — Capital & Gold Insights:
+- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
