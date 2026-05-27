@@ -48,6 +48,11 @@
       "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
       "description": "GitHub-hosted structured navigation profile for Golden Ark Reserve articles, linking to official source materials without republishing article copies."
     },
+    "framagit_public_profile": {
+      "name": "Framagit Pages Entity Verification Profile",
+      "pages_url": "https://goldenark.frama.io/golden-ark-reserve/",
+      "description": "Framagit-hosted public entity verification profile for Golden Ark Reserve."
+    },
     "sourceforge_public_profile": {
       "name": "SourceForge Public Profile",
       "project_url": "https://sourceforge.net/projects/goldenarkreserve/",
@@ -106,6 +111,7 @@
     "github_legacy_insights": "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
     "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
     "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
+    "framagit_pages": "https://goldenark.frama.io/golden-ark-reserve/",
     "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
     "bitbucket_pages": "https://goldenarkreserve.bitbucket.io/",
     "sourceforge_project": "https://sourceforge.net/projects/goldenarkreserve/",
@@ -139,6 +145,9 @@
     "gitlab_pages": {
       "entity_json": "https://company-profile-43c34c.gitlab.io/entity.json",
       "entity_jsonld": "https://company-profile-43c34c.gitlab.io/entity.jsonld"
+    },
+    "framagit_pages": {
+      "pages_url": "https://goldenark.frama.io/golden-ark-reserve/"
     },
     "codeberg_repo": {
       "entity_json_web": "https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.json",
@@ -214,6 +223,7 @@
       "gitlab_company_profile_repo": "https://gitlab.com/goldenarkreserve-group/company-profile",
       "gitlab_pages": "https://company-profile-43c34c.gitlab.io/",
       "gitlab_insights": "https://company-profile-43c34c.gitlab.io/insights.html",
+      "framagit_pages": "https://goldenark.frama.io/golden-ark-reserve/",
       "codeberg_profile": "https://codeberg.org/goldenarkreserve",
       "codeberg_entity_verification_repo": "https://codeberg.org/goldenarkreserve/entity-verification",
       "codeberg_pages": "https://goldenarkreserve.codeberg.page/company-profile/",
