@@ -151,8 +151,14 @@ https://goldenarkgeneraltrading.github.io/company-profile/insights.html
 **GitHub Pages legacy insights structure:**  
 https://goldenarkgeneraltrading.github.io/company-profile/insights/
 
+**Framagit Pages insights navigation:**  
+https://goldenark.frama.io/golden-ark-reserve/insights.html
+
 **GitLab Pages insights navigation:**  
 https://company-profile-43c34c.gitlab.io/insights.html
+
+**SourceForge Pages insights navigation:**  
+https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -175,10 +181,16 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 - GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/
 - GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights.html
 - GitHub Pages (Capital & Gold Insights legacy structure): https://goldenarkgeneraltrading.github.io/company-profile/insights/
+- Framagit Pages: https://goldenark.frama.io/golden-ark-reserve/
+- Framagit Pages (Capital & Gold Insights): https://goldenark.frama.io/golden-ark-reserve/insights.html
+- Framagit Pages (Press / Media Coverage Index): https://goldenark.frama.io/golden-ark-reserve/press.html
 - GitLab Pages: https://company-profile-43c34c.gitlab.io/
 - GitLab Pages (Capital & Gold Insights): https://company-profile-43c34c.gitlab.io/insights.html
 - Codeberg Pages: https://goldenarkreserve.codeberg.page/company-profile/
 - Bitbucket Pages: https://goldenarkreserve.bitbucket.io/
+- SourceForge Project: https://sourceforge.net/projects/goldenarkreserve/
+- SourceForge Pages: https://goldenarkreserve.sourceforge.io/
+- SourceForge Pages (Capital & Gold Insights): https://goldenarkreserve.sourceforge.io/insights.html
 
 ### Public entity files
 
@@ -189,6 +201,12 @@ GitHub Pages:
 GitHub raw:
 - entity.json: https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.json
 - entity.jsonld: https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/entity.jsonld
+
+Framagit Pages:
+- entity.json: https://goldenark.frama.io/golden-ark-reserve/entity.json
+- entity.jsonld: https://goldenark.frama.io/golden-ark-reserve/entity.jsonld
+- llms.txt: https://goldenark.frama.io/golden-ark-reserve/llms.txt
+- security.txt: https://goldenark.frama.io/golden-ark-reserve/.well-known/security.txt
 
 GitLab Pages:
 - entity.json: https://company-profile-43c34c.gitlab.io/entity.json
@@ -202,15 +220,27 @@ Codeberg raw:
 - entity.json: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
 - entity.jsonld: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
 
+SourceForge Pages:
+- entity.json: https://goldenarkreserve.sourceforge.io/entity.json
+- entity.jsonld: https://goldenarkreserve.sourceforge.io/entity.jsonld
+- organization.json: https://goldenarkreserve.sourceforge.io/organization.json
+- schema.jsonld: https://goldenarkreserve.sourceforge.io/schema.jsonld
+- security.txt: https://goldenarkreserve.sourceforge.io/security.txt
+- robots.txt: https://goldenarkreserve.sourceforge.io/robots.txt
+
 ### Repositories
 
 - GitHub organization: https://github.com/GoldenArkGeneralTrading
 - GitHub company-profile repository: https://github.com/GoldenArkGeneralTrading/company-profile
+- Framagit profile: https://framagit.org/goldenark
+- Framagit repository: https://framagit.org/goldenark/golden-ark-reserve
 - GitLab group: https://gitlab.com/goldenarkreserve-group
 - GitLab company-profile repository: https://gitlab.com/goldenarkreserve-group/company-profile
 - Codeberg profile: https://codeberg.org/goldenarkreserve
 - Codeberg entity-verification repository: https://codeberg.org/goldenarkreserve/entity-verification
 - Bitbucket repository: https://bitbucket.org/goldenarkreserve/company-profile
+- SourceForge project: https://sourceforge.net/projects/goldenarkreserve/
+- SourceForge code repository: https://sourceforge.net/p/goldenarkreserve/code/
 
 ### Knowledge graph profiles
 
@@ -230,6 +260,7 @@ Codeberg raw:
 ### Public media index
 - PRESS / Media Coverage Index: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/PRESS.md
 - Full machine-readable media index (CSV): https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv
+- Framagit Pages curated media index: https://goldenark.frama.io/golden-ark-reserve/press.html
 
 ---
 
