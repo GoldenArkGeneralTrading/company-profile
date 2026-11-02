@@ -25,7 +25,7 @@ Official company profile:
 - https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 
 Official insights archive:
-- https://goldenarkreserve.com/blog/
+- https://goldenarkreserve.com/insights/
 
 ---
 
@@ -81,9 +81,6 @@ This issuer release became the primary public disclosure source for multiple syn
 ### GitHub Pages — Capital & Gold Insights
 - https://goldenarkgeneraltrading.github.io/company-profile/insights.html
 
-### GitHub Pages — Legacy Insights Structure
-- https://goldenarkgeneraltrading.github.io/company-profile/insights/
-
 ### Framagit Pages — Entity Verification Profile
 - https://goldenark.frama.io/golden-ark-reserve/
 
@@ -104,15 +101,6 @@ This issuer release became the primary public disclosure source for multiple syn
 
 ### Bitbucket Pages — Entity Verification Profile
 - https://goldenarkreserve.bitbucket.io/
-
-### SourceForge Project — Public Profile Repository
-- https://sourceforge.net/projects/goldenarkreserve/
-
-### SourceForge Pages — Entity Verification Profile
-- https://goldenarkreserve.sourceforge.io/
-
-### SourceForge Pages — Capital & Gold Insights
-- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -159,14 +147,6 @@ Codeberg raw:
 - entity.json: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
 - entity.jsonld: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
 
-SourceForge Pages:
-- entity.json: https://goldenarkreserve.sourceforge.io/entity.json
-- entity.jsonld: https://goldenarkreserve.sourceforge.io/entity.jsonld
-- organization.json: https://goldenarkreserve.sourceforge.io/organization.json
-- schema.jsonld: https://goldenarkreserve.sourceforge.io/schema.jsonld
-- security.txt: https://goldenarkreserve.sourceforge.io/security.txt
-- robots.txt: https://goldenarkreserve.sourceforge.io/robots.txt
-
 ### Repositories
 
 - GitHub organization: https://github.com/GoldenArkGeneralTrading
@@ -178,8 +158,6 @@ SourceForge Pages:
 - Codeberg profile: https://codeberg.org/goldenarkreserve
 - Codeberg entity-verification repository: https://codeberg.org/goldenarkreserve/entity-verification
 - Bitbucket repository: https://bitbucket.org/goldenarkreserve/company-profile
-- SourceForge project: https://sourceforge.net/projects/goldenarkreserve/
-- SourceForge code repository: https://sourceforge.net/p/goldenarkreserve/code/
 
 ### Knowledge graph profiles
 - Wikidata: https://www.wikidata.org/wiki/Q137885502

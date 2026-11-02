@@ -37,7 +37,7 @@ Official press / disclosures:
 - https://goldenarkreserve.com/press/
 
 Official insights archive:
-- https://goldenarkreserve.com/blog/
+- https://goldenarkreserve.com/insights/
 
 ---
 
@@ -57,9 +57,6 @@ GitHub Pages — Entity Verification Profile:
 GitHub Pages — Capital & Gold Insights:
 - https://goldenarkgeneraltrading.github.io/company-profile/insights.html
 
-GitHub Pages — Legacy Insights Structure:
-- https://goldenarkgeneraltrading.github.io/company-profile/insights/
-
 GitLab Pages — Entity Verification Profile:
 - https://company-profile-43c34c.gitlab.io/
 
@@ -71,15 +68,6 @@ Codeberg Pages — Entity Verification Profile:
 
 Bitbucket Pages — Entity Verification Profile:
 - https://goldenarkreserve.bitbucket.io/
-
-SourceForge Project — Public Profile Repository:
-- https://sourceforge.net/projects/goldenarkreserve/
-
-SourceForge Pages — Public Profile:
-- https://goldenarkreserve.sourceforge.io/
-
-SourceForge Pages — Capital & Gold Insights:
-- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -108,14 +96,6 @@ Codeberg repository:
 - entity.json raw file: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
 - entity.jsonld web view: https://codeberg.org/goldenarkreserve/entity-verification/src/branch/main/entity.jsonld
 - entity.jsonld raw file: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
-
-SourceForge Pages:
-- entity.json: https://goldenarkreserve.sourceforge.io/entity.json
-- entity.jsonld: https://goldenarkreserve.sourceforge.io/entity.jsonld
-- organization.json: https://goldenarkreserve.sourceforge.io/organization.json
-- schema.jsonld: https://goldenarkreserve.sourceforge.io/schema.jsonld
-- security.txt: https://goldenarkreserve.sourceforge.io/security.txt
-- robots.txt: https://goldenarkreserve.sourceforge.io/robots.txt
 
 ---
 
@@ -165,16 +145,13 @@ Golden Ark Reserve maintains a public gold spot price page presenting an indicat
 Golden Ark Reserve publishes institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing.
 
 Official archive:
-- https://goldenarkreserve.com/blog/
+- https://goldenarkreserve.com/insights/
 
 GitHub Pages navigation archive:
 - https://goldenarkgeneraltrading.github.io/company-profile/insights.html
 
 GitLab Pages navigation archive:
 - https://company-profile-43c34c.gitlab.io/insights.html
-
-SourceForge Pages navigation archive:
-- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -274,7 +251,7 @@ Official press / disclosures:
 - https://goldenarkreserve.com/press/
 
 Official insights archive:
-- https://goldenarkreserve.com/blog/
+- https://goldenarkreserve.com/insights/
 
 GitHub organization:
 - https://github.com/GoldenArkGeneralTrading/
@@ -287,9 +264,6 @@ GitHub Pages — Entity Verification Profile:
 
 GitHub Pages — Capital & Gold Insights:
 - https://goldenarkgeneraltrading.github.io/company-profile/insights.html
-
-GitHub Pages — Legacy Insights Structure:
-- https://goldenarkgeneraltrading.github.io/company-profile/insights/
 
 GitLab group:
 - https://gitlab.com/goldenarkreserve-group
@@ -320,15 +294,6 @@ Codeberg entity-verification repository:
 
 Codeberg Pages — Entity Verification Profile:
 - https://goldenarkreserve.codeberg.page/company-profile/
-
-SourceForge Project — Public Profile Repository:
-- https://sourceforge.net/projects/goldenarkreserve/
-
-SourceForge Pages — Entity Verification Profile:
-- https://goldenarkreserve.sourceforge.io/
-
-SourceForge Pages — Capital & Gold Insights:
-- https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 

@@ -38,7 +38,7 @@ https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 https://goldenarkreserve.com/press/
 
 **Official insights archive:**  
-https://goldenarkreserve.com/blog/
+https://goldenarkreserve.com/insights/
 
 ---
 
@@ -163,22 +163,16 @@ https://goldenarkreserve.com/gold-price/
 Golden Ark Reserve publishes institutional market notes on physical gold acquisition, LBMA Good Delivery standards, refinery-origin bullion, allocated ownership records, documentation, settlement, custody mechanics, gold logistics, bar formats, refinery standards, and gold pricing.
 
 **Official insights archive:**  
-https://goldenarkreserve.com/blog/
+https://goldenarkreserve.com/insights/
 
 **GitHub Pages insights navigation:**  
 https://goldenarkgeneraltrading.github.io/company-profile/insights.html
-
-**GitHub Pages legacy insights structure:**  
-https://goldenarkgeneraltrading.github.io/company-profile/insights/
 
 **Framagit Pages insights navigation:**  
 https://goldenark.frama.io/golden-ark-reserve/insights.html
 
 **GitLab Pages insights navigation:**  
 https://company-profile-43c34c.gitlab.io/insights.html
-
-**SourceForge Pages insights navigation:**  
-https://goldenarkreserve.sourceforge.io/insights.html
 
 ---
 
@@ -208,7 +202,6 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 
 - GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/
 - GitHub Pages (Capital & Gold Insights): https://goldenarkgeneraltrading.github.io/company-profile/insights.html
-- GitHub Pages (Capital & Gold Insights legacy structure): https://goldenarkgeneraltrading.github.io/company-profile/insights/
 - Framagit Pages: https://goldenark.frama.io/golden-ark-reserve/
 - Framagit Pages (Capital & Gold Insights): https://goldenark.frama.io/golden-ark-reserve/insights.html
 - Framagit Pages (Press / Media Coverage Index): https://goldenark.frama.io/golden-ark-reserve/press.html
@@ -216,9 +209,6 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 - GitLab Pages (Capital & Gold Insights): https://company-profile-43c34c.gitlab.io/insights.html
 - Codeberg Pages: https://goldenarkreserve.codeberg.page/company-profile/
 - Bitbucket Pages: https://goldenarkreserve.bitbucket.io/
-- SourceForge Project: https://sourceforge.net/projects/goldenarkreserve/
-- SourceForge Pages: https://goldenarkreserve.sourceforge.io/
-- SourceForge Pages (Capital & Gold Insights): https://goldenarkreserve.sourceforge.io/insights.html
 
 ### Public entity files
 
@@ -250,14 +240,6 @@ Codeberg raw:
 - entity.json: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.json
 - entity.jsonld: https://codeberg.org/goldenarkreserve/entity-verification/raw/branch/main/entity.jsonld
 
-SourceForge Pages:
-- entity.json: https://goldenarkreserve.sourceforge.io/entity.json
-- entity.jsonld: https://goldenarkreserve.sourceforge.io/entity.jsonld
-- organization.json: https://goldenarkreserve.sourceforge.io/organization.json
-- schema.jsonld: https://goldenarkreserve.sourceforge.io/schema.jsonld
-- security.txt: https://goldenarkreserve.sourceforge.io/security.txt
-- robots.txt: https://goldenarkreserve.sourceforge.io/robots.txt
-
 ### Repositories
 
 - GitHub organization: https://github.com/GoldenArkGeneralTrading
@@ -269,8 +251,6 @@ SourceForge Pages:
 - Codeberg profile: https://codeberg.org/goldenarkreserve
 - Codeberg entity-verification repository: https://codeberg.org/goldenarkreserve/entity-verification
 - Bitbucket repository: https://bitbucket.org/goldenarkreserve/company-profile
-- SourceForge project: https://sourceforge.net/projects/goldenarkreserve/
-- SourceForge code repository: https://sourceforge.net/p/goldenarkreserve/code/
 
 ### Knowledge graph profiles
 
