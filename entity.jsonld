@@ -9,7 +9,7 @@
     "القوس الذهبي للتجارة العامة (شركة منطقة حرة)"
   ],
   "url": "https://goldenarkreserve.com",
-  "description": "Physical precious metals trading focused on institutional and corporate counterparties. International group of companies (Oman principal entity + Hong Kong subsidiary). Includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Singapore, secure delivery execution through Brink’s to more than 100 countries, crypto payments via licensed operator, and a public OTC gold spot reference page.",
+  "description": "Golden Ark Reserve is the trade name of an international group of companies engaged in physical gold sales and delivery execution for qualified investors and corporate counterparties. Golden Ark General Trading (FZC) LLC (Sultanate of Oman, Sohar Free Zone) is the principal operating and contracting entity and the counterparty to all commercial agreements for the sale and delivery of physical gold; all pricing, contract approvals, commercial risk, and client payments remain with this company. Its wholly-owned Hong Kong subsidiary, Golden Ark Reserve Limited, provides coordination and logistics support only. The operating model includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore, secure delivery execution through Brink’s to more than 100 countries (excluding sanctioned destinations), crypto payments (BTC, ETH, USDT, USDC) via a licensed digital-asset operator with fiat settlement to Golden Ark Reserve, and a public OTC gold spot reference page.",
   "foundingLocation": {
     "@type": "Place",
     "name": "Sultanate of Oman"
@@ -66,6 +66,32 @@
       "value": "0000000529692415"
     }
   ],
+  "subOrganization": {
+    "@type": "Organization",
+    "@id": "https://goldenarkreserve.com/#organization-hk",
+    "name": "Golden Ark Reserve Limited",
+    "legalName": "Golden Ark Reserve Limited",
+    "description": "100% wholly-owned Hong Kong subsidiary of Golden Ark General Trading (FZC) LLC. Provides coordination and logistics support only. Does not engage in the purchase or sale of gold, does not act as a counterparty to client transactions, and does not receive client payments for precious metals. Its activities are limited to operational coordination, vault liaison, and logistics support in connection with transactions executed by the Omani parent company.",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Hong Kong"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "HK"
+    },
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "Business Registration (BR, Hong Kong)",
+        "value": "81486435"
+      }
+    ],
+    "ownershipFundingInfo": "100% owned by Golden Ark General Trading (FZC) LLC (Sultanate of Oman, Sohar Free Zone).",
+    "parentOrganization": {
+      "@id": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/#organization"
+    }
+  },
   "memberOf": [
     {
       "@type": "Organization",
