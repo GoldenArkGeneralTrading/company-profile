@@ -9,7 +9,7 @@
     "القوس الذهبي للتجارة العامة (شركة منطقة حرة)"
   ],
   "url": "https://goldenarkreserve.com",
-  "description": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
+  "description": "Physical precious metals trading focused on institutional and corporate counterparties. International group of companies (Oman principal entity + Hong Kong subsidiary). Includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Singapore, secure delivery execution through Brink’s to more than 100 countries, crypto payments via licensed operator, and a public OTC gold spot reference page.",
   "foundingLocation": {
     "@type": "Place",
     "name": "Sultanate of Oman"
@@ -125,28 +125,13 @@
     },
     {
       "@type": "WebPage",
-      "name": "Golden Ark Reserve Framagit Pages Entity Verification Profile",
-      "url": "https://goldenark.frama.io/golden-ark-reserve/"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Capital & Gold Insights | Framagit Pages",
-      "url": "https://goldenark.frama.io/golden-ark-reserve/insights.html"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Press / Media Coverage Index | Framagit Pages",
-      "url": "https://goldenark.frama.io/golden-ark-reserve/press.html"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Golden Ark Reserve GitLab Pages Entity Verification Profile",
-      "url": "https://company-profile-43c34c.gitlab.io/"
-    },
-    {
-      "@type": "WebPage",
       "name": "Capital & Gold Insights | GitLab Pages",
       "url": "https://company-profile-43c34c.gitlab.io/insights.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Golden Ark Reserve Framagit Pages Entity Verification Profile",
+      "url": "https://goldenark.frama.io/golden-ark-reserve/"
     },
     {
       "@type": "WebPage",
@@ -172,11 +157,6 @@
       "@type": "WebPage",
       "name": "Golden Ark Reserve SourceForge Project",
       "url": "https://sourceforge.net/projects/goldenarkreserve/"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Golden Ark Reserve SourceForge Code Repository",
-      "url": "https://sourceforge.net/p/goldenarkreserve/code/"
     }
   ],
   "sameAs": [
@@ -188,32 +168,22 @@
     "https://goldenarkreserve.com/gold-bars/",
     "https://goldenarkreserve.com/gold-storage/",
     "https://goldenarkreserve.com/gold-delivery/",
+    "https://goldenarkreserve.com/buy-gold-with-crypto/",
     "https://goldenarkreserve.com/gold-price/",
     "https://goldenarkreserve.com/blog/",
 
     "https://goldenarkgeneraltrading.github.io/company-profile/",
     "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
     "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
-
-    "https://framagit.org/goldenark/golden-ark-reserve",
-    "https://goldenark.frama.io/golden-ark-reserve/",
-    "https://goldenark.frama.io/golden-ark-reserve/insights.html",
-    "https://goldenark.frama.io/golden-ark-reserve/press.html",
-
     "https://company-profile-43c34c.gitlab.io/",
     "https://company-profile-43c34c.gitlab.io/insights.html",
-
+    "https://goldenark.frama.io/golden-ark-reserve/",
     "https://goldenarkreserve.codeberg.page/company-profile/",
     "https://goldenarkreserve.bitbucket.io/",
-
     "https://sourceforge.net/projects/goldenarkreserve/",
     "https://sourceforge.net/p/goldenarkreserve/code/",
     "https://goldenarkreserve.sourceforge.io/",
     "https://goldenarkreserve.sourceforge.io/insights.html",
-    "https://goldenarkreserve.sourceforge.io/entity.json",
-    "https://goldenarkreserve.sourceforge.io/entity.jsonld",
-    "https://goldenarkreserve.sourceforge.io/organization.json",
-    "https://goldenarkreserve.sourceforge.io/schema.jsonld",
 
     "https://www.wikidata.org/wiki/Q137885502",
     "https://grokipedia.com/page/Golden_Ark_Reserve",
@@ -231,6 +201,7 @@
     "https://codeberg.org/goldenarkreserve",
     "https://codeberg.org/goldenarkreserve/entity-verification",
 
+    "https://goldenarkreserve.bitbucket.io/",
     "https://bitbucket.org/goldenarkreserve/company-profile",
 
     "https://search.gleif.org/#/record/98450040E688696D1C47",
