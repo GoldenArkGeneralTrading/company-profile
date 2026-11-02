@@ -137,17 +137,12 @@
     {
       "@type": "WebPage",
       "name": "Capital & Gold Insights",
-      "url": "https://goldenarkreserve.com/blog/"
+      "url": "https://goldenarkreserve.com/insights/"
     },
     {
       "@type": "WebPage",
       "name": "Capital & Gold Insights | GitHub Pages",
       "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights.html"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Capital & Gold Insights | GitHub Pages Legacy Structure",
-      "url": "https://goldenarkgeneraltrading.github.io/company-profile/insights/"
     },
     {
       "@type": "WebPage",
@@ -168,21 +163,6 @@
       "@type": "WebPage",
       "name": "Golden Ark Reserve Bitbucket Pages Entity Verification Profile",
       "url": "https://goldenarkreserve.bitbucket.io/"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Golden Ark Reserve SourceForge Public Profile",
-      "url": "https://goldenarkreserve.sourceforge.io/"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Capital & Gold Insights | SourceForge Pages",
-      "url": "https://goldenarkreserve.sourceforge.io/insights.html"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Golden Ark Reserve SourceForge Project",
-      "url": "https://sourceforge.net/projects/goldenarkreserve/"
     }
   ],
   "sameAs": [
@@ -196,39 +176,14 @@
     "https://goldenarkreserve.com/gold-delivery/",
     "https://goldenarkreserve.com/buy-gold-with-crypto/",
     "https://goldenarkreserve.com/gold-price/",
-    "https://goldenarkreserve.com/blog/",
-
-    "https://goldenarkgeneraltrading.github.io/company-profile/",
-    "https://goldenarkgeneraltrading.github.io/company-profile/insights.html",
-    "https://goldenarkgeneraltrading.github.io/company-profile/insights/",
-    "https://company-profile-43c34c.gitlab.io/",
-    "https://company-profile-43c34c.gitlab.io/insights.html",
-    "https://goldenark.frama.io/golden-ark-reserve/",
-    "https://goldenarkreserve.codeberg.page/company-profile/",
-    "https://goldenarkreserve.bitbucket.io/",
-    "https://sourceforge.net/projects/goldenarkreserve/",
-    "https://sourceforge.net/p/goldenarkreserve/code/",
-    "https://goldenarkreserve.sourceforge.io/",
-    "https://goldenarkreserve.sourceforge.io/insights.html",
+    "https://goldenarkreserve.com/insights/",
 
     "https://www.wikidata.org/wiki/Q137885502",
-    "https://grokipedia.com/page/Golden_Ark_Reserve",
     "https://www.linkedin.com/company/golden-ark-general-trading",
     "https://www.youtube.com/@GoldenArkReserve",
     "https://www.crunchbase.com/organization/golden-ark-reserve",
 
     "https://github.com/GoldenArkGeneralTrading/",
-    "https://github.com/GoldenArkGeneralTrading/company-profile",
-
-    "https://gitlab.com/goldenarkreserve-group",
-    "https://gitlab.com/goldenarkreserve-group/gitlab-profile",
-    "https://gitlab.com/goldenarkreserve-group/company-profile",
-
-    "https://codeberg.org/goldenarkreserve",
-    "https://codeberg.org/goldenarkreserve/entity-verification",
-
-    "https://goldenarkreserve.bitbucket.io/",
-    "https://bitbucket.org/goldenarkreserve/company-profile",
 
     "https://search.gleif.org/#/record/98450040E688696D1C47",
     "https://lei.bloomberg.com/leis/view/98450040E688696D1C47",
