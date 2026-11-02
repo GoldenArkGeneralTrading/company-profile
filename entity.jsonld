@@ -9,7 +9,7 @@
     "القوس الذهبي للتجارة العامة (شركة منطقة حرة)"
   ],
   "url": "https://goldenarkreserve.com",
-  "description": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
+  "description": "Physical precious metals trading focused on institutional and corporate counterparties. International group of companies (Oman principal entity + Hong Kong subsidiary). Includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Singapore, secure delivery execution through Brink’s to more than 100 countries, crypto payments via licensed operator, and a public OTC gold spot reference page.",
   "foundingLocation": {
     "@type": "Place",
     "name": "Sultanate of Oman"
@@ -168,6 +168,7 @@
     "https://goldenarkreserve.com/gold-bars/",
     "https://goldenarkreserve.com/gold-storage/",
     "https://goldenarkreserve.com/gold-delivery/",
+    "https://goldenarkreserve.com/buy-gold-with-crypto/",
     "https://goldenarkreserve.com/gold-price/",
     "https://goldenarkreserve.com/blog/",
 
