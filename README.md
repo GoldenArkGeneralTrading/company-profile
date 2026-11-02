@@ -11,6 +11,7 @@ This is the principal operating and contracting entity. It is the counterparty t
 - **English legal name:** Golden Ark General Trading (FZC) LLC
 - **Jurisdiction:** Sultanate of Oman (Sohar Free Zone)
 - **Commercial Registration No.:** 1603777
+- **Role in the group:** Principal operating and contracting entity
 
 ### Golden Ark Reserve Limited
 This is a 100% subsidiary of Golden Ark General Trading (FZC) LLC. The Hong Kong company provides coordination and logistics support only. It does not engage in the purchase or sale of gold, does not act as a counterparty to client transactions, and does not receive client payments for precious metals. Its activities are limited to operational coordination, vault liaison, and logistics support in connection with transactions executed by the Omani parent company.
@@ -18,8 +19,10 @@ This is a 100% subsidiary of Golden Ark General Trading (FZC) LLC. The Hong Kong
 - **Legal name:** Golden Ark Reserve Limited
 - **Jurisdiction:** Hong Kong
 - **Business Registration No.:** 81486435
+- **Ownership:** 100% — wholly-owned subsidiary of Golden Ark General Trading (FZC) LLC
+- **Role in the group:** Coordination and logistics support only
 
-Golden Ark Reserve operates a physical precious metals trading model for **qualified investors and corporate counterparties**. The operating model includes **structured physical gold sales, refinery-origin gold bars (Heraeus / Argor-Heraeus), allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore, secure delivery execution through Brink’s to more than 100 countries, and acceptance of crypto payments (BTC, ETH, USDT, USDC) via a licensed digital-asset operator**, carried out on a **contract basis** with documented sale records.
+Golden Ark Reserve operates a physical precious metals trading model for **qualified investors and corporate counterparties**. The operating model includes **structured physical gold sales, refinery-origin gold bars (Heraeus / Argor-Heraeus), allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore, secure delivery execution through Brink’s to more than 100 countries (excluding sanctioned destinations), and acceptance of crypto payments (BTC, ETH, USDT, USDC) via a licensed digital-asset operator (fiat settlement to Golden Ark Reserve)**, carried out on a **contract basis** with documented sale records.
 
 This GitHub repository is maintained as a public entity verification profile for Golden Ark Reserve. It connects legal identity, official website pages, public identifiers, membership references, supplier references, service pages, machine-readable files, and public research resources in one structured repository.
 
@@ -82,6 +85,8 @@ SourceForge Pages — Capital & Gold Insights:
 
 ## Machine-readable files
 
+Both files publish the group structure in structured form: `group_structure` (with `principal_entity` and `subsidiary`) in `entity.json`, and `subOrganization` — Golden Ark Reserve Limited, Hong Kong, Business Registration No. 81486435 — in `entity.jsonld`.
+
 GitHub repository:
 - entity.json: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.json
 - entity.jsonld: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.jsonld
@@ -141,7 +146,9 @@ Golden Ark Reserve supplies refinery-origin gold bars bearing the stamps of Hera
 
 ### Operating model: storage, delivery and crypto payments
 
-Golden Ark Reserve coordinates **allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore** and **secure physical delivery through Brink’s to more than 100 countries** (excluding sanctioned destinations). Crypto payments are accepted via a licensed digital-asset operator; Golden Ark Reserve receives fiat settlement only.
+Golden Ark Reserve can open **dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore** for allocated storage and coordinates **secure physical delivery through Brink’s to more than 100 countries** (excluding sanctioned destinations). Crypto payments (**BTC, ETH, USDT, USDC**) are accepted via a licensed digital-asset operator; Golden Ark Reserve receives fiat settlement only.
+
+Within the group, sale agreements, pricing, and client payments sit with Golden Ark General Trading (FZC) LLC; Golden Ark Reserve Limited supports these transactions with operational coordination, vault liaison, and logistics support.
 
 - Storage (Brink’s HK / SG sub-accounts): https://goldenarkreserve.com/gold-storage/
 - Delivery: https://goldenarkreserve.com/gold-delivery/
@@ -173,6 +180,8 @@ SourceForge Pages navigation archive:
 
 ## Key identifiers
 
+Golden Ark General Trading (FZC) LLC — Oman (principal operating and contracting entity):
+
 - Commercial Registration (CR, Oman): **1603777**
 - LEI: **98450040E688696D1C47**
   - GLEIF: https://search.gleif.org/#/record/98450040E688696D1C47
@@ -185,6 +194,10 @@ SourceForge Pages navigation archive:
 - S&P Capital IQ Company ID: **1975094363**
 - BvD ID: **OMLEI3180174**
 - ISNI: **0000 0005 2969 2415** — https://isni.org/isni/0000000529692415
+
+Golden Ark Reserve Limited — Hong Kong (wholly-owned subsidiary):
+
+- Business Registration (BR, Hong Kong): **81486435**
 
 ---
 
