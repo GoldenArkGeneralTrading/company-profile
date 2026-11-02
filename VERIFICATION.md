@@ -1,6 +1,6 @@
 # Verification / Public Entity Reference Map
 
-This document provides a structured public reference map for **Golden Ark General Trading (FZC) LLC** (trade name / brand: **Golden Ark Reserve**) for preliminary due diligence, entity verification, and source cross-checking.
+This document provides a structured public reference map for **Golden Ark Reserve** (trade name of an international group of companies) for preliminary due diligence, entity verification, and source cross-checking.
 
 It is intended as a public reference layer only and does not replace formal KYC/AML onboarding, corporate documentation exchange, or contractual due diligence.
 
@@ -8,14 +8,25 @@ This GitHub-hosted verification map is part of the public entity profile for Gol
 
 ---
 
-## Legal entity
+## International group of companies
+
+Golden Ark Reserve is the trade name of an international group of companies. The group consists of Golden Ark General Trading (FZC) LLC and its wholly-owned Hong Kong subsidiary, Golden Ark Reserve Limited. This separation of commercial authority (Oman) and operational coordination (Hong Kong) is designed to maintain clear lines of responsibility and compliance.
+
+### Golden Ark General Trading (FZC) LLC
+This is the principal operating and contracting entity. It is the counterparty to all commercial agreements for the sale and delivery of physical gold. All pricing, contract approvals, commercial risk, and client payments remain with this company.
 
 **Arabic legal name:** القوس الذهبي للتجارة العامة (شركة منطقة حرة)  
 **English legal name:** Golden Ark General Trading (FZC) LLC  
-**Trade name / brand:** Golden Ark Reserve  
 **Jurisdiction:** Sultanate of Oman (Sohar Free Zone)  
 **Commercial Registration Number (CR):** 1603777  
-**Website:** https://goldenarkreserve.com  
+**Website:** https://goldenarkreserve.com
+
+### Golden Ark Reserve Limited
+This is a 100% subsidiary of Golden Ark General Trading (FZC) LLC. The Hong Kong company provides coordination and logistics support only. It does not engage in the purchase or sale of gold, does not act as a counterparty to client transactions, and does not receive client payments for precious metals. Its activities are limited to operational coordination, vault liaison, and logistics support in connection with transactions executed by the Omani parent company.
+
+**Legal name:** Golden Ark Reserve Limited  
+**Jurisdiction:** Hong Kong  
+**Business Registration No.:** 81486435
 
 **Official company profile:**  
 https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
@@ -164,13 +175,20 @@ https://goldenarkreserve.sourceforge.io/insights.html
 
 ## Operating model / public service references
 
-Golden Ark Reserve’s public service pages describe an operating model centered on physical gold sales and transaction execution, including allocated storage with Brink’s and secure delivery through Brink’s under the applicable transaction structure and procedures.
+Golden Ark Reserve’s public service pages describe an operating model centered on physical gold sales and transaction execution by the Oman principal entity, with operational coordination via the Hong Kong subsidiary. Key capabilities include:
 
-### Allocated storage with Brink’s
+- Allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore.
+- Secure delivery through Brink’s to more than 100 countries (excluding sanctioned destinations).
+- Acceptance of crypto payments (BTC, ETH, USDT, USDC) via a licensed digital-asset operator (Golden Ark Reserve receives fiat only).
+
+### Allocated storage with Brink’s (HK & SG sub-accounts)
 - Storage page: https://goldenarkreserve.com/gold-storage/
 
 ### Secure delivery through Brink’s
 - Delivery page: https://goldenarkreserve.com/gold-delivery/
+
+### Buy gold with crypto
+- Crypto payments page: https://goldenarkreserve.com/buy-gold-with-crypto/
 
 ---
 
