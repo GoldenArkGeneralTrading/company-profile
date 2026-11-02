@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "2.0",
   "last_updated_utc": "2026-11-02",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
@@ -7,16 +7,86 @@
   "jurisdiction": "Sultanate of Oman (Sohar Free Zone)",
   "commercial_registration_number": "1603777",
   "website": "https://goldenarkreserve.com",
+  "group_structure": {
+    "group_type": "international group of companies",
+    "trade_name": "Golden Ark Reserve",
+    "description": "Golden Ark Reserve is the trade name of an international group of companies engaged in physical gold sales and delivery execution for qualified investors and corporate counterparties. The group consists of Golden Ark General Trading (FZC) LLC and its wholly-owned Hong Kong subsidiary, Golden Ark Reserve Limited.",
+    "separation_of_functions": "This separation of commercial authority (Oman) and operational coordination (Hong Kong) is designed to maintain clear lines of responsibility and compliance.",
+    "principal_entity": {
+      "legal_name": "Golden Ark General Trading (FZC) LLC",
+      "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
+      "role": "Principal operating and contracting entity",
+      "jurisdiction": "Sultanate of Oman (Sohar Free Zone)",
+      "country_code": "OM",
+      "registration": {
+        "type": "Commercial Registration (CR, Oman)",
+        "number": "1603777"
+      },
+      "lei": "98450040E688696D1C47",
+      "responsibilities": "Counterparty to all commercial agreements for the sale and delivery of physical gold. All pricing, contract approvals, commercial risk, and client payments remain with this company.",
+      "website": "https://goldenarkreserve.com",
+      "schema_org_id": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/#organization"
+    },
+    "subsidiary": {
+      "legal_name": "Golden Ark Reserve Limited",
+      "role": "Coordination and logistics support only",
+      "jurisdiction": "Hong Kong",
+      "country_code": "HK",
+      "registration": {
+        "type": "Business Registration (BR, Hong Kong)",
+        "number": "81486435"
+      },
+      "relationship": "wholly-owned subsidiary",
+      "parent_entity": "Golden Ark General Trading (FZC) LLC",
+      "ownership_percentage": 100,
+      "activities": [
+        "operational coordination",
+        "vault liaison",
+        "logistics support in connection with transactions executed by the Omani parent company"
+      ],
+      "excluded_activities": [
+        "purchase or sale of gold",
+        "acting as a counterparty to client transactions",
+        "receiving client payments for precious metals"
+      ],
+      "schema_org_id": "https://goldenarkreserve.com/#organization-hk"
+    }
+  },
   "official_references": {
     "company_profile": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/",
     "press": "https://goldenarkreserve.com/press/",
     "capital_gold_insights": "https://goldenarkreserve.com/blog/"
   },
   "business_activity": {
-    "summary": "Physical precious metals trading focused on institutional and corporate counterparties. International group structure (Oman principal entity + Hong Kong subsidiary). Includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Singapore, secure delivery execution through Brink’s to more than 100 countries, crypto payments via licensed operator, and a public OTC gold spot reference page.",
+    "summary": "Physical precious metals trading focused on institutional and corporate counterparties. Golden Ark Reserve is the trade name of an international group of companies: Golden Ark General Trading (FZC) LLC (Oman) is the principal operating and contracting entity; its wholly-owned Hong Kong subsidiary, Golden Ark Reserve Limited, provides coordination and logistics support only (see group_structure). Includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore, secure delivery execution through Brink’s to more than 100 countries (excluding sanctioned destinations), crypto payments (BTC, ETH, USDT, USDC) via a licensed digital-asset operator, and a public OTC gold spot reference page.",
     "client_focus": "Qualified investors and corporate counterparties",
     "execution_model": "Contract-based workflows with documented sale records",
-    "storage_and_delivery": "Allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore; secure delivery through Brink’s to more than 100 countries (excluding sanctioned destinations). Crypto payments accepted via licensed digital-asset operator (fiat settlement to Golden Ark Reserve)."
+    "storage_and_delivery": "Allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore; secure delivery through Brink’s to more than 100 countries (excluding sanctioned destinations). Crypto payments (BTC, ETH, USDT, USDC) accepted via licensed digital-asset operator (fiat settlement to Golden Ark Reserve).",
+    "operating_model": {
+      "storage": {
+        "description": "Dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore",
+        "locations": [
+          "Brink’s Hong Kong",
+          "Brink’s Singapore"
+        ],
+        "reference_page": "https://goldenarkreserve.com/gold-storage/"
+      },
+      "delivery": {
+        "description": "Secure delivery execution through Brink’s to more than 100 countries (excluding sanctioned destinations)",
+        "reference_page": "https://goldenarkreserve.com/gold-delivery/"
+      },
+      "crypto_payments": {
+        "accepted_assets": [
+          "BTC",
+          "ETH",
+          "USDT",
+          "USDC"
+        ],
+        "processed_via": "licensed digital-asset operator",
+        "settlement_to_golden_ark_reserve": "fiat",
+        "reference_page": "https://goldenarkreserve.com/buy-gold-with-crypto/"
+      }
+    }
   },
   "supplier_relationships": {
     "heraeus_precious_metals": {
@@ -237,5 +307,5 @@
       "sourceforge_insights": "https://goldenarkreserve.sourceforge.io/insights.html"
     }
   },
-  "notes": "Public entity verification dataset for Golden Ark Reserve. Keep legal identity, identifiers, official website URLs, memberships, supplier references, service-page references, content-resource references, and operating model references consistent across public profiles while allowing each repository page to remain independently indexable and context-specific."
+  "notes": "Public entity verification dataset for Golden Ark Reserve. Keep legal identity, group structure (principal entity in Oman and wholly-owned subsidiary in Hong Kong), identifiers, official website URLs, memberships, supplier references, service-page references, content-resource references, and operating model references consistent across public profiles while allowing each repository page to remain independently indexable and context-specific."
 }
