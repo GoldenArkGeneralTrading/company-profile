@@ -2,13 +2,24 @@
 
 ## Company overview
 
-**Golden Ark Reserve** is the trade name / brand of the legal entity **Golden Ark General Trading (FZC) LLC**, registered in the **Sohar Free Zone, Sultanate of Oman**.
+**Golden Ark Reserve** is the trade name of an international group of companies engaged in physical gold sales and delivery execution for qualified investors and corporate counterparties. The group consists of Golden Ark General Trading (FZC) LLC and its wholly-owned Hong Kong subsidiary, Golden Ark Reserve Limited. This separation of commercial authority (Oman) and operational coordination (Hong Kong) is designed to maintain clear lines of responsibility and compliance.
 
-- **Arabic legal name:** القوس الذهبي للتجارة العامة (شركة منطقة حرة)  
-- **English legal name:** Golden Ark General Trading (FZC) LLC  
-- **Trade name / brand:** Golden Ark Reserve  
+### Golden Ark General Trading (FZC) LLC
+This is the principal operating and contracting entity. It is the counterparty to all commercial agreements for the sale and delivery of physical gold. All pricing, contract approvals, commercial risk, and client payments remain with this company.
 
-Golden Ark Reserve operates a physical precious metals trading model for **qualified investors and corporate counterparties**. The operating model includes **structured physical gold sales, refinery-origin gold bars, allocated storage with Brink’s, and secure delivery execution through Brink’s**, carried out on a **contract basis** with documented sale records.
+- **Arabic legal name:** القوس الذهبي للتجارة العامة (شركة منطقة حرة)
+- **English legal name:** Golden Ark General Trading (FZC) LLC
+- **Jurisdiction:** Sultanate of Oman (Sohar Free Zone)
+- **Commercial Registration No.:** 1603777
+
+### Golden Ark Reserve Limited
+This is a 100% subsidiary of Golden Ark General Trading (FZC) LLC. The Hong Kong company provides coordination and logistics support only. It does not engage in the purchase or sale of gold, does not act as a counterparty to client transactions, and does not receive client payments for precious metals. Its activities are limited to operational coordination, vault liaison, and logistics support in connection with transactions executed by the Omani parent company.
+
+- **Legal name:** Golden Ark Reserve Limited
+- **Jurisdiction:** Hong Kong
+- **Business Registration No.:** 81486435
+
+Golden Ark Reserve operates a physical precious metals trading model for **qualified investors and corporate counterparties**. The operating model includes **structured physical gold sales, refinery-origin gold bars (Heraeus / Argor-Heraeus), allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore, secure delivery execution through Brink’s to more than 100 countries, and acceptance of crypto payments (BTC, ETH, USDT, USDC) via a licensed digital-asset operator**, carried out on a **contract basis** with documented sale records.
 
 This GitHub repository is maintained as a public entity verification profile for Golden Ark Reserve. It connects legal identity, official website pages, public identifiers, membership references, supplier references, service pages, machine-readable files, and public research resources in one structured repository.
 
@@ -128,12 +139,13 @@ Golden Ark Reserve supplies refinery-origin gold bars bearing the stamps of Hera
 
 - https://goldenarkreserve.com/gold-bars/
 
-### Operating model: storage and delivery
+### Operating model: storage, delivery and crypto payments
 
-Golden Ark Reserve coordinates **allocated storage with Brink’s** and **secure physical delivery through Brink’s** within the applicable transaction structure, jurisdiction, and procedures.
+Golden Ark Reserve coordinates **allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore** and **secure physical delivery through Brink’s to more than 100 countries** (excluding sanctioned destinations). Crypto payments are accepted via a licensed digital-asset operator; Golden Ark Reserve receives fiat settlement only.
 
-- Storage: https://goldenarkreserve.com/gold-storage/
+- Storage (Brink’s HK / SG sub-accounts): https://goldenarkreserve.com/gold-storage/
 - Delivery: https://goldenarkreserve.com/gold-delivery/
+- Buy gold with crypto: https://goldenarkreserve.com/buy-gold-with-crypto/
 
 ### Gold Spot Price reference
 
