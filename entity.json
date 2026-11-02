@@ -1,6 +1,6 @@
 {
-  "version": "1.8",
-  "last_updated_utc": "2026-05-27",
+  "version": "1.9",
+  "last_updated_utc": "2026-11-02",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -13,10 +13,10 @@
     "capital_gold_insights": "https://goldenarkreserve.com/blog/"
   },
   "business_activity": {
-    "summary": "Physical precious metals trading focused on institutional and corporate counterparties, including refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage with Brink’s, secure delivery execution through Brink’s, and a public OTC gold spot reference page.",
+    "summary": "Physical precious metals trading focused on institutional and corporate counterparties. International group structure (Oman principal entity + Hong Kong subsidiary). Includes refinery-origin gold supply from Heraeus Precious Metals, structured physical gold acquisition, refinery-origin gold bars, allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Singapore, secure delivery execution through Brink’s to more than 100 countries, crypto payments via licensed operator, and a public OTC gold spot reference page.",
     "client_focus": "Qualified investors and corporate counterparties",
     "execution_model": "Contract-based workflows with documented sale records",
-    "storage_and_delivery": "Allocated storage with Brink’s and secure delivery through Brink’s are available within the applicable transaction structure, jurisdiction, and procedures."
+    "storage_and_delivery": "Allocated storage in dedicated client sub-accounts at Brink’s Hong Kong and Brink’s Singapore; secure delivery through Brink’s to more than 100 countries (excluding sanctioned destinations). Crypto payments accepted via licensed digital-asset operator (fiat settlement to Golden Ark Reserve)."
   },
   "supplier_relationships": {
     "heraeus_precious_metals": {
@@ -30,6 +30,7 @@
     "gold_bars": "https://goldenarkreserve.com/gold-bars/",
     "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
     "physical_delivery": "https://goldenarkreserve.com/gold-delivery/",
+    "buy_gold_with_crypto": "https://goldenarkreserve.com/buy-gold-with-crypto/",
     "gold_price_reference": "https://goldenarkreserve.com/gold-price/",
     "capital_gold_insights": "https://goldenarkreserve.com/blog/"
   },
@@ -201,6 +202,7 @@
       "gold_bars": "https://goldenarkreserve.com/gold-bars/",
       "allocated_storage": "https://goldenarkreserve.com/gold-storage/",
       "physical_delivery": "https://goldenarkreserve.com/gold-delivery/",
+      "buy_gold_with_crypto": "https://goldenarkreserve.com/buy-gold-with-crypto/",
       "gold_price_reference": "https://goldenarkreserve.com/gold-price/",
       "capital_gold_insights": "https://goldenarkreserve.com/blog/"
     },
