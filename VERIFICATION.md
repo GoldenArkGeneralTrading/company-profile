@@ -6,6 +6,9 @@ It is intended as a public reference layer only and does not replace formal KYC/
 
 This GitHub-hosted verification map is part of the public entity profile for Golden Ark Reserve. It is maintained to connect legal identity, official website pages, public identifiers, membership references, supplier references, service pages, machine-readable files, and research resources in one consistent reference document.
 
+- **Official company profile:** https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
+- **Web version (GitHub Pages):** https://goldenarkgeneraltrading.github.io/company-profile/verification.html
+
 ---
 
 ## International group of companies
@@ -31,6 +34,8 @@ This is a 100% subsidiary of Golden Ark General Trading (FZC) LLC. The Hong Kong
 **Ownership:** 100% — wholly-owned subsidiary of Golden Ark General Trading (FZC) LLC  
 **Role in the group:** Coordination and logistics support only
 
+**Machine-readable group structure:** `subOrganization` in [entity.jsonld](https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.jsonld); `group_structure` in [entity.json](https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/entity.json).
+
 **Official company profile:**  
 https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/
 
@@ -44,45 +49,34 @@ https://goldenarkreserve.com/insights/
 
 ## Core entity identifiers
 
-Identifiers in this section belong to Golden Ark General Trading (FZC) LLC (Oman), the principal operating and contracting entity, except the Hong Kong Business Registration, which belongs to its wholly-owned subsidiary Golden Ark Reserve Limited.
+Identifiers are listed under the legal entity they belong to: Golden Ark General Trading (FZC) LLC (Oman), the principal operating and contracting entity, and its wholly-owned Hong Kong subsidiary, Golden Ark Reserve Limited.
 
 ### Commercial Registration (CR) — Oman
 **CR:** 1603777  
 **Oman business registry (search portal):** https://www.business.gov.om/portal/searchEstablishments
 
-### Business Registration (BR) — Hong Kong
-**Entity:** Golden Ark Reserve Limited (wholly-owned subsidiary)  
-**Business Registration No.:** 81486435
-
-### Legal Entity Identifier (LEI)
+### Legal Entity Identifier (LEI) — Golden Ark General Trading (FZC) LLC
 **LEI:** 98450040E688696D1C47  
 **GLEIF record:** https://search.gleif.org/#/record/98450040E688696D1C47  
 **Bloomberg LEI view:** https://lei.bloomberg.com/leis/view/98450040E688696D1C47
 
-### Refinitiv PermID
-**PermID:** 5097108870  
-**PermID record:** https://permid.org/1-5097108870
+### Other identifiers — Golden Ark General Trading (FZC) LLC
+- **LSEG / Refinitiv PermID:** 5097108870 — https://permid.org/1-5097108870
+- **D-U-N-S:** 85-040-3724 — D&B Business Directory profile: https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html
+- **Bloomberg Company ID (BBID):** 72802597
+- **FIGI:** BBG01Z7MFQM7
+- **FactSet Entity ID:** 132BDH-E
+- **S&P Capital IQ Company ID:** 1975094363
+- **Bureau van Dijk (BvD ID):** OMLEI3180174
+- **ISNI:** 0000000529692415 — https://isni.org/isni/0000000529692415
 
-### D-U-N-S
-**D-U-N-S:** 85-040-3724  
-**D&B Business Directory profile:** https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html
-
-### Bloomberg
-**Bloomberg Company ID (BBID):** 72802597  
-**FIGI:** BBG01Z7MFQM7
-
-### FactSet
-**FactSet Entity ID:** 132BDH-E
-
-### S&P Capital IQ
-**S&P Capital IQ Company ID:** 1975094363
-
-### Bureau van Dijk
-**BvD ID:** OMLEI3180174
-
-### ISNI
-**ISNI:** 0000000529692415  
-**ISNI record:** https://isni.org/isni/0000000529692415
+### Golden Ark Reserve Limited — Hong Kong (wholly-owned subsidiary)
+**Business Registration No. (BR):** 81486435  
+**LEI:** 25490075P111ZCBZ6073  
+**GLEIF record:** https://search.gleif.org/#/record/25490075P111ZCBZ6073  
+**Bloomberg LEI view:** https://lei.bloomberg.com/leis/view/25490075P111ZCBZ6073  
+**GLEIF relationship (Level 2):** directly and ultimately consolidated by Golden Ark General Trading (FZC) LLC (LEI 98450040E688696D1C47)  
+**LSEG / Refinitiv PermID:** 6000514681 — https://permid.org/1-6000514681
 
 ---
 
@@ -212,7 +206,7 @@ Golden Ark Reserve’s public service pages describe an operating model centered
 
 ### Public entity files
 
-Group structure in machine-readable form: `group_structure` (`principal_entity`, `subsidiary`) in entity.json; `subOrganization` (Golden Ark Reserve Limited, Hong Kong, BR No. 81486435) in entity.jsonld.
+Group structure in machine-readable form: `group_structure` (`principal_entity`, `subsidiary`) in entity.json; `subOrganization` (Golden Ark Reserve Limited, Hong Kong, BR No. 81486435, LEI 25490075P111ZCBZ6073) in entity.jsonld.
 
 GitHub Pages:
 - entity.json: https://goldenarkgeneraltrading.github.io/company-profile/entity.json
@@ -269,6 +263,7 @@ Codeberg raw:
 
 ### Public media index
 - PRESS / Media Coverage Index: https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/PRESS.md
+- GitHub Pages curated media index: https://goldenarkgeneraltrading.github.io/company-profile/press.html
 - Full machine-readable media index (CSV): https://raw.githubusercontent.com/GoldenArkGeneralTrading/company-profile/main/press/press-index.csv
 - Framagit Pages curated media index: https://goldenark.frama.io/golden-ark-reserve/press.html
 

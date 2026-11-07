@@ -81,6 +81,12 @@ This issuer release became the primary public disclosure source for multiple syn
 ### GitHub Pages — Capital & Gold Insights
 - https://goldenarkgeneraltrading.github.io/company-profile/insights.html
 
+### GitHub Pages — Press / Media Coverage Index
+- https://goldenarkgeneraltrading.github.io/company-profile/press.html
+
+### GitHub Pages — Verification
+- https://goldenarkgeneraltrading.github.io/company-profile/verification.html
+
 ### Framagit Pages — Entity Verification Profile
 - https://goldenark.frama.io/golden-ark-reserve/
 
@@ -122,6 +128,7 @@ The CSV file contains additional publication records, syndicated copies, localiz
 
 ### Entity verification map
 - https://github.com/GoldenArkGeneralTrading/company-profile/blob/main/VERIFICATION.md
+- GitHub Pages: https://goldenarkgeneraltrading.github.io/company-profile/verification.html
 
 ### Public entity files
 

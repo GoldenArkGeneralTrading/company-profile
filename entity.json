@@ -1,6 +1,6 @@
 {
-  "version": "2.1",
-  "last_updated_utc": "2026-11-02",
+  "version": "2.2",
+  "last_updated_utc": "2026-11-07",
   "legal_name": "Golden Ark General Trading (FZC) LLC",
   "legal_name_ar": "القوس الذهبي للتجارة العامة (شركة منطقة حرة)",
   "trade_name": "Golden Ark Reserve",
@@ -23,6 +23,7 @@
         "number": "1603777"
       },
       "lei": "98450040E688696D1C47",
+      "refinitiv_permid": "5097108870",
       "responsibilities": "Counterparty to all commercial agreements for the sale and delivery of physical gold. All pricing, contract approvals, commercial risk, and client payments remain with this company.",
       "website": "https://goldenarkreserve.com",
       "schema_org_id": "https://goldenarkreserve.com/about/company-profile-golden-ark-reserve/#organization"
@@ -35,6 +36,15 @@
       "registration": {
         "type": "Business Registration (BR, Hong Kong)",
         "number": "81486435"
+      },
+      "lei": "25490075P111ZCBZ6073",
+      "refinitiv_permid": "6000514681",
+      "gleif_relationship": {
+        "source": "GLEIF Level 2 relationship records",
+        "direct_parent_lei": "98450040E688696D1C47",
+        "ultimate_parent_lei": "98450040E688696D1C47",
+        "relationship_status": "ACTIVE",
+        "relationship_start_date": "2026-10-29"
       },
       "relationship": "wholly-owned subsidiary",
       "parent_entity": "Golden Ark General Trading (FZC) LLC",
@@ -231,6 +241,12 @@
       "permid": "https://permid.org/1-5097108870",
       "isni": "https://isni.org/isni/0000000529692415",
       "dnb_business_directory_profile": "https://www.dnb.com/business-directory/company-profiles.golden_ark_general_trading_%28fzc%29_llc.27c9884a53c24d7767127fdcd1ce8dad.html"
+    },
+    "registry_records_subsidiary": {
+      "entity": "Golden Ark Reserve Limited",
+      "gleif": "https://search.gleif.org/#/record/25490075P111ZCBZ6073",
+      "bloomberg_lei_view": "https://lei.bloomberg.com/leis/view/25490075P111ZCBZ6073",
+      "permid": "https://permid.org/1-6000514681"
     },
     "memberships": {
       "rjc": "https://www.responsiblejewellery.com/member/golden-ark-general-trading-fzc-llc/",
